@@ -1,0 +1,89 @@
+Copyright Benoit Timbert (Noyga), 2006-2008, 2010
+For the Battle for Extended Era Project
+
+This addon is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This addon is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License as COPYING file
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Contains some derived works, which where also licenced under the terms
+of the GNU General Public License version 2 (or greater) :
+
+- The Loyalist, Northerners, Undead, Drake factions are copyright the Wesnoth project 2003-2010
+- The Sylvan faction is based on the mainline "Rebels" faction, copyright the Wesnoth project 2003-2010
+- The Dwarves and Outlaws factions are split from the mainline "Knalgan alliance" faction, copyright the Wesnoth project 2003-2010
+- The Aragwaith faction is copyright Peter Geinitz (Wayfarer/Shadow)(art/concept) and Eli Dupree (Elvish Pillager)(concept) originally for the Imperial Era project 2004-2006
+- The Chaos faction is copyright Neoriceisgood 2005-2006
+- The Dark elves faction is copyright Belwar (original concept) and Assassin 2004-2006 originally in the Dark elves era
+- The Kalifa faction is copyright Richard S. (Noy)(concept) and Dominic Bolin (Xan)(art) 2005-2007 originally in the Kalifa Era
+- The Sidhe faction is copyright Thunderblade 2005-2006 originally in the Wild Elves era
+- The Steppe orcs faction is copyright Zhukov 2006-2007 originally in the Steppe orcs era
+
+Maintainers : Benoit Timbert (Noyga) - previous, Dimitar Ilccov (Mythological) - current
+
+Lots of graphics from Shadow/Wayfarer and from Neoriceisgood.
+Lots of balancing ideas and help from Truper and Mythological
+Lots names and descriptions by Temuchin Khan, Truper and Maeglin Dubh
+
+Standard Wesnoth Units : All the wesnoth project
+
+Custom Units:
+- Armageddon Drake: Neoriceisgood
+- Bears: crwedman (Art) / Mythological, Truper (stats) / Erk (descriptions)
+- Dwarven Wagons: Neoriceisgood (Art) / Noyga (stats)
+- Dwarven Flying Machines: Neoriceisgood ? (Art) / Noyga (stats) / Inferno8 (Animations)
+- Dwarvish Arcanister Line: Wayfarer  / Turin ?
+- Dwarvish Runner Line: Wayfarer (Art) ? / Turin (stats) ? 
+- Naga Hunter: i don't know (from UtBS), additional frames from Verdanna
+- Naga Guardians: i don't know (from UtBS)
+- Naga Depthstalker : Sapient (Concept and Original Idea), Eternal (New Art)
+- Troll Shaman: Asa Swain ? (Don't Know, from UBTS)
+- Wose Shaman: I don't know :( Comes from Delfador's Memoir
+- Fire Sprites/Spirits: Becephalus, jb, Mythological (idea and stats), Shadow (graphics)
+- Frost Wyrms: Mythological, Truper, jb (idea and stats), Shadow (graphics), Kalis (descriptions)
+
+Custom Factions:
+- Aragwaith: 
+    Art: Wayfarer
+    Balancing: Elvish Pillager, Noyga, Truper
+    Descriptions: Maeglin Dubh, Noyga, Truper
+- Chaos:
+    Original idea & Art: Neoriceisgood
+    Art Tweaks from Megane, Neoskel, Shadow Master and Wayfarer
+    Original WML: Akls
+    Balancing: Pietro & Noyga
+    Misc descriptions:  Slug, Dovolente
+- Kalifa:
+    Idea and lead development: Noy
+    Art: Xan, ijuric, Eleazar
+    Various ideas and Help: Soliton, Doc Paterson, Dragonking and others...
+- Sidhe: 
+    Original Idea: Thunderblade
+    Art: Neoriceisgood, Shadow
+    Balancing: Causual User, Noyga, Oreb, Truper, Mythological
+    Descriptions: Thunderblade, Truper, Temuchin Khan
+- Dark Elves:
+    Belwar:Original Idea
+    Assasin:original script & graphics
+    Warrior King: original graphics
+    Neoriceisgood: new graphics
+    Noyga, Truper: Balancing
+- Steppe Orcs: Zhukov
+
+Additionnal help from a lot of other persons, Soliton, Tomsik, Espreon...
+
+Additionnal squirrels from the deep forest
+Additionnal spoons from the eerie table
+
+Translations: Wescamp-i18n project
+SVN Repository: Wesnoth-umc-dev project
+
+(If you name is missing here and you want me to fix it, please let us know)

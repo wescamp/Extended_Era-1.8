@@ -1,0 +1,29 @@
+Chaos advancement tree:
++ recruitable unit
+* available leader
+
+    +Chaos Invader
+     -> *Chaos Dark Knight
+         -> Dark Blood Knight
+	    -> Chaos Overlord
+     -> *Chaos Doom Guard
+         -> Dark Hell Guardian
+    +Chaos Invoker
+     -> *Chaos Magus
+         -> Chaos Demonologist
+    +Chaos Headhunter
+     -> Chaos Marauder
+         -> Chaos Soulhunter
+    +Lesser Demon
+     -> *Chaos Demon
+         -> Greater Demon
+     -> Winged Demon
+    +Lesser Mutation
+     -> *Greater Mutation
+         -> Abomination
+    +Hound
+     -> *Rabid Hound
+         -> Warp Hound
+     -> Flesh Hound
+    +Lesser Crab
+     -> Greater Crab

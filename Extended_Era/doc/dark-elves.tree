@@ -1,0 +1,25 @@
+Dark elves advancement tree:
++ recruitable unit
+* available leader
+
+    +Dark Elf Fighter
+     -> *Dark Elf Warrior
+         -> Dark Elf Corsair
+     -> *Dark Elf Captain
+         -> Dark Elf Marshal
+    +Dark Elf Hunter
+     -> *Dark Elf Shadow
+         -> Dark Elf Stalker
+    +Dark Elf Enchanteress
+     -> *Dark Elf Sorceress
+         -> Dark Elf Cleric
+    +Dark Elf Wizard
+     -> *Dark Elf Sorcerer
+         -> Dark Elf Warlock
+    +Dark Elf Noble
+     -> *Dark Elf Lord
+         -> Dark Elf High Lord
+    +Dark Elf Lizard Rider
+     -> Dark Elf Lizard Master
++Vampire Bat
+ -> Blood Bat

@@ -1,0 +1,38 @@
+# standard era unit changes (compared to default):
+- Drake Burner -> Fire Drake -> Inferno Drake
+	enabled advancement to the Armageddon Drake (220 XP)
+- Drake Glider -> Sky Drake -> Hurricane Drake :
+	modified defense stats
+- Dwarvish Fighter
+	extra advancement to the Runesmith
+- Dwarvish Thunderer
+	extra advancement to the Flamethrower
+- Naga Fighter
+	extra advancement to the Nago Depthstalker
+- Orcish Leader -> Orcish Ruler -> Orcish Sovereign
+	modified stats
+- Troll Whelp
+	extra advancement to the Troll Shaman
+- Ruffian -> Thug -> Bandit
+	enabled advancement to the Highwayman (92 XP)
+- Ruffian -> Footpad -> Outlaw
+	enabled advancement to the Fugitive (98 XP)
+- Poacher -> Trapper
+	enabled advancement to the Human Ranger and Huntsman (90 XP)
+- Wose
+	extra advancement to the Wose Shaman
+- Skeleton
+	extra advancement to the Chocobone
+- Skeleton -> Revenant
+	extra advancement to the Death Knight
+- Skeleton -> Chocobone
+	modified stats
+- Dark Adept -> Dark Sorcerer -> Lich
+	enabled advancement to the Ancient Lich (250 XP)
+
+# rpg era unit changes (compared to standard):
+same as above +
+- all lines with leadership get allied leadership
+- all lines with protection get allied protection
+- Ruffian -> Footpad
+	extra advancement to the Outlaw Queen

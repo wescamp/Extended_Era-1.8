@@ -1,0 +1,33 @@
+Outlaw advancement tree:
++ recruitable unit
+* available leader
+=> advancement only in the rpg era
+
++Henchman
+ -> +Footpad
+     -> Outlaw
+         -> Fugitive
+     => *Outlaw Princess
+         -> Outlaw Queen
+ -> +Thug
+     -> *Bandit
+         -> Highwayman
+    +Thief
+     -> *Rogue
+         -> Assassin
+    +Poacher
+     -> *Trapper
+         -> Ranger
+         -> Huntsman
+    +Brigand
+     -> Raider
+    +Rogue Mage
+     -> *Shadow Mage
+         -> Shadow Lord
+    +Young Ogre
+     -> *Ogre
+    +Naga Fighter
+     -> Naga Depthstalker
+     -> Naga Warrior
+         -> Naga Myrmidon
+    +Naga Hunter

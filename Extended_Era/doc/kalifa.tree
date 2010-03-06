@@ -1,0 +1,25 @@
+Kaifa advancement tree:
++ recruitable unit
+* available leader
+
++Falcon
+ -> Elder Falcon
+    +Kalifa Ahadath
+     -> *Kalifa Naffatun
+     -> *Kalifa Ghazi
+         -> Kalifa Elite Ghazi
+    +Kalifa Karadis
+     -> Kalifa Mamluk
+     -> Kalifa Ghulam al Rami
+    +Kalifa Ghulam
+     -> Kalifa Ghulam al Rami
+     -> *Kalifa Ghaznid
+         -> Kalifa Life Guard
+    +Kalifa Rami
+     -> *Kalifa Rami al Nuri
+    +Kalifa Amir
+     -> *Kalifa Arif
+         -> Kalifa Immortal
+     -> *Kalifa Mubarizan
+    +Kalifa Ekim
+     -> *Kalifa Ekim Haram

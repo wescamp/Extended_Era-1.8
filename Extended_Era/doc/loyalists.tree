@@ -1,0 +1,52 @@
+Loyalist advancement tree:
++ recruitable unit
+* available leader
+
+    +Bowman
+     -> *Longbowman
+         -> Master Bowman
+    +Spearman
+     -> *Javelineer
+     -> *Pikeman
+         -> Hallebardier
+     -> *Swordsman
+         -> Royal Guard
+    +Heavy Infantryman
+     -> *Shock Trooper
+         -> Iron Mauler
+    +Fencer
+     -> Duelist
+         -> Master at Arms
+    +Mage
+     -> *Red Mage
+         -> Arch Mage
+	     -> Great Mage
+	 -> Silver Mage
+     -> *White Mage
+         -> Mage of Light
+    +Cavalryman
+     -> Dragoon
+         -> Cavalier
+    +Horseman
+     -> Lancer
+     -> Knight
+         -> Grand Knight
+	 -> Paladin
+    Sergeant
+     -> *Lieutenant
+         -> General
+	     -> Grand Marshal
+    +Merman Fighter
+     -> Merman Warrior
+         -> Merman Triton
+	 -> Merman Hoplite
+    +Merman Hunter
+     -> Merman Spearman
+         -> Merman Javelineer
+     -> Merman Netcaster
+         -> Merman Entangler
+    +Mermaid Initiate
+     -> Mermaid Enchanteress
+         -> Mermaid Siren
+     -> Mermaid Priestess
+         -> Mermaid Diviner

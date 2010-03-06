@@ -1,0 +1,26 @@
+Aragwaith advancement tree:
++ recruitable unit
+* available leader
+
+    +Aragwaith Swordsman
+      -> *Aragwaith Longswordsman
+          -> Aragwaith Swordmaster
+      -> *Aragwaith Guard
+          -> Aragwaith Shield Guard
+    +Aragwaith Spearman
+      -> *Aragwaith Pikeman
+          -> Aragwaith Guardian
+      -> *Aragwaith Flagbearer
+          -> Aragwaith Captain
+    +Aragwaith Archer
+      -> *Aragwaith Strongbow
+          -> Aragwaith Greatbow
+          -> Aragwaith Slayer
+    +Aragwaith Warlock
+      -> *Aragwaith Wizard
+          -> Aragwaith Sorcerer
+    +Aragwaith Scout
+      -> Aragwaith Lancer
+          -> Aragwaith Silver Shield
+    +Eagle Rider
+      -> Eagle Master

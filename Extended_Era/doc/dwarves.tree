@@ -1,0 +1,27 @@
+Dwarves advancement tree:
++ recruitable unit
+* available leader
+
+    +Dwarvish Fighter
+     -> *Dwarvish Steelclad
+         -> Dwarvish Lord
+     -> *Dwarvish Runesmith
+         -> Dwarvish Runemaster
+	     -> Dwarvish Arcanister
+    +Dwarvish Guardsman
+     -> *Dwarvish Stalwart
+         -> Dwarvish Sentinel
+    +Dwarvish Thunderer
+     -> *Dwarvish Thunderguard
+         -> Dwarvish Dragonguard
+     -> Dwarvish Flammethrower
+    +Dwarvish Runner
+     -> *Dwarvish Axethrower
+         -> Dwarvish Axemaster
+    +Dwarvish Ulfserker
+     -> Dwarvish Berserker
+    +Dwarvish Steamwheel
+     -> Dwarvish Thunderwheel
+         -> Dwarvish Warwheel
+    +Dwarvish Gyrocopter
+     -> Dwarvish Steamcopter

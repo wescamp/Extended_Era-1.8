@@ -1,0 +1,29 @@
+Drake advancement tree:
++ recruitable unit
+* available leader
+
+   +Drake Burner
+    -> *Fire Drake
+       -> Inferno Drake
+	   -> Armaggedon Drake
+    -> *Drake Flare
+       -> Drake Flameheart
+   +Drake Fighter
+    -> *Drake Warrior
+       -> Drake Blademaster
+   +Drake Clasher
+    -> *Drake Gladiator
+       -> Drake Enforcer
+    -> *Drake Slasher
+       -> Drake Warden
+   +Drake Glider
+    -> Sky Drake
+       -> Drake Hurricane
+   +Saurian Skirmisher
+    -> Saurian Ambusher
+       -> Saurian Flanker
+   +Saurian Augur
+    -> *Saurian Oracle
+    -> *Saurian Soothsayer
+
+

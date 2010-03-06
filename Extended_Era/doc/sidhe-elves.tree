@@ -1,0 +1,32 @@
+Sidhe Elves advancement tree:
++ recruitable unit
+* available leader
+
+    +Sidhe Warrior
+     -> *Sidhe Bladespinner
+         -> Sidhe Wardancer
+     -> *Sidhe Herald
+         -> Sidhe Warsinger
+     -> *Sidhe Veiledblade
+         -> Sidhe Shadowdancer
+    +Sidhe Fury
+     -> Sidhe Wildblade
+         -> Sidhe Whirlwind
+    +Sidhe Wanderer
+     -> Sidhe Tracker
+         -> Sidhe Windrunner
+    +Sidhe Raindancer
+     -> *Sidhe Windlasher
+         -> Sidhe Tempest
+	    -> Sidhe Stormlord
+      -> *Sidhe Warmage
+         -> Sidhe Thunderblade
+    +Sidhe Hoarfroster
+     -> *Sidhe Snowdancer
+         -> Sidhe Blizzardlord
+    +Warrior Spirit
+     -> Sidhe Ancestor
+         -> Sidhe Forefather
+    +Young Bear
+     -> *Bear
+ 

@@ -1,0 +1,933 @@
+5.3.2010 versions 36.0.0.0 and 36.1.0.0
+    - Changed the unit IDs so that they dont colide with other eras using Extended Era units
+    - Update of Extended Era to Battle for Wesnoth 1.8
+	- Removal of the distinct Extended Era bat line which has become redundant after the inclusion of the Dread Bat into mainline
+
+23.2.2010 version 35.0.0.0
+    - Update of Extended Era to Battle for Wesnoth 1.6
+
+23/8/2008 v x.34.0 (stable)
+    - New advancement for the Blood Bat : Dread Bat
+    - Fix more Special notes
+    - Fix undead & dwarf recruitement patterns
+    - Adjust a few undead variations
+    - Chaos:
+    	- Some new descriptions
+    	- Added Regeneration to the Flesh Hound
+	- Switched the Headhunter line movement type to elusivefoot
+    	- Decreased the Doom Guard sword attack from 9-3 to 8-3
+    	- Decreased the Doom Guard shield attack from 15-1 to 11-1
+    	- Decreased the Hell Guardian sword attack from 9-4 to 11-3
+    	- Decreased the Hell Guardian shield attack from 20-1 to 16-1
+    	- Decreased the Evil Crab cost from 18 to 16
+    	- Decreased the Headhunter HP from 34 to 26
+    	- Decreased the Marauder HP from 38 to 36
+    - Dark elves:
+    	- Gave level 1 Leadership to Nobles
+    - Dwarves:
+    	- New bomb and runic hammer attack icons
+    	- New copter flying animations
+    	- Increased the Steamwheel HP from 36 to 38
+    - Sidhe:
+    	- Spirit frames improvements
+    - Sylvans:
+    	- Decreased the Sprite XP from 70 to 60
+    	- Increased the Sprite HP from 22 to 23
+    	- Increased the Fairy HP from 32 to 36
+    	- Increased the Dryad HP from 43 to 49
+    	- Increased the Spirit physical resistances from 30 to 40%
+    	- Decreased the Spirit cold resistances from 0 to -10%
+
+27/4/2008 v x.33.2 (stable)
+    - Version support in era the detection script & era id (does not provide EoM version
+     since i don't know how to detect it 
+    - New Chaos descriptions
+    - New Chaos graphics
+    - Special notes normalization
+    - Fairies animation tweaks
+
+24/3/2008 v x.33.1 (stable)
+    - Fixed a bunch of broken animations
+    - other miscellanous chaos graphic updates
+    - new Aragwaith Strongbow frames
+
+1/3/2008 v x.33.0 (unstable)
+    - Fixed AMLAs to match the new 1.3.14 default one (with 150 XP)
+    - Dark Elves:
+    	- Changed the damage type for the Warlock touch attck from cold to arcane
+    - Frost Wyrms:
+    	- Fixed Frost and Mistral Wyrms advancement that were swapped
+    - Sidhe:
+    	- Replaced the warrior movetype by the mage movetype and renamed it 'sidhefoot'
+    	- Increased the Warrior HP from 30 to 32
+    	- Increased the Bladespinner HP from 46 to 49
+     	- Increased the Herald HP from 46 to 48
+    	- Increased the Warsinger HP from 58 to 63
+   - Steppe orcs:
+    	- Increased the Stoic XP from 10 to 22
+
+5/1/2008 v x.32.0 (unstable)
+    - Drop the outlaws units to enable L3 advancement since they are enabled by default in 1.3.13
+    - Upgraded the race definitions for 1.3.13
+    - Fix Default + EE + EoM to detect the latest EoM (Gamma 4)
+    - Reorganized the unit directory
+    - Changed some unit IDs to avoid possible collision with some mainline campaign units
+    - Added the Sergeant and the Peasant to the Loyalist faction
+    - Animation tweaks
+
+21/12/2007 v x.31.1 (unstable)
+    - Aragwaith:
+    	- Guard and Slayer Size/TC frame updates
+    - Sidhe:
+    	- Fixed the Lightning not to slide
+    - Sylvan:
+    	- Tweaked the projectiles
+
+6/12/2007: v x.31.0 (unstable)
+    - New eras : Default + EE and Default + EE + EoM
+    - Add a script that define a macro to detect the presence of the Era
+    - Update the [race] tags to match 1.3.8+ WML
+    - Update unit .cfg to use the new 1.3.8+ [attack_anim] WML tag
+    - Use the new 1.3.7 tag [base_unit] for duplicated units
+    - Removed the Kalifa Era & The Steppe Era
+    - Translation updates are now handled directly by Wescamp-i18n
+    - Fixed TC in the faction dialogs
+    - Added the Wolf in the RPG era
+    - Faction name changes:
+    	- Sidhe Elves -> Sidhe
+    	- Wood Elves -> Sylvans
+    - New frost Wyrms units
+    - Aragwaith:
+    	- Various Size/TC frame updates
+	- Protection now only affects units of lower level
+	- New upgrade for the Captain: Ancient Banner
+    	- Decreased the Flagbearer spear attack from 14-2 to 13-2
+    	- Decreased the Captain spear attack from 19-2 to 17-2
+    	- Decreased the Captain word attack from 10-4 to 9-4
+    	- Decreased the blade resistance of the Swordsman, Longswordsman and Swordmaster from +20% to +10%
+    	- Decreased the impact resistance of the Flagbearer and Captain from +20% to +10%
+    	- Increased the resistances of the Spearman, Pikeman and Guardian to Match the Flagbearer's ones
+    	- Increased the Archer HP from 25 to 26
+    - Bears:
+    	- new descriptions
+    - Chaos:
+    	- Invoker frame updates
+    	- new descriptions
+    	- crab movement cost changes : *1 on water, *1.5 on grass, *2 on forest ...
+    - Dark Elves:
+    	- new recruitable units : Ice Wyrms
+     	- Decreased the Captain sword attack from 7-4 to 6-4
+     	- Decreased the Captain spear melee attack from 8-3 to 7-3
+     	- Decreased the Captain spear ranged attack from 7-2 to 9-1
+      	- Decreased the Marshal sword attack from 10-4 to 9-4
+     	- Decreased the Marshal spear melee attack from 12-3 to 11-3
+     	- Decreased the Marshal spear ranged attack from 10-2 to 13-1
+    - Dwarves:
+    	- Increased the Runesmith XP from 64 to 110
+    	- Increased the Runemaster XP from 128 to 220
+    - Kalifa:
+    	- Improved the Naffatun melee attack
+    - Naga:
+    	- New sprites with TC for the Sentinel and Assassin by Vendanna
+    	- New L3 Alternative Warden advancement : Abomination
+     	- New L3 advancement for the Depthstalker which now take that name, the L2 is now renamed "Depthprowler"
+    - Outlaws:
+    	- Fixed the Ranger id in the XE Trapper (it looks it was changed in mainline)
+    	- Short Sword attack icon by Jetryl
+	- Gave the Distract ability instead of Skrimisher to the Princess line
+    	- Decreased the Princess moves from 7 to 5
+     	- Decreased the Princess HP from 46 to 44
+     	- Decreased the Princess sling attack from 6-3 to 5-3
+   	- Decreased the Queen moves from 7 to 5
+     	- Decreased the Queen staff attack from 9-3 to 8-3
+     	- Decreased the Queen sling attack from 8-4 to 8-3
+    - Sidhe:
+    	- New Warrior and Thunderblade frames
+	- New missile frames for the snow wind attack
+     	- Decreased the Warrior XP from 45 to 38
+    - Sylvans:
+    	- New Fire Fairies line replacing the mages
+    	- New attack icon for the fire aura of the fairies
+
+21/7/2007: v x.30.4 (unstable)
+    - updated translations : Swedish
+
+21/7/2007: v x.30.3 (unstable)
+    - fixed faction paths in eras
+    - updated translations : Danish
+
+14/7/2007: v x.30.2 (unstable)
+    - tweaked the RPG era : Peasant and Woodsman can be used (not from random)
+    - new portrait or the Aragwaith Swordsman line
+
+9/7/2007: v x.30.1 (unstable)
+    - updated translations : Czech, French, Swedish
+
+18/6/2007: v x.30.0 (unstable)
+    - updated translations : French
+    - miscellanous animation updates
+    - Aragwaith:
+    	- TC/Size updates for the Archer
+	- New descriptions/updates for the Longswordman, Guard and Swordmaster
+    	- Put the Flagbearer as the Default leader
+    - Chaos:
+    	- Removed fearless from the demon race
+    	- Put the Magus as the Default leader
+     	- Removed The greater mutation from from random leaders
+	- Decreased the crabs fire resistance to +10%
+    - Nagas:
+    	- Decreased the Guardian cost from 16 to 15
+     	- Decreased the Guardian melee attack from 7-3 to 6-3
+   	- Decreased the Warden melee attack from 12-3 to 11-3
+    - Northerners:
+    	- Removed the shamans special defense in villages
+   	- Decreased the Shaman curse attack from 8-2 to 7-2
+    - Outlaws:
+    	- Increased the Ruffian melee attack from 4-2 to 5-2
+    - Sidhe:
+    	- TC/Size updates for the Fury, Raindancer, Wanderer, Warrior and Wildblade
+    - Steppe orcs:
+     	- image updates for the Spearman and Skewer
+   	- Removed Skirmisher from the Goblin Hunter and Flanker
+	- Changed AMLA rates to normal (100 XP instead of 60) for all max level units except the Stoic
+    	- Increased the Shieldbearer cost from 11 to 12
+    	- Decreased the Shieldbearer moves from 5 to 4
+    	- Decreased the Rigid moves from 5 to 4
+    	- Decreased the Stoic moves from 5 to 4
+	- Decreased the Icewind Herder cost from 21 to 18
+    - Woses:
+     	- image updates for the Wose Shaman
+
+28/5/2007: v x.29.0 (unstable)
+    - Fixed the WML for cavestalk & sylvan spark
+    - Updated the terrain list in cavestalk & sylvan spark to include some new terrains
+    - Drakes:
+      	- Decreased the Drake Glider HP from 32 to 30
+    - Wood elves:
+      	- New frame for the Wose Shaman
+
+27/5/2007: v x.28.0 (unstable)
+    - Updated all the units for wesnoth 1.3.3
+    - removed fearless from every extra races expect demon
+    - Aragwaith:
+    	- Removed marksman from the Flagbearer and Captain
+    	- Decreased the Captain sword attack from 11-4 to 10-4
+    - Chaos:
+    	- Decreased the Evil Crab melee from 10-2 to 9-2
+    	- Decreased the Hell Crab melee from 11-3 to 10-3
+    - Drakes:
+    	- Gave the same defense to the whole Glider line
+    	- Decreased the physical resistances by 10% in the whole Glider line
+    	- Increased the Sky Drake HP from 45 to 49
+    	- Increased the Hurricane Drake HP from 58 to 63
+
+23/5/2007: v x.27.3 (unstable)
+    - updated translations : French, Italian
+
+13/5/2007: v x.27.2 (unstable)
+    - fixed the dark elves mages attack names (this broked the translations)
+    - fixed some flying movetypes marked as non-fyling (chaos Winged daemon & Kalifa falcons)
+    - updated frames for the Troll Shaman
+    
+9/5/2007: v x.27.1 (unstable)
+    - updated translations : Danish, French
+    - fixed the wrong image being used for the young bears
+    - orcish shamans TC update
+    
+4/5/2007: v x.27.0 (unstable)
+    - fixed the Kalifa Immortal TC not being enabled
+    - fixed the Naga Hunter ID
+    - updated descriptions for the Sidhe Hoarfroster Line, Naga Guardian Line
+    - modified the Sidhe Hoarfroster line images
+    - updated translations
+
+2/5/2007: v x.26.0 (unstable)
+    - upgraded to v1.3.2 WML
+    - Chaos:
+    	- Increase the demons arcane resistance from -50% to -40%
+    	- New evil crabs line 
+    - Dwarves:
+    	- set the dwarf arcane resistance to +10% like other dwarves 
+	- Increased the Steamwheel HP from 33 to 36
+	- Increased the Thunderwheel HP from 42 to 45
+	- Increased the Warwheel HP from 57 to 60
+    - Kalifa:
+    	- Immortal TC/Image update
+    - Nagas:
+    	- New Naga Assassin levelup for the Hunter
+	- Increased the Guardian cost from 16 to 17
+    	- Attack/moving/defend frames updates for the Hunter
+    - Outlaws:
+	- Decreased the Huntsman range attack from 11-4 to 10-4
+    - Wood elves:
+	- Increased the Wose Shaman HP from 50 to 55
+
+14/4/2007: v x.25.1 (unstable)
+    - Outlaws:
+    	- name change : Henchman -> Ruffian
+	- updated the sickle attack icon
+	- new astral blade attack icon
+
+14/4/2007: v x.25.0 (unstable)
+    - new translation: Danish
+    - Chaos:
+    	- improved the mages animation sounds  
+	- Decreased the Lesser Deamon cost from 22 to 20
+    - Dwarf:
+    	- set the dwarf undead variation when applicable  
+    - Kalifa:
+    	- removed traits from the falcon line   
+    - Outlaws:
+    	- New Henchman graphics with TC (the name is going to change to 'Ruffian' in the next release)
+    - Sidhe elves:
+    	- New bear line
+	- New snowcaster line
+	- Fixed a few frame glitches
+	- Increased the Spirit cost from 24 to 21
+
+25/3/2007: v x.24.1 (unstable)
+    - new translation: German
+    - updated translations: Catalan, Italian
+
+10/3/2007: v x.24.0 (unstable)
+    - Changed Sidhe Spirit damage type to holy
+
+7/3/2007: v x.23.3 (unstable)
+    - Fixed a few frame glitches (Sidhe Fury)
+
+6/3/2007: v x.23.2 (unstable)
+    - Fixed the Argawaithi default recruit in RPG era
+    - Fixed a few frame glitches (Sidhe Warrior & Raindancer)
+
+2/3/2007: v x.23.1 (unstable)
+    - Fixed the Dwarves faction icon
+
+1/3/2007: v x.23.0 (unstable)
+    - Removed special units : Goblin Spearman, Rouser & Drake Armaggedon since they are no longer needed
+    - Adjusted some resistance to match the new holy
+
+20/2/2007: v x.22.0 (unstable)
+    - Converted abilities to use 1.3 terrains
+
+16/2/2007: v0.21.1
+    - Fixed Northerner's recruitement pattern, not recruiting shamans
+
+16/2/2007: v0.21.0
+    - Graphic/TC update : Nagas, Troll Shaman
+    - id change : Aragwaith Swordman -> Aragwaith Swordsman 
+    - A few faction can recruit extra nagas : Gardian : Northerners, Steppe Orcs; Hunter : Outlaws, Northerners
+    - Nagas:
+    	- Decreased the Hunter ranged attack from 8-2 to 7-2
+    	- Increased the Hunter cost from 15 to 16
+    - Northerners:
+    	- Reworked the Shaman Line
+	- Rebalanced the Orcish Ruler line (Leader only  in the RPG era) :
+	  - Decreased the Leader HP from 45 to 40
+	  - Decreased the Leader cost from 20 to 18
+	  - Decreased the Leader melee attack from 7-3 to 6-3
+	  - Decreased the Ruler cost from 35 to 34
+	  - Decreased the Ruler XP from 120 to 100
+	  - Decreased the Ruler melee attack from 9-3 to 8-3
+	  - Decreased the Ruler ranged attack from 6-3 to 5-3
+	  - Increased the Sovereign cost from 50 to 54
+	  - Decreased the Sovereign melee attack from 10-4 to 9-4
+	  - Decreased the Sovereign ranged attack from 9-3 to 7-3	  
+    - Dark Elves:
+    	- Reworked Lizard riders movetype (lowered defense, slower on mountains)
+	- set the holy resistance to 10% for mages and lizards (others have 0%)
+	- Increased the Lizard Rider cost from 22 to 24
+	- Removed poison from the Hunter line
+	- Increased the Hunter crossbow damage from 4-3 to 6-3
+	- Increased the Shadow crossbow damage from 5-4 to 7-4
+	- Increased the Stalker crossbow damage from 6-5 to 8-5
+	- Increased the Wizard cost from 19 to 21
+	- Decreased the Wizard HP from 30 to 25
+	- Decreased the Sorcerer HP from 45 to 40
+	- Decreased the Sorcerer HP from 61 to 52
+	- Decreased the Warlock melee from 6-4 to 4-4
+	- Decreased the Enchanteress cost from 20 to 19
+	- Decreased the Enchanteress ranged attack from 6-3 to 5-3
+	- Decreased the Enchanteress HP 32 to 27
+	- Decreased the Sorceress ranged attack from 7-4 to 6-4
+	- Decreased the Sorceress HP from 47 to 45
+	- Decreased the Enchanteress ranged attack from 10-4 to 9-4
+
+3/2/2007: v0.20.4
+    - updated translations: Catalan, French
+    - Fix a few Steppe orc descriptions
+    - Fix the Aragwaith Swordsman name (id change shall occur in 0.21)
+    - Fix Dark Elf Lizard Master bite icon path
+
+26/1/2007: v0.20.3
+    - new translation: Italian
+
+26/1/2007: v0.20.2
+    - Attack icon update : Glaive
+    - New standing frame & TC for : Kalifa falcons (thanks Eleazar & ijuric)
+    - Image optimization (ran Wesnoth pngcrush)
+
+22/1/2007: v0.20.1
+    - Set the TC on for future version of : Naga fighter
+    - New explosion frames for dwarvish copters bombs
+    - Sidhe lightning missile frames optimisation
+
+19/1/2007: v0.20.0
+    - Art upgrade: 
+        - wired the Wose crush icon to the Wose shaman
+        - new sickle attack icon (Outlaw Brigand)
+	- TC for Dwarvish Wheels
+    - RPG era: 
+        - allied version for the Argawaithi Captain & Flagbearer protection ability
+    - Aragwaith: 
+        - descriptions for Spearman, Swordman, Eagle Rider, Warlock
+	- name change: Swordsman -> Swordman
+    - Sidhe Elves:
+     	- New lightning missile frames for lightning casters
+	- Decreased the Warrior cost from 15 to 14
+    - Steppe Orcs: Upgraded to v0.1.1 :
+        - Downgraded terrain defense of the savage.
+        - Removed -20% fire weakness on the Shieldbearer line.
+        - Fixed the Vanguard-Khan advancement path.
+        - New revised images for Warrior and Bladesman units.
+	- Changed Shieldbearer usage= to 'defender' (extra change)
+    - Translation update: French
+
+10/1/2007: v0.19.0
+     - Art upgrade : 
+        - updated all units to match v1.2 art
+	- updated all fireballs to use the new frames
+	- relocated some image folders
+     - Translation update: French
+     - New units :
+        - Naga Depthstalker (Fighter advancement)
+	- Naga Hunter
+	- Naga Guardian, Warden & Sentinel
+     - New faction : the Steppe Orcs (from Zhukov's v0.1):
+      	- added a dummy 'defend only' special to the Shieldbearer line
+	- fixed the Vanguard -> Khan advancement
+	- added texdomain & weapon descriptions
+	- added fail icon & sounds to fails attacks
+     - Aragwaith :
+        - set values in fungus for movetypes: aragwaithfoot : 2 moves, 50% defense, aragwaithmounted : 3 moves, 20% defense
+     	- removed firststrike to the Flagbearer & Captain spear attacks
+     	- gave the Flagbearer and Captain a new protection ability (raise the neighbour units resistances by 20% (non cumulative), capped to 50%)
+     	- decreased the Flagbearer spear attack from 15-2 to 14-2
+     	- decreased the Flagbearer sword attack from 8-4 to 7-4
+     	- decreased the Captain sword attack from 12-4 to 11-4
+     	- increased the Captain spear attack from 17-2 to 19-2
+     - Chaos :
+     	- updated/fixed a few descriptions
+     - Dwarves :
+     	- updated a few descriptions
+	- Disallow Copters movement in fungus
+	- new descriptions for copters and wheels
+	- tweaked the bomb missile frames
+     - Dark Elves :
+        - fixed some shadows
+        - set desmall defense to 40 % in villages
+     	- Increased the Wizard cost from 18 to 19
+     	- Decreased the Noble cost from 22 to 17
+     - Northerners :
+     	- Increased the Rouser spear attack from 5-3 to 6-3
+     	- Increased the Rouser HP from 26 to 31
+     - Outlaws :
+     	- Restored the Huntsman & Human ranger stat (they were messed up)
+     - Sidhe :
+     	- Lowered the Spirits resistances (more cold vulnerable)
+	- Gave Ambush to the Veiledblade and Shadowdancer
+     - Undead :
+     	- Changed the Chocobone movetype to a mounted-like movetype
+     	- Increased the Chocobone spear attack from 9-2 to 11-2
+
+11/12/2006: v0.18.2
+   - updated doc/ directory
+   - updated all units to match v1.1.13 art
+   - updated translation : French
+   - Aragwaithi :
+     	- updated images/TC : swordman
+
+27/11/2006: v0.18.1
+   - added weapon descriptions to make sure the weapon is translated
+   - updated translation : French
+   - Aragwaithi :
+     	- updated sorceress portrait
+
+16/11/2006: v0.18.0
+   - updated all units to match v1.1.12 art
+   - removed berserkers, level 0 and level 1 without upgrade from random selection in the RPG era
+   - fixed undead variation for a lot of units :
+     - Chaos :
+     	- troll variation for Mutation
+	- drake variation for Daemons
+	- mounted variation for Overlord
+	- saurian variation for Hounds
+     - Dark Elves :
+     	- mounted variation for Lizard riders
+     - Dwarves :
+     	- mounted variation for Copters, Wheels
+     - Kalifa :
+     	- saurian variation for Falcons
+     - Northerners :
+     	- troll variation for Troll Shaman
+   - Aragwaithi :
+     	- more descriptions
+   - Dark Elves :
+	- Increased the Warrior Sword attack from 6-5 to 7-5
+	- Increased the Warrior MP from 5 to 6
+	- Increased the Corsair MP from 5 to 6
+   - Dwarves :
+  	- New portait for the Dwarvish runner line
+	- Vehicules can get the new "armored" trait (+20% resistance, -1 move)
+	- Decreased the Flamethrower HP from 42 to 41
+	- Changed the Flamethrower dagger attack from 6-3 to 7-2
+   - Kalifa :
+   	- TC the faction in the Era selection
+	- Fixed the Arif cost to 38
+   - Sidhe :
+	- Decreased the Herald & Warsinger MP from 6 to 5
+	- Decreased the Raindancer, Windlasher, Warmage, Tempest, Thunderblade & Stormlord MP from 6 to 5
+	- Decreased the Fury, Wildblade & Whirlwind MP from 7 to 6
+	- Decreased the Warrior sword attack from 6-4 to 5-4
+	- Decreased the Wardancer sword attack from 9-6 to 8-6
+	- Changed the Herald sword attack from 6-5 to 7-4
+
+11/11/2006: v0.17.2
+   - New translation : French
+
+6/11/2006: v0.17.1
+   - WML fix to make the translations work 
+   - New translation : Catalan
+
+24/10/2006: v0.17.0
+   - Changed trait sets for some units :
+      - units with no melee don't get strong
+      - elvish unit with non magical ranged attack can get dextrous
+      - chaos daemons can get dextrous
+
+20/10/2006: v0.16.2
+   - added Kalifa era (ie official Default+Kalifa)  
+
+17/10/2006: v0.16.1
+   - Kalifa :
+	- Wired hit/death sounds   
+16/10/2006: v0.16
+   - Aragwaith/Dark elves Sorcerer,Sorceress,Wizard,Warlock prefix-disambiguification
+   - Aragwaith :
+	- Increased the Scout HP from 25 to 31
+	- Increased the Lancer HP from 34 to 40
+	- Increased the Silver Shield HP from 48 to 54
+	- Increased the Eagle Rider cost from 19 to 21
+   - Chaos :
+	- New 'armorerfoot' movetype for the Doom Guard & Hell Guardian
+   - Dwarves :
+	- Halved the wulnerabilities of the copters
+	- Increased the Gyrcopter Bomb attack from 8-2 to 10-2
+	- Increased the Steamcopter Bomb attack from 9-3 to 10-3
+	- Increased the Gyrcopter HP from 29 to 36	
+	- Increased the Runner HP from 28 to 32	
+	- Increased the Steamwheel HP from 31 to 33	
+	- Decreased the Runner cost from 16 to 14	
+   - Sidhe :
+	- Decreased the resistances of the Sidhe Spirits
+15/10/2006: v0.15.2
+   - Aragwaith :
+	- Show in the help (with a fake weapon special) that the prey crush attack of the Eagles is attack only
+14/10/2006: v0.15.1
+   - Aragwaith :
+	- Updated Flagbearer/Captain, Sorceress and Slayer portraits
+11/10/2006: v0.15
+   - Aragwaith :
+	- Fixed Eagle Master prey crush damage type to impact
+   - Outlaws :
+	- Decreased the Rogue Mage cost from 20 to 17
+	- Increased the Rogue Mage ranged attack from 6-2 to 7-2
+	- Increased the Shadow Mage ranged attack from 8-2 to 9-2
+8/10/2006: v0.14
+   - Aragwaith :
+	- Fixed bogus prey crush animation sounds
+   - Dark Elves :
+	- fixed messed up movetypes.
+7/10/2006: v0.13
+   - Updated various units to match 1.1.11 animations
+   - New "Miscellanous" faction for the RPG Era
+   - Aragwaith :
+	- Replaced the Gryphons with the new Eagle Rider/master units
+	- wired some portraits
+   - Dark Elves :
+	- Reworked the movetypes (better defense on forest and hills).
+	- Decreased the Lizard Rider movement from 8 to 7
+	- Decreased the Lizard Master movement from 8 to 7
+	- Increased the Lizard Rider HP from 32 to 37
+	- Increased the Lizard Master HP from 48 to 54
+	- Increased the Lizard Rider XP from 30 to 35
+	- Increased the Lizard Rider Deathlance attack from 9-2 to 10-2
+	- Increased the Lizard Rider Claw attack from 4-3 to 5-3
+	- Increased the Lizard Master Deathlance attack from 12-2 to 15-2
+	- Increased the Lizard Master Claw attack from 7-3 to 8-3
+   - Drakes :
+	- Updated Armageddon fire breath frames
+   - Sidhe Elves :
+	- Decreased the Sylvan Spark regeneration from 6 to 5.
+
+28/9/2006: v0.12.2
+   - Strip the images from comment & profiles to prevent crashes on Windows systems
+
+27/9/2006: v0.12.1
+   - Dark Elves :
+	- Replaced the Naga Fighter with the Vampire Bat.
+   - Sidhe :
+	- Update the Ancestor and Forefather missile frames to match the v1.1.10 Ghost's missile.
+
+9/9/2006: v0.12
+   - Aragwaith :
+	- Fixed the Flagbearer & Captain cold resistance (was wrong type "ice")
+	- Descriptions for the archer lines
+   - Chaos :
+   	- Name changes :
+		- Black Knight -> Dark Knight
+		- Steel Lord -> Hell Guardian
+	- Descriptions update
+	- Decreased the Rabid Hound attack from 10-3 to 9-3
+	- Decreased the Rabid Hound movement from 8 to 7
+	- Decreased the Warp Hound movement from 8 to 7
+	- Decreased the Winged Demon melee attack from 5-4 to 4-4
+	- Increased the Winged Demon ranged attack from 12-2 to 14-2
+   - Dwarves :
+	- Decreased the Gyrocopter movement from 7 to 6
+	- Decreased the Steamcopter movement from 8 to 7
+   - Kalifa :
+	- Fixed fire arrow animations
+   - Outlaws :
+	- Fixed the Henchman to advance to the RPG Footpad in the RPG Era
+	- Decreased the Henchman cost from 7 to 6
+	- Decreased the Brigand cost from 19 to 16
+   - Sidhe :
+	- Made the Ancestor & Forefather requiem attack non magical
+	- Removed regenerates ability from the Ancestor & Forefather
+	- New "sylvan spark" ability (ie regenerate +6 hp limited to forest) for the entire spirit line
+	- Decreased the Ancestor requiem attack from 6-3 to 5-3
+	- Decreased the Forefather requiem attack from 7-4 to 7-3
+	- Increased the Wanderer melee attack from 4-3 to 5-3
+	- Decreased the Warrior Spirit HP from 20 to 19
+	- Increased the Tracker melee attack from 6-3 to 7-3
+
+2/8/2006: v0.11.1
+   - Fix the textdomains to match g.w.o requirements
+   - Chaos :
+	- Fix the bogus damage type of the Soulhunter axe
+
+1/8/2006: v0.11
+   - Chaos:
+	- Shadows update
+   - Dwarves:
+	- Decreased the movement from 5 to 4 in the Runesmith line
+	- Decreased the Axemaster XP from 200 to 100
+	- Added AMLA to the Arcanister
+	- Increased the Runesmith HP from 42 to 46
+	- Increased the Runesmaster HP from 48 to 57
+	- Increased the Arcanister HP from 54 to 67
+	- Updated animations and sounds
+   - Sidhe:
+        - Changed the IDs of the Spirit line to avoid collision with IE
+	- Shadows update (some frames from IE)
+	- Decreased the Ancestor HP from 28 to 27
+	- Decreased the Forefather HP from 40 to 36
+	- Decreased the Wanderer cost from 18 to 17
+
+26/7/2006: v0.10
+   - Updated the units for wesnoth 1.1.8
+   - Made RPG units with allied leadership
+   - Chaos:
+        - Changed the axe attack of the Knight line to 2 Strikes :
+	   - 17-2 for the Black Knight
+	   - 25-2 for the Blood Knight
+	   - 31-2 for the Overlord
+	- Changed the sword attack of the Overlord from 15-4 to 12-5
+   - Dwarves:
+        - Increased the Gyrocopter HP from 25 to 29
+        - Increased the Steamwheel HP from 25 to 31
+        - Increased the Thunderwheel HP from 40 to 42
+        - Increased the Warwheel HP from 55 to 57
+   - Dark Elves:
+        - Improved the attack animations, souds & icons
+   - Sidhe:
+        - Improved the attack animations, souds & icons
+	- New ability for the sidhe spirit line : terror
+	- Decreased the Warrior Spirit damages from 5-5 to 4-4
+	- Decreased the Ancestor damages from 6-5 to 5-5
+	- Decreased the Forefather damages from 8-5 to 6-6
+
+25/7/2006: v0.9.2
+   - Add a textdomain to be Wescamp-ready
+   - Faction name change : elves => wood elves
+   - Glaive attack icon from fmunoz for the Aragwaith Slayer
+   - Fixed the dwarvish RPG leader list
+
+13/7/2006: v0.9.1
+   - New Extended RPG era : level 1 leaders with no recruitment
+   - Minor cleanups
+
+9/7/2006: v0.9
+   - Aragwaithi:
+        - Improved icons & animations
+        - changed the Slayer melee attack name to "glaive"
+   - Chaos:
+        - Improved icons & animations
+   	- Reworked the mutations & hounds movetypes
+   	- Decreased the Overlord XP from 110 to 100
+   	- Increased the Overlord movement from 5 to 6
+   	- Increased the Overlord cost from 42 (big joke !) to 70
+   	- Decreased the Headhunter club damages to 5-2
+	- Swapped the Knight line axe and sword attack stats
+   - Dark Elves:
+        - Improved icons & animations
+	- fixed High Lord shield damage type to impact
+   - Drakes:
+   	- Improved icons & animation of the custom units (ie: Drake Armageddon)
+   - Dwarves:
+   	- Improved icons & animation of the custom units
+   - Elves:
+   	- Increased the Wose Shaman movement from 3 to 4
+   	- Decreased the Wose Shaman XP from 160 to 100
+	- Improved animation & description of the custom units (ie: Wose Shaman)
+   - Kalifa:
+        - Improved icons & animations
+   - Northerners:
+   	- Improved icons & animations of the custom units (ie: Troll Shaman & Orcish Shamans)
+	- Added Old & Novice Orcish Shamans to the recruitment list
+	- Added Orcish Ruler to the Leader List
+   - Outlaws:
+   	- Improved icons & animations of the custom units
+   - Sidhe:
+   	- Increased the Sidhe Raindancer lightning damages from 5-3 to 6-3
+	- Increased the Sidhe Thunderblade sword damages from 7-3 to 8-3
+   	- Increased the Sidhe Windlasher sword damages from 5-3 to 6-3
+   	- Increased the Sidhe Tempest sword damages from 5-3 to 7-3
+   	- Increased the Sidhe Stormlord sword damages from 5-3 to 8-3
+   - Undead:
+   	- Improved icons & animations of the custom units (ie: Chocobone)
+
+
+2/7/2006: v0.8.1
+   - Whoops, removed the wrong leader from chaos random ... fixing :o)
+
+2/7/2006: v0.8
+   - various cleanups
+   - Chaos: Balancing changes from Pietro (mostly) & Noyga 
+	- Reworked the headhunter line (new graphics, changed the attacks):
+		- Headunter 4-3 club 6-3 javelin
+		- Marauder 6-3 club 10-2 axe 7-3 javelin
+		- Soulhunter 8-3 club 13-2 axe 10-3 javelin
+	- Increased the Headhunter cost from 16 to 18
+	- Increased the Headhunter HP from 32 to 34
+	- Removed the Doom guard from random leader selection
+	- Removed traits from hounds
+	- Decreased the Hound cost from 20 to 15
+	- Increased the Hound HP from 18 to 21
+	- Decreased the Flesh Hound attack from 10-3 to 12-2
+	- Increased the Rabid Hound attack from 8-3 to 10-3
+	- Decreased the Invoker melee attack from 6-1 to 5-1
+	- Decreased the Invader cost from 16 to 15
+	- Increased the Invader HP from 34 to 36
+   - Dark elves:
+   	- Increased movement cost for lizards on mountains from 2 to 3
+
+29/6/2006: v0.7.1
+   - Added the normal Knalgans
+
+27/6/2006: v0.7
+   - Dark Elves:
+   	- Added Naga (might be replaced in the future) & Dark elf Noble to the faction
+	- Modified the movetypes
+	- Fixed the Dark elf line Shield attack into impact (slows)
+	- Increased the Fighter hp from 30 to 34
+	- Increased the Warrior hp from 42 to 50
+	- Increased the Captain hp from 38 to 48
+	- Increased the Corsair hp from 61 to 70
+	- Increased the Marshal hp from 60 to 65
+	- Increased the Hunter hp from 25 to 27
+	- Decreased the Warlock hp from 71 to 61
+	- Increased the Enchantress hp from 30 to 32
+	- Decreased the Sorceress hp from 50 to 47
+	- Decreased the Cleric hp from 65 to 62
+	- Increased the Noble hp from 30 to 33
+	- Increased the Lord hp from 40 to 47
+	- Increased the High Lord hp from 60 to 63
+	- Decreased the Fighter sword damages from 5-5 to 5-4
+	- Decreased the Warrior sword damages from 6-6 to 6-5
+	- Added a 7-2 ranged spear attack to the Captain
+	- Decreased the Marshal sword damages from 11-4 to 10-4
+	- Decreased the Marshal spear melee damages from 10-4 to 12-3
+	- Increased the Marshal spear ranged damages from 8-2 to 10-2
+	- Decreased the Shadow dagger damages from 10-2 to 7-2
+	- Decreased the Stalker dagger damages from 15-2 to 10-2
+	- Added backstab to the Shadow & Stalker dagger attack
+	- Changed the Stalker ranged attack from 5-6 to 6-5
+	- Decreased the Sorceress mace damages from 7-4 to 7-3
+	- Decreased the Cleric mace damages from 9-4 to 8-4
+	- Increased the Cleric ranged damages from 10-3 to 10-4
+	- Increased the Noble sword damages from 4-3 to 6-3
+	- Increased the Lord sword damages from 5-5 to 7-4
+	- Decreased the High Lord sword damages from 11-4 to 8-5
+	- Increased the Noble shield damages from 8-1 to 10-1
+	- Increased the Lord shield damages from 14-1 to 15-1
+	- Decreased the High Lord shield damages from 20-1 to 21-1
+19/6/2006: v0.6
+   - New faction: the Dark Elves
+   - Aragwaith:
+   	- Greatbow alignment fix (lawful -> Neutral)
+	- fixed the female mage unit names
+   - Chaos:
+	- Chaos Knight -> Black Knight
+	- Armorer -> Doom Guard
+	- Elite Armorer -> Steel Lord
+	- added Naga to Chaos (might be replaced by imps or mariliths in the future)
+	- Decreased the Doom Guard sword damage from 10-3 to 9-3
+	- Decreased the Steel Lord sword damage from 10-4 to 9-4
+	- Hounds are "demons" (cool names and 1 trait)
+   - Dwarves:
+	- *copter can't move in caves
+   - Kalifa:
+   	- applied new TC images for levels 1 & 2
+   	- correct the levels of the Ghaznid, Life Guard and Rami al Nuri
+   - Outlaws:
+	- updated to L3_Outlaws v2.2
+
+17/6/2006 v0.5.1:
+   - Name fix: Sidhes -> Sidhe
+   - fix troll shaman image path
+
+15/6/2006 v0.5.0:
+   - updated the units to v1.1.4 syntax
+   - fixed zoc/no zoc ellipses
+   - various minor cleanups
+   - Aragwaith:
+   	- balancing update from EP:
+		- increased melee damage of the Aragwaith Archer to 6-3
+		- increased ranged damage of the Aragwaith Archer to 5-4
+		- increased melee damage of the Aragwaith Strongbow to 9-3
+		- increased ranged damage of the Aragwaith Strongbow to 8-4
+		- increased melee damage of the Aragwaith Greatbow to 13-3
+		- increased ranged damage of the Aragwaith Greatbow to 12-4
+		- increased ranged damage of the Aragwaith Slayer to 9-4
+		- increased melee damage of the Aragwaith Warlock to 6-2
+		- increased ranged damage of the Aragwaith Warlock to 7-3
+		- increased melee damage of the Aragwaith Wizard to 10-2
+		- increased ranged damage of the Aragwaith Wizard to 11-3
+		- increased melee damage of the Aragwaith Sorceror to 13-2
+		- increased ranged damage of the Aragwaith Sorceror to 15-3
+		- decreased cost of the Aragwaith Swordsman to 13
+		- increased blade resistance of the Aragwaith Swordsman, Longswordsman, and Swordmaster to 20%
+		- increased blade resistance of the Aragwaith Guard to 30% and Shield Guard to 40%
+		- altered resistances of Aragwaith mounted units to match those of Loyalist mounted units
+		- fixed misspelled AMLA, missing AMLA, and misspelled alignment in various units
+		- put some level 2 and 3 unit costs within the realm of sensibility
+	- units cleanp
+   - Kalifa (ex Saracens) update: 
+   	- updated to Default_dev v0.16c
+	- changed the race to kalifa (they probably forgot it)
+	- wired falcon images (taken from Flight to Freedom)
+   - Chaos update:
+   	- Demons now have their own race
+	- Custom movetypes for demons & hounds
+	- Added a shield to the armorer (RIPLIB)
+	- Changed the Flesh Houd damage type to impact (for more diversity)
+	- Changed the Headhunter ranged damage type to blade (RIPLIB)
+	- Changed the Headhunter ranged damage from 8-1 to 5-2
+	- Decreased the Marauder ranged damage from 8-2 to 7-2 
+	- Decreased the Headhunter, Marauder & Soulhunter movement from 8 to 7
+	- Increased the Lesser Mutation movement from 3 to 4
+	- Decreased the Invoker melee damage from 8-1 to 6-1
+	- Increased the Demonologist melee damage from 8-1 to 8-2
+	- Changed the Overlord movetype to sallfoot (RIPLIB)
+	- Increased the Overlord damages from 16-3 & 12-4 to 20-3 & 15-4
+	- Increased the Overlord HP from 75 to 90
+	- Increased the Knight HP from 42 to 51
+	- Decreased the Armorer HP from 60 to 52
+	- Decreased the Elite Armorer HP from 80 to 63
+   - Undead update:
+   	- The Revenant can advance to the Death Knight
+   - Sidhe update: some of Oreb's changes:
+   	- Warrior - Cost to 15
+	- Herald - Cost to 32, +6 hitpoints
+	- Warsinger - Cost to 52, +2 hitpoints, +1 damage, -1 attack
+	- Bladespinner - Cost to 32, +2 hitpoints
+	- Wardancer - Cost to 52, +6 hitpoints 
+	- Veiledblade - Cost to 32, +6 hitpoints
+	- Shadowdancer - Cost to 52, +2 hitpoints
+ 	- Fury - +2 hitpoints
+	- Wildblade - Cost to 35, +2 hitpoints
+	- Whirlwind - +4 hitpoints
+	- Raindancer - Cost to 22, exp to 48, +4 hitpoints
+	- Windlasher - Cost to 38, exp to 76, +10 hitpoints
+	- Tempest - +10 hitpoints, exp to 100
+	- Stormlord - +12 hitpoints
+	- War Mage - Cost to 38, exp to 76, +2 hitpoints, +1 ranged damage
+	- Thunderblade - +2 hitpoints
+	- Wanderer - +2 hitpoints, exp to 40, +1 ranged damage
+	- Tracker - Cost to 30, +2 hitpoints, exp to 60
+	- Windrunner - +4 hitpoints 
+	- Warrior Spirit - +5 hitpoints, +1 attack
+	- Ancestor - +8 hitpoints, +2 ranged damage
+	- Forefather - +10 hitpoints, +1 ranged damage 
+
+10/5/2006 v0.4.0:
+   - New faction: Saracens (v0.1.6)
+   - Changed the Sidhes Spirit IDs
+   - Aragwaith units cleanup
+   - The Chaos Armorer is human as it should be
+   - Switched to Lvl 2 Leaders
+
+28/3/2006 v0.3.0:
+   - Removed the Wagons pierce resistances
+   - Changed the damage type of the chaos mages to cold, and added Leadership to the lvl2 and 3
+   - Made new chaos mage missile frame and added Pickside's Dark missile image as an icon for them
+   No balancing is done yet !
+
+24/3/2006 v0.2.2:
+   - Fixed sound warnings (great thanks to Xan's converter:))
+
+23/3/2006 v0.2.1:
+   - Fixed the dwarf Thunderer
+
+23/3/2006 v0.2.0:
+   - Changed the names of the Dwarven Wagons to:
+       Steamwheel -> Thunderwheel -> Warwheel
+   - Changed the name of the Dwarven flying machines to:
+       Gyrocopter -> Steamcopter
+   - Increased the damage of the Gyrocopter to 8-2
+   - Added the Young Ogre to the Outlaws
+   - Replaced the Gryphon by the mermens for the Loyalists
+   - Upgraded the units to works with Wesnoth 1.1.2
+   - Added the Troll Shaman to the Northerers
+
+21/3/2006 v0.1.2:
+   - Improved some missile frames/animations in the Chaos Faction and Dwarvish Flamethrower
+
+20/3/2006 v0.1.1:
+   - Fixed various displayed names in the Chaos Faction
+
+20/3/2006 v0.1.0:
+   - Added the Chaos faction
+   - Added the Sentinel to the list of the Dwarvish leaders
+
+19/3/2006 v0.0.1:
+ Leaders:
+   - Fixed the list of the Outlaw leaders
+   - Removed the Wildblade and the Windrunner from the list of the Sidhe leaders
+
+ Dwarven Wagons:
+   - Made the shadow under fit the standard
+   - Increased the HP of all units by 5
+   - Decreased the costs
+   - Changed the Names to: Scout Wagon -> Assault Wagon -> War Wagon
+
+ Dwarven Flyers:
+   - Changed the attack to bombs (ranged impact)
+   - Missile animation for the bombs
+   - Changed the names to Helicopter -> Flycopter
+   - Decreased the costs
+   - Increased the Helicopter bomb attack to 7-2
+
+17/3/2006 v0.0.0:
+ First release

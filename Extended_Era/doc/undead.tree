@@ -1,0 +1,29 @@
+Undead advancement tree:
++ recruitable unit
+* available leader
+
+    +Skeleton
+     -> Chocobone
+     -> *Deathblade
+     -> *Revenant
+         -> Death Knight
+         -> Draug
+    +Skeleton Archer
+     -> *Bone Shooter
+         -> Soul Shooter
++Walking Corpse
+ -> Souless
+    +Ghoul
+     -> Necrophage
+    +Ghost
+     -> Shadow
+         -> Nightgaunt
+     -> Wraith
+         -> Spectre
++Vampire Bat
+ -> Blood Bat
+    +Dark Adept
+     -> *Dark Sorcerer
+         -> Lich
+            -> Ancient Lich
+         -> Necromancer

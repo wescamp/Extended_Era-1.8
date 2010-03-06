@@ -1,0 +1,48 @@
+Sylvans advancement tree:
++ recruitable unit
+* available leader
+
+    +Elvish Archer
+     -> *Elvish Ranger
+         -> Elvish Avenger
+     -> *Elvish Marksman
+         -> Elvish Sharphooter
+    +Elvish Fighter
+     -> *Elvish Captain
+         -> Elvish Marshal
+     -> *Elvish Hero
+         -> Elvish Champion
+    +Elvish Shaman
+     -> *Elvish Druid
+         -> Elvish Shyde
+     -> *Elvish Sorceress
+         -> Elvish Enchanteress
+	     -> Elvish Sylph
+    +Elvish Scout
+     -> Elvish Rider
+         -> Elvish Outrider
+    +Mage
+     -> *Red Mage
+         -> Arch Mage
+	     -> Great Mage
+	 -> Silver Mage
+     -> *White Mage
+         -> Mage of Light
+    +Wose
+     -> *Elder Wose
+         -> Ancient Wose
+     -> *Wose Shaman
+    +Merman Fighter
+     -> Merman Warrior
+         -> Merman Triton
+	 -> Merman Hoplite
+    +Merman Hunter
+     -> Merman Spearman
+         -> Merman Javelineer
+     -> Merman Netcaster
+         -> Merman Entangler
+    +Mermaid Initiate
+     -> Mermaid Enchanteress
+         -> Mermaid Siren
+     -> Mermaid Priestess
+         -> Mermaid Diviner

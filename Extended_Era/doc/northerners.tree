@@ -1,0 +1,38 @@
+Northerners advancement tree:
++ recruitable unit
+* available leader
+
+    +Orcish Grunt
+     -> *Orcish Warrior
+         -> Orcish Warlord
+    +Orcish Archer
+     -> *Orcish Crossbowman
+         -> Orcish Slurbow
+    +Orcish Assassin
+     -> *Orcish Slayer
+    +Orcish Shaman
+     -> *Orcish Warlock
+     -> *Orcish Witch Doctor
+    Orcish Leader
+     -> *Orcish Ruler
+         -> Orcish Sovereing
+    +Wolf Rider
+     -> Goblin Knight
+         -> Direwolf Rider
+     -> Goblin Pillager
++Goblin Spearman
+ -> Goblin Impaler
+ -> Goblin Rouser
+    +Troll Welp
+     -> *Troll
+         -> Troll Warrior
+     -> *Troll Rocklobber
+     -> *Troll Shaman
+    +Naga Fighter
+     -> Naga Depthstalker
+     -> Naga Warrior
+         -> Naga Myrmidon
+    +Naga Hunter
+    +Naga Guardian
+     -> Naga Warden
+         -> Naga Sentinel

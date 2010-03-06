@@ -1,0 +1,28 @@
+Steppe orcs advancement tree:
++ recruitable unit
+* available leader
+
+    +Warrior
+     -> *Bladesman
+         -> Massif
+     -> *Spearman
+         -> Skewer
+     -> Savage
+    +Shieldbearer
+     -> *Rigid
+         -> Stoic
+    +Spearhead
+     -> *Juggernaut
+     -> *Vanguard
+         -> Khan
+    +Icewind Herder
+     -> *Icewind Drover
+         -> Icewind Master
+      -> *Outcast
+         -> Pariah
+    +Hunter
+     -> Flanker
+     -> Striker
+    +Naga Guardian
+     -> Naga Warden
+         -> Naga Sentinel
