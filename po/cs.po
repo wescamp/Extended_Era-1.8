@@ -1,16 +1,30 @@
+# translation of utbs-cs.vs-edit.po to Czech
+# Český překlad hry Battle for Wesnoth (Bitva o Wesnoth).
+# Copyright (C) 2004 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+#
+# Czech Wesnoth translation team, Yeti <yeti@physics.muni.cz> et al, 2004.
+# Vladimír Slávik <slavik.vladimir@seznam.cz>, 2006.
+# Oto 'tapik' Buchta <tapik@buchtovi.cz>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: wescamp-i 18n\n"
+"Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-03-07 15:46+0100\n"
-"PO-Revision-Date: 2010-03-07 15:46+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2008-09-09 21:02+0100\n"
+"Last-Translator: Vladimír Slávik <slavik.vladimir@seznam.cz>\n"
+"Language-Team: Czech <wesnoth-cs-l@buchtovi.cz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Generator: KBabel 1.11.2\n"
+"X-Poedit-Basepath: D:\\Dokumenty\\Translations\\Wescamp\\branches\\1.4"
+"\\Extended_Era\n"
 
+# Název schopnosti
 #. [leadership]: id=allied_leadership
 #: Extended_Era/abilities/allied_leadership.cfg:10
 #: Extended_Era/abilities/allied_leadership.cfg:31
@@ -18,8 +32,9 @@ msgstr ""
 #: Extended_Era/abilities/allied_leadership.cfg:112
 #: Extended_Era/abilities/allied_leadership.cfg:172
 msgid "allied leadership"
-msgstr ""
+msgstr "spojenecké velení"
 
+# Popis schopnosti
 #. [leadership]: id=allied_leadership
 #: Extended_Era/abilities/allied_leadership.cfg:14
 #: Extended_Era/abilities/allied_leadership.cfg:35
@@ -36,14 +51,24 @@ msgid ""
 "Leadership engages in combat, its attacks do 25% more damage times the "
 "difference in their levels."
 msgstr ""
+"Spojenecké velení:\n"
+"Tato jednotka je schopna vést sousedící spojenecké jednotky a posilovat je v "
+"boji.\n"
+"\n"
+"Sousedící spojenecké jednotky nižší úrovně útočí v boji s větší silou. "
+"Takovým jednotkám v blízkosti jednotky, která disponuje spojeneckým velením, "
+"se zvyšuje síla útoku o 25 % za každý rozdíl úrovně velící a ovládáné "
+"jednotky."
 
+# Název schopnosti
 #. [resistance]: id=allied_protection
 #: Extended_Era/abilities/allied_protection.cfg:11
 #: Extended_Era/abilities/allied_protection.cfg:34
 #: Extended_Era/abilities/allied_protection.cfg:60
 msgid "allied protection"
-msgstr ""
+msgstr "spojenecká ochrana"
 
+# Popis schopnosti
 #. [resistance]: id=allied_protection
 #: Extended_Era/abilities/allied_protection.cfg:13
 #: Extended_Era/abilities/allied_protection.cfg:36
@@ -53,29 +78,39 @@ msgid ""
 "Adjacent friendly units of lower level receive a +20% bonus to all "
 "resistances (up to a maximum of 50%)."
 msgstr ""
+"Spojenecká ochrana:\n"
+"Sousedící spojenecká jednotka nižší úrovně získává bonus + 20 % ke všem svým "
+"odolnostem (maximálně však do 50 %)."
 
+# Název speciálního druhu útoku
 #. [damage]: id=attack_only
 #: Extended_Era/abilities/attack_only.cfg:8
 msgid "attack only"
-msgstr ""
+msgstr "pouze k útoku"
 
+# Popis speciálního druhu útoku
 #. [damage]: id=attack_only
 #: Extended_Era/abilities/attack_only.cfg:10
 msgid ""
 "Attack only:\n"
 "This weapon will never be used on defense."
 msgstr ""
+"Pouze k útoku:\n"
+"Tuto zbraň lze využít pouze při útoku."
 
+# Popis speciálního druhu útoku
 #: Extended_Era/abilities/attack_only.cfg:17
 msgid " One attack of this unit cannot be used to defend."
-msgstr ""
+msgstr " Jeden útok jednotky nemůže být použit při obraně."
 
+# Schopnost
 #. [hides]
 #: Extended_Era/abilities/cavestalk.cfg:5
 #: Extended_Era/abilities/cavestalk.cfg:10
 msgid "cavestalk"
-msgstr ""
+msgstr "plížení"
 
+# Popis schopnosti
 #. [hides]
 #: Extended_Era/abilities/cavestalk.cfg:9
 #: Extended_Era/abilities/cavestalk.cfg:14
@@ -87,6 +122,13 @@ msgid ""
 "any turn immediately after this unit has attacked, or if there are enemy "
 "units next to this unit."
 msgstr ""
+"Plížení:\n"
+"Tato jednotka je při pohybu v jeskyních pro nepřátelské jednotky "
+"neviditelná.\n"
+"\n"
+"Nepřátelské jednotky vidí a mohou útočit na plížící se jednotku pouze v tahu "
+"bezprostředně následující po jejím útoku nebo když vstoupí na sousedící "
+"pole. "
 
 #: Extended_Era/abilities/cavestalk.cfg:29
 msgid ""
@@ -94,28 +136,37 @@ msgid ""
 "renders it invisible to enemies unless it is immediately adjacent or has "
 "revealed itself by attacking."
 msgstr ""
+" V podzemí (s vyjímkou osvětleného podzemí) je tato jednotka díky svému "
+"dovednému skrývání pro nepřátele neviditelná, což trvá do doby, než se "
+"nepřítel dostane těsně k ní nebo než se sama prozradí svým útokem."
 
+# Název speciálního druhu útoku
 #. [damage]: id=attack_only
 #: Extended_Era/abilities/defend_only.cfg:8
 msgid "defend only"
-msgstr ""
+msgstr "pouze k obraně"
 
+# Popis speciálního druhu útoku
 #. [damage]: id=attack_only
 #: Extended_Era/abilities/defend_only.cfg:10
 msgid ""
 "Defend only:\n"
 "This weapon will only be available for defense."
 msgstr ""
+"Pouze k obraně:\n"
+"Tuto zbraň lze využít pouze při obraně."
 
 #: Extended_Era/abilities/defend_only.cfg:16
 msgid " One attack of this unit can only be used to defend."
-msgstr ""
+msgstr " Pouze jeden útok této jednotky může být využit při obraně."
 
+# vlastnost
 #. [skirmisher]: id=distract
 #: Extended_Era/abilities/distract.cfg:6
 msgid "distract"
-msgstr ""
+msgstr "rozptylování"
 
+# Popis schopnosti
 #. [skirmisher]: id=distract
 #: Extended_Era/abilities/distract.cfg:8
 msgid ""
@@ -123,18 +174,25 @@ msgid ""
 "This unit negates enemy Zones of Control around itself for friendly units "
 "(but not for itself)."
 msgstr ""
+"Rozptylování:\n"
+"Jednotka dokáže ve své blízkosti rušit nepřátelské zóny kontroly pro ostatní "
+"spřátelené jednotky (ne však pro sebe)."
 
 #: Extended_Era/abilities/distract.cfg:17
 msgid ""
 " This unit is capable of distracting opponents, allowing friendly units to "
 "trespass their Zones of Control and move unhindered around them."
 msgstr ""
+" Tato jednotka dokáže rozptýlit nepřátele, čímž umožní spřáteleným jednotkám "
+"procházet jejich zónami kontroly a pohybovat se kolem nich bez problémů."
 
+# Název speciálního druhu útoku
 #. [damage]: id=dread
 #: Extended_Era/abilities/dread.cfg:6 Extended_Era/abilities/dread.cfg:7
 msgid "dread"
-msgstr ""
+msgstr "děsivý"
 
+# Popis speciálního druhu útoku
 #. [damage]: id=dread
 #: Extended_Era/abilities/dread.cfg:9 Extended_Era/abilities/dread.cfg:11
 msgid ""
@@ -142,20 +200,27 @@ msgid ""
 "When this attack is used offensively, this unit takes one third less damage "
 "in retaliation."
 msgstr ""
+"Děsivý:\n"
+"Pokud útočí, odvetné údery protivníka způsobí o třetinu menší zranění."
 
+# Popis speciálního druhu útoku
 #: Extended_Era/abilities/dread.cfg:19
 msgid ""
 " The dread attack of this unit, when used offensively scare the defender, "
 "lowering the damage of his retaliation."
 msgstr ""
+" Děsivý útok této jednotky, pokud je použit ofenzivně, zastraší obět útoku a "
+"sníží velikost možných zranění, způsobených jejími odvetnými údery."
 
+# Název schopnosti
 #. [resistance]: id=protection
 #: Extended_Era/abilities/protection.cfg:9
 #: Extended_Era/abilities/protection.cfg:31
 #: Extended_Era/abilities/protection.cfg:56
 msgid "protection"
-msgstr ""
+msgstr "ochrana"
 
+# Popis schopnosti
 #. [resistance]: id=protection
 #: Extended_Era/abilities/protection.cfg:11
 #: Extended_Era/abilities/protection.cfg:33
@@ -165,6 +230,9 @@ msgid ""
 "Adjacent units of lower level from this side receive a +20% bonus to all "
 "resistances (up to a maximum of 50%)."
 msgstr ""
+"Ochrana:\n"
+"Sousedící jednotka nižší úrovně získává bonus +20% k odolnosti vůči všem "
+"druhům útoku (maximálně však do hodnoty 50%)."
 
 #: Extended_Era/abilities/protection.cfg:79
 msgid ""
@@ -172,13 +240,18 @@ msgid ""
 "better, taking less damage in combat, though this only applies to units of "
 "lower level."
 msgstr ""
+" Důležitost této jednotky motivuje ostatní spřátelené jednotky nižší úrovně "
+"v její těsné blízkosti k lepší obraně, takže mohou obdržet během boje menší "
+"zranění."
 
+# Název schopnosti
 #. [regenerate]: id=sylvan_spark
 #: Extended_Era/abilities/sylvan_spark.cfg:10
 #: Extended_Era/abilities/sylvan_spark.cfg:13
 msgid "sylvan spark"
-msgstr ""
+msgstr "jiskra sylvanů"
 
+# Popis schopnosti
 #. [regenerate]: id=sylvan_spark
 #: Extended_Era/abilities/sylvan_spark.cfg:12
 #: Extended_Era/abilities/sylvan_spark.cfg:15
@@ -187,19 +260,26 @@ msgid ""
 "While in the forest (or mushroom grove), the unit will heal itself 5 hp per "
 "turn. If it is poisoned, it will remove the poison instead of healing."
 msgstr ""
+"Jiskra Sylvanů:\n"
+"Pokud jednotka setrvá v lese nebo v houbovém háji, vyléčí si na začátku "
+"každého kola 5 životů. Pokud je otrávená, pouze se uzdraví ze své otravy."
 
 #: Extended_Era/abilities/sylvan_spark.cfg:34
 msgid ""
 " This unit regenerates in forest, which allows it to heal, through not as "
 "much as stationed in a village."
 msgstr ""
+" Tato jednotka se může v lese regenerovat, čímž se vyléčí, ne však tolik, "
+"jako kdyby se nacházela ve vesnici."
 
+# Název schopnosti
 #. [leadership]: id=terror
 #: Extended_Era/abilities/terror.cfg:8 Extended_Era/abilities/terror.cfg:44
 #: Extended_Era/abilities/terror.cfg:94
 msgid "terror"
-msgstr ""
+msgstr "teror"
 
+# Popis schopnosti
 #. [leadership]: id=terror
 #: Extended_Era/abilities/terror.cfg:12 Extended_Era/abilities/terror.cfg:48
 #: Extended_Era/abilities/terror.cfg:98
@@ -213,6 +293,13 @@ msgid ""
 "of the unit with Terror engages in combat, its attacks do 15% less damage "
 "times the difference in their levels + 15%."
 msgstr ""
+"Teror:\n"
+"Tato jednotka zastrašováním zhoršuje bojeschopnost okolních nepřátelských "
+"jednotek.\n"
+"\n"
+"Sousedící nepřátelská jednotka na stejné nebo nižší úrovni může způsobit "
+"svým útokem menší ranění a to o 15% (+ 15% za každý rozdíl mezi úrovní "
+"terorizující a terorizované jednotky). "
 
 #: Extended_Era/abilities/terror.cfg:154
 msgid ""
@@ -220,163 +307,181 @@ msgid ""
 "less damage in combat, though this only applies to units of lower or equal "
 "level."
 msgstr ""
+" Schopnost teroru straší nepřátele stejné nebo nižší úrovně v těsné "
+"blízkosti této jednotky a umenšuje možnost zranění, které mohou terorizující "
+"jednotce v boji udělit."
 
 #. [era]: id=era_extended_eom_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/default+extended+eom.cfg:15
 msgid "Extended Era + Era of Myths + Default"
-msgstr ""
+msgstr "Expandovaný + Mytologický + Standardní věk"
 
 #. [era]: id=era_extended_default_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/default+extended.cfg:6
 msgid "Extended Era + Default"
-msgstr ""
+msgstr "Expandovaný + Standardní věk"
 
 #. [era]: id=era_extended_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/extended.cfg:6
 msgid "Extended Era"
-msgstr ""
+msgstr "Expandovaný věk"
 
 #. [era]: id=era_extended_rpg_{EXTENDED_ERA_VERSION}
 #: Extended_Era/eras/xrpg.cfg:6
 msgid "Extended RPG"
-msgstr ""
+msgstr "Expandovaný RPG věk"
 
+# Název frakce
 #. [multiplayer_side]: id=Aragwaith, type=EE Aragwaith Flagbearer
 #. [multiplayer_side]: id=Aragwaith, type=EE Aragwaith Swordsman
 #: Extended_Era/factions/aragwaithi-extended.cfg:5
 #: Extended_Era/factions/aragwaithi-xrpg.cfg:5
 msgid "Aragwaith"
-msgstr ""
+msgstr "Aragwaiti"
 
+# Název frakce
 #. [multiplayer_side]: id=Chaos, type=EE Chaos Magus
 #. [multiplayer_side]: id=Chaos, type=EE Lesser Daemon
 #: Extended_Era/factions/chaos-extended.cfg:5
 #: Extended_Era/factions/chaos-xrpg.cfg:5
 msgid "Chaos"
-msgstr ""
+msgstr "Chaos"
 
+# Název frakce
 #. [multiplayer_side]: id=Dark Elves, type=EE Dark Elf Captain
 #. [multiplayer_side]: id=Dark Elves, type=XRPG Dark Elf Noble
 #: Extended_Era/factions/dark_elves-extended.cfg:5
 #: Extended_Era/factions/dark_elves-xrpg.cfg:5
 msgid "Dark Elves"
-msgstr ""
+msgstr "Temní elfové"
 
+# Název frakce
 #. [multiplayer_side]: id=Drakes, type=EE Fire Drake
 #. [multiplayer_side]: id=Drakes, type=XRPG Drake Burner
 #: Extended_Era/factions/drakes-extended.cfg:5
 #: Extended_Era/factions/drakes-xrpg.cfg:5
 msgid "Drakes"
-msgstr ""
+msgstr "Drakonidé"
 
+# Název frakce
 #. [multiplayer_side]: id=Dwarves, type=EE Dwarvish Runesmith
 #. [multiplayer_side]: id=Dwarves, type=EE Dwarvish Fighter
 #: Extended_Era/factions/dwarves-extended.cfg:5
 #: Extended_Era/factions/dwarves-xrpg.cfg:5
 msgid "Dwarves"
-msgstr ""
+msgstr "Trpaslíci"
 
+# Název frakce
 #. [multiplayer_side]: id=Kalifa, type=EE Kalifa Ghazi
 #. [multiplayer_side]: id=Kalifa, type=EE Kalifa Ahadath
 #: Extended_Era/factions/kalifa-extended.cfg:5
 #: Extended_Era/factions/kalifa-xrpg.cfg:5
 msgid "Kalifa"
-msgstr ""
+msgstr "Kalifa"
 
+# Název frakce
 #. [multiplayer_side]: id=Loyalists, type=Pikeman
 #. [multiplayer_side]: id=Loyalists, type=XRPG Sergeant
 #: Extended_Era/factions/loyalists-extended.cfg:5
 #: Extended_Era/factions/loyalists-xrpg.cfg:5
 msgid "Loyalists"
-msgstr ""
+msgstr "Věrní"
 
+# Název frakce
 #. [multiplayer_side]: id=Merfolk, type=Mermaid Initiate
 #: Extended_Era/factions/merfolk-xrpg.cfg:5
 msgid "Merfolk"
-msgstr ""
+msgstr "Mořský lid"
 
 #. [multiplayer_side]: id=Miscellanous, type=Giant Scorpion
 #: Extended_Era/factions/misc-xrpg.cfg:5
 msgid "Miscellanous"
-msgstr ""
+msgstr "Různé"
 
 #. [multiplayer_side]: id=Nagas, type=EE Naga Fighter
 #: Extended_Era/factions/nagas-xrpg.cfg:5
 msgid "Nagas"
-msgstr ""
+msgstr "Nágy"
 
+# Název frakce
 #. [multiplayer_side]: id=Northerners, type=Orcish Grunt
 #. [multiplayer_side]: id=Northerners, type=EE Orcish Ruler
 #: Extended_Era/factions/northerners-xrpg.cfg:5
 #: Extended_Era/factions/northerners-extended.cfg:5
 msgid "Northerners"
-msgstr ""
+msgstr "Seveřané"
 
+# Název frakce
 #. [multiplayer_side]: id=Outlaws, type=Thief
 #. [multiplayer_side]: id=Outlaws, type=Rogue
 #: Extended_Era/factions/outlaws-xrpg.cfg:5
 #: Extended_Era/factions/outlaws-extended.cfg:5
 msgid "Outlaws"
-msgstr ""
+msgstr "Psanci"
 
+# Název frakce
 #. [multiplayer_side]: id=Sidhe, type=EE Sidhe Warmage
 #. [multiplayer_side]: id=Sidhe, type=EE Sidhe Raindancer
 #: Extended_Era/factions/sidhe-extended.cfg:5
 #: Extended_Era/factions/sidhe-xrpg.cfg:5
 msgid "Sidhe"
-msgstr ""
+msgstr "Sidheliné"
 
+# Název frakce
 #. [multiplayer_side]: id=Steppe Orcs, type=EE Steppe Vanguard
 #. [multiplayer_side]: id=Steppe Orcs, type=XRPG Steppe Spearhead
 #: Extended_Era/factions/steppe_orcs-extended.cfg:5
 #: Extended_Era/factions/steppe_orcs-xrpg.cfg:5
 msgid "Steppe Orcs"
-msgstr ""
+msgstr "Stepní skřeti"
 
+# Název frakce
 #. [multiplayer_side]: id=Sylvans, type=Elvish Sorceress
 #. [multiplayer_side]: id=Sylvans, type=XRPG Elvish Fighter
 #: Extended_Era/factions/sylvans-extended.cfg:5
 #: Extended_Era/factions/sylvans-xrpg.cfg:5
 msgid "Sylvans"
-msgstr ""
+msgstr "Sylvané"
 
+# Název frakce
 #. [multiplayer_side]: id=Undead, type=EE Revenant
 #. [multiplayer_side]: id=Undead, type=EE Dark Adept
 #: Extended_Era/factions/undead-extended.cfg:5
 #: Extended_Era/factions/undead-xrpg.cfg:5
 msgid "Undead"
-msgstr ""
+msgstr "Nemrtví"
 
 #. [race]: id=aragwaith
 #: Extended_Era/races/aragwaithi.cfg:5
 msgid "race^Aragwaith Human"
-msgstr ""
+msgstr "Aragwait"
 
 #. [race]: id=aragwaith
 #: Extended_Era/races/aragwaithi.cfg:6
 msgid "race+female^Aragwaith Human"
-msgstr ""
+msgstr "Aragwaitka"
 
 #. [race]: id=aragwaith
 #: Extended_Era/races/aragwaithi.cfg:7
 msgid "race^Aragwaithi"
-msgstr ""
+msgstr "Aragwaiti"
 
 #. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:5
 msgid "race^Demon"
-msgstr ""
+msgstr "Démon"
 
 #. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:6
 msgid "race+female^Demon"
-msgstr ""
+msgstr "Démonka"
 
 #. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:7
 msgid "race^Demons"
-msgstr ""
+msgstr "Démoni"
 
+# Jména
 #. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:10
 msgid ""
@@ -403,7 +508,30 @@ msgid ""
 "Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,"
 "Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 msgstr ""
+"Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,"
+"Alocer,Amducious,Amdusias,Amon,Ananiel,Andhaka,Andras,Andrealphus,"
+"Andromalius,Antares,Apep,Araqiel,Arioch,Armaros,Asael,Asag,Asb'el,Asmodeus,"
+"Astaroth,Azazel,Baal,Baalberith,Balam,Balberith,Babeal,Baphomet,Baraqel,"
+"Barbas,Barbatos,Batariel,Bathin,Beball,Beelzebub,Behamoth,Behemoth,Beleth,"
+"Belial,Beliel,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,Botis,Buer,Bune,"
+"Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,Daalberith,Dagon,"
+"Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,Eurynomous,Fomalhaut,"
+"Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,Furfur,Gaap,Gader'el,"
+"Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,Juvart,Kabhanda,Karo,"
+"Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,Leonard,Leraje,Lix "
+"Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,Marchocias,Maricha,"
+"Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,Moloch,Morax,"
+"Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,Oeillet,Olivier,"
+"Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,Phlegathon,"
+"Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,Pyhton,Rahab,"
+"Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,Ronove,Ronwe,"
+"Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,Satanachia,"
+"Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,Sonnillon,"
+"Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,Thammuz,"
+"Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,"
+"Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
 
+# Jména
 #. [race]: id=demon
 #: Extended_Era/races/chaos.cfg:11
 msgid ""
@@ -414,47 +542,54 @@ msgid ""
 "Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,"
 "Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 msgstr ""
+"Agiel,Agrat-bat-mahlaht,Ammit,Amy,Arkel,Ashtaroth,Astarte,Astoreth,Barbelo,"
+"Belphegore,Bruja,Delepitore,Eisheth Zenunil,Empusa,Euryale,Gordh,Gremory,"
+"Gresil,Hecate,Ixtara,Kindite,Lamashtu,Lamia,Leviathan,Lilim,Lilin,Lilith,"
+"Lilitu,Lusana,Mara,Medusa,Melchiresa,Melusine,Mercedes,Naamah,Neuralger,"
+"Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,"
+"Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 
 #. [race]: id=dark elf
 #: Extended_Era/races/dark-elves.cfg:5
 msgid "race^Dark Elf"
-msgstr ""
+msgstr "Temný elf"
 
 #. [race]: id=dark elf
 #: Extended_Era/races/dark-elves.cfg:6
 msgid "race+female^Dark Elf"
-msgstr ""
+msgstr "Temná elfka"
 
 #. [race]: id=dark elf
 #: Extended_Era/races/dark-elves.cfg:7
 msgid "race^Dark Elves"
-msgstr ""
+msgstr "Temní elfové"
 
 #. [trait]: id=armored
 #: Extended_Era/races/dwarves.cfg:7
 msgid "armored"
-msgstr ""
+msgstr "obrněný"
 
 #. [trait]: id=armored
 #: Extended_Era/races/dwarves.cfg:8
 msgid "(+15% to all resistances, -1 movement)"
-msgstr ""
+msgstr "(+15% ke všem odolnostem, pohyb -1)"
 
 #. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:5
 msgid "race^Kalifa Human"
-msgstr ""
+msgstr "Kalif"
 
 #. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:6
 msgid "race+female^Kalifa Human"
-msgstr ""
+msgstr "Kalifa"
 
 #. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:7
 msgid "race+plural^Kalifa"
-msgstr ""
+msgstr "Kalifové"
 
+# Jména
 #. [race]: id=kalifa
 #: Extended_Era/races/kalifa.cfg:10
 msgid ""
@@ -533,92 +668,169 @@ msgid ""
 "Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
 "Ziyad,Zubayr,Zuhayr"
 msgstr ""
+"Aban,Abbas,Abbud,Abdul-'Adl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,"
+"Abdul-Aziz,Abdul-Badi,Abdul-Ba'ith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-"
+"Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-"
+"Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,"
+"Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,"
+"Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdi',"
+"Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Mu'id,Abdul-Mu'izz,"
+"Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-"
+"Muta'al,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-"
+"Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-"
+"Rahman,Abdul-Rashid,Abdul-Ra'uf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-"
+"Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-"
+"Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,'Abid,'Abidin,Abu Bakr,Aby al-Khayr,"
+"Adil,Adham,Adib,'Adli,'Adnan,'Afif,Ahmad,'Ajib,'Akif,Akil,Akram,Ala',Ala' al-"
+"Din,Al' Abbas,Aladdin,Al-Bara,Al-Hakam,Al-Harith,Alhasan,Alhusain,Ali,Alim,"
+"Almahdi,Al-Safi,Altaf,Altair,Al-Tayyib,Al-Tijani,Al-Tufail,Amid,'Amid,Amin,"
+"Amir,'Amir,Amjad,'Ammar,'Amro,Anas,Anis,'Antarah,Anwar,'Aqil,Arfan,"
+"Arif,'Arif,Asad,As'ad,Asadel,Ashraf,Asif,'Asim,Aswad,Ata',Ata' Allah,Ata' al-"
+"Rahman,Athil,Athir,'Atif,'Awad,'Awf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,"
+"Aza,'Azab,Azhar,Azim,'Aziz,'Azzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,"
+"Baha',Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,"
+"Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,"
+"Bushr,Butrus,Dabir,Dani,Darwish,Da'ud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,"
+"Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,"
+"Fa'iz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,"
+"Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,"
+"Fida,Fikri,Firas,Fu'ad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,"
+"Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,Hakim,Halim,"
+"Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hana'i,Hanbal,Hani,Hanif,"
+"Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,"
+"Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-"
+"Din,Ibrahim,'Id,Idris,Ihsan,Ihtisham,'Ikrimah,Ilias,'Imad,Imad al-Din,Imran,"
+"Imtiyaz,In'am,Iqbal,'Irfan,'Isa,'Isam,Ishaq,Isma'il,Iyad,Iyas,Izz al-Din,"
+"Jabbar,Jabr,Jabir,Jad Allah,Ja'far,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal "
+"al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,"
+"Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,"
+"Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,"
+"Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,"
+"Kutaiba,Labib,Lablab,Latif,Layth,Lu'ayLubayd,Luqman,Lut,Lutfi,Ma'd,Madani,"
+"Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,"
+"Majid,Makin,Malik,Mamduh,Ma'mun,Ma'in,Mandhur,Mansur,Marghub,Marid,Ma'ruf,"
+"Marwan,Marzuq,Mash'al,Mashhur,Masrur,Mas'ud,Masun,Maysarah,Mazhar,Mazin,"
+"Mehmed,Mihran,Mihyar,Mika'il,Miqdad,Misbah,Mish'al,Miyaz,Mu'adh,Mu'awiyah,"
+"Mu'ayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,"
+"Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Mu'in,Mu'izz,Mujab,"
+"Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Mu'mmar,Mu'min,Mumtaz,Munahid,"
+"Mundhir,Munib,Munif,Munir,Mu'nis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,"
+"Murtada,Musa,Mus'ab,Musa'id,Mushtaq,Muslih,Muslim,Mutafa,Muta',Mu'tasim,"
+"Mutawalli,Mu'tazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,"
+"Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafi',Nahid,Na'il,Na'im,Naji,Najib,"
+"Najid,Najjar,Najm al-Din,Na'aman,Namir,Nash'ah,Nash'at,Nashwan,Nasib,Nasih,"
+"Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,"
+"Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nu'aym,Nuh,Nuhayd,Numair,Nu'man,Nur al-"
+"Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,"
+"Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi,Rafid,Rafiq,Raghib,Rahman,Ra'id,"
+"Ra'if,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,Ramzi,Rani,Rashad,"
+"Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Ra'uf,Rayhan,Rayyan,Razin,Ridha,Ridwan,"
+"Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Sa'adah,Sab,Sabih,Sabir,Sabri,"
+"Sa'd,Sa'd al-Din,Sadad,Sadid,Sadiq,Sa'dun,Sa'id,Safi,Safiy,Safiy al-Din,"
+"Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Sa'ib,Saif,Saif al-Din,Sajid,"
+"Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,"
+"Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Sha'ban,Shadi,Shadin,Shafi,Shafiq,"
+"Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,"
+"Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shu'ayb,Shukri,Shumayl,Siddiq,"
+"Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,"
+"Sumrah,Suraqah,Su'ud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,"
+"Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,"
+"Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,'Ubaidah,Ubaid,"
+"Ubayy,'Udayl,'Uday,'Umar,Umarah,Umair,'Urwah,Usaym,Usama,'Utbah,Uthal,Uthman,"
+"Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Wa'il,Wajdi,Wajid,Wajih,Wakil,"
+"Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,"
+"Wazir,Yahya,Yaman,Ya'qub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,"
+"Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
+"Ziyad,Zubayr,Zuhayr"
 
 #. [race]: id=falcon
 #: Extended_Era/races/kalifa.cfg:15
 msgid "race^Falcon"
-msgstr ""
+msgstr "Sokol"
 
 #. [race]: id=falcon
 #: Extended_Era/races/kalifa.cfg:16
 msgid "race+female^Falcon"
-msgstr ""
+msgstr "Sokolice"
 
 #. [race]: id=falcon
 #: Extended_Era/races/kalifa.cfg:17
 msgid "race^Falcons"
-msgstr ""
+msgstr "Sokoli"
 
 #. [race]: id=sidhe
 #: Extended_Era/races/sidhe.cfg:5
 msgid "race^Sidhe Elf"
-msgstr ""
+msgstr "Sidhelin"
 
 #. [race]: id=sidhe
 #: Extended_Era/races/sidhe.cfg:6
 msgid "race+female^Sidhe Elf"
-msgstr ""
+msgstr "Sidhelinka"
 
 #. [race]: id=sidhe
 #: Extended_Era/races/sidhe.cfg:7
 msgid "race^Sidhe"
-msgstr ""
+msgstr "Sidheliné"
 
 #. [race]: id=bear
 #: Extended_Era/races/sidhe.cfg:15
 msgid "race^Bear"
-msgstr ""
+msgstr "Medvěd"
 
 #. [race]: id=bear
 #: Extended_Era/races/sidhe.cfg:16
 msgid "race+female^Bear"
-msgstr ""
+msgstr "Medvědice"
 
 #. [race]: id=bear
 #: Extended_Era/races/sidhe.cfg:17
 msgid "race^Bears"
-msgstr ""
+msgstr "Medvědi"
 
 #. [race]: id=fairy
 #: Extended_Era/races/sylvans.cfg:5
 msgid "race^Fairy"
-msgstr ""
+msgstr "Skřítek"
 
 #. [race]: id=fairy
 #: Extended_Era/races/sylvans.cfg:6
 msgid "race+female^Fairy"
-msgstr ""
+msgstr "Víla"
 
 #. [race]: id=fairy
 #: Extended_Era/races/sylvans.cfg:7
 msgid "race^Fairies"
-msgstr ""
+msgstr "Víly"
 
 #. [race]: id=wyrm
 #: Extended_Era/races/wyrm-ice.cfg:5
 msgid "race^Wyrm"
-msgstr ""
+msgstr "Červák"
 
 #. [race]: id=wyrm
 #: Extended_Era/races/wyrm-ice.cfg:6
 msgid "race+female^Wyrm"
-msgstr ""
+msgstr "Červině"
 
 #. [race]: id=wyrm
 #: Extended_Era/races/wyrm-ice.cfg:7
 msgid "race^Wyrms"
-msgstr ""
+msgstr "Červáci"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Ancient Banner, race=aragwaith
 #: Extended_Era/units/aragwaith/Ancient_Banner.cfg:5
 msgid "Ancient Banner"
-msgstr ""
+msgstr "Staršina se standartou"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Archer, race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:5
 msgid "Archer"
-msgstr ""
+msgstr "Lučištník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Archer, race=aragwaith
 #: Extended_Era/units/aragwaith/Archer.cfg:18
 msgid ""
@@ -627,19 +839,27 @@ msgid ""
 "exception. Their skills with a bow are comparable to those of some elves, "
 "and they are remarkably quick with their daggers."
 msgstr ""
+"Aragwaité jsou vznešení lidé. Ač nejsou příliš houževnatí, jejich výcvik z "
+"nich dělá jedny z nejvíce smrtonosných bojovníků na světě. Ani jejich "
+"lučištníci nejsou v tomto výjimkou. Dovedností, s kterou ovládají luk, se "
+"mohou srovnávat s některými elfy. Své dýky ovládají rovněž pozoruhodně "
+"zručným způsobem."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Captain, race=aragwaith
 #. [unit_type]: id=EE Dark Elf Captain, race=dark elf
 #: Extended_Era/units/aragwaith/Captain.cfg:5
 #: Extended_Era/units/dark_elves/Captain.cfg:5
 msgid "Captain"
-msgstr ""
+msgstr "Kapitán"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Eagle Master, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:5
 msgid "Eagle Master"
-msgstr ""
+msgstr "Pán orlů"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Eagle Master, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:19
 msgid ""
@@ -647,18 +867,25 @@ msgid ""
 "their winged friend become so strong that they act as one. As Eagle masters, "
 "they no longer need to give orders to their mounts, those anticipate them."
 msgstr ""
+"Se vzrůstající zkušeností se schopnosti jezdců na orlech zvyšují. Jejich "
+"vztah s okřídleným přítelem se stává natolik silným, že spolu tvoří takřka "
+"jednu osobu. Páni orlů již nepotřebují dávat svým nositelům rozkazy, neboť "
+"oni již předvídavě dělají to, co si jezdci přejí."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/aragwaith/Eagle_Master.cfg:36
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:37
 msgid "prey crush"
-msgstr ""
+msgstr "klovnutí"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Eagle Rider, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
-msgstr ""
+msgstr "Orlí jezdec"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Eagle Rider, race=aragwaith
 #: Extended_Era/units/aragwaith/Eagle_Rider.cfg:20
 msgid ""
@@ -667,17 +894,24 @@ msgid ""
 "enough, they usually willing to serve as a mount for their best friend, and "
 "their young mates learn the art of riding these giant birds."
 msgstr ""
+"Někteří mladí Aragwaiti chovají mladé orly. Nejsou to ovšem běžní orli, ale "
+"plemeno vznešených obřích lovců. Když vyrostou, jsou obvykle ochotni nosit a "
+"vozit své nejlepší přátele, kteří pak na nich rozvíjí své umění řízení "
+"obřích ptáků."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Flagbearer, race=aragwaith
 #: Extended_Era/units/aragwaith/Flagbearer.cfg:5
 msgid "Flagbearer"
-msgstr ""
+msgstr "Vlajkonoš"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Greatbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:5
 msgid "Greatbow"
-msgstr ""
+msgstr "Mistr luku"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Greatbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Greatbow.cfg:19
 msgid ""
@@ -689,35 +923,52 @@ msgid ""
 "pull these bows, anyone but the crafter who attempts to draw it could suffer "
 "serious injury."
 msgstr ""
+"Mistři luku prošli výcvikem přes dirky a dýky k mečům. Jsou lepšími "
+"bojovníky na blízko než Lukostřeleci, ale ne tak dobrými jako Zabijáci. "
+"Jejich luky jsou nicméně mistrovskými kousky vojenské konstrukce. Sestrojení "
+"vlastního luku trvá několik měsíců a každý luk je vyráběn svým uživatelem na "
+"míru podle jeho individuálních požadavků. Vzhledem k neuvěřitelné síle "
+"nátahu u takového luku by každý jiný než jeho tvůrce, kdo by se ho pokoušel "
+"natáhnout, mohl utrpět vážné poranění."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:5
 msgid "Guard"
-msgstr ""
+msgstr "Stráž"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:24
+#, fuzzy
 msgid ""
 "Chosen from the toughest Swordsmen, Guards willingly forgo some of their "
 "mobility for the advantages of armor. Whether in ceremonial posts during "
 "peace, or on the battlefield in times of war, their role is always the same: "
 "defending the Warlock nobilty."
 msgstr ""
+"Stráže jsou vybírány z nejlepších bojovníků s mečem. Vzdávají se částečně "
+"své pohyblivosti pro získání výhodnějšího pancéřování. Jejich úloha, ať už v "
+"mírových časech během ceremonií nebo v časech válečných na bitevním poli, je "
+"vždy jednoznačná: chránit a podporovat urozené Černokněžníky."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Guardian, race=aragwaith
 #: Extended_Era/units/aragwaith/Guardian.cfg:5
 msgid "Guardian"
-msgstr ""
+msgstr "Ochránce"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Lancer, race=aragwaith
 #: Extended_Era/units/aragwaith/Lancer.cfg:5
 msgid "Lancer"
-msgstr ""
+msgstr "Lancer"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Longswordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:5
 msgid "Longswordsman"
-msgstr ""
+msgstr "Bojovník s dlouhým mečem"
 
 #. [unit_type]: id=EE Aragwaith Longswordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:18
@@ -728,27 +979,37 @@ msgid ""
 "adopted a longer blade than the Swordsmen, yet they are able to wield it "
 "with equal grace and skill."
 msgstr ""
+"Ačkoli schopnosti Aragwaitských bojovníků s meči jsou při srovnání s "
+"podobnými jednotkami jiných ras nahlíženy s despektem, mezi vlastními "
+"Aragwaity požívají bojovníci s dlouhými meči obdiv. Z těchto válečníku se "
+"stali znalci umění výpadů a bloků, což vedlo k tomu, že si osvojili "
+"používání delších čepelí. Přitom je umí ovládat se stejnou elegancí a "
+"dovedností jako bojovníci s meči své kratší."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:81
 #: Extended_Era/units/aragwaith/Longswordsman.cfg:64
 msgid "longsword"
-msgstr ""
+msgstr "dlouhý meč"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Pikeman, race=aragwaith
 #: Extended_Era/units/aragwaith/Pikeman.cfg:5
 msgid "Pikeman"
-msgstr ""
+msgstr "Pikenýr"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Scout, race=aragwaith
 #: Extended_Era/units/aragwaith/Scout.cfg:5
 msgid "Scout"
-msgstr ""
+msgstr "Průzkumník"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Shield Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:5
 msgid "Shield Guard"
-msgstr ""
+msgstr "Štítonoš"
 
 #. [unit_type]: id=EE Aragwaith Shield Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Shield_Guard.cfg:24
@@ -760,16 +1021,24 @@ msgid ""
 "these ancient shields to remind the world and to honor these brave man and "
 "their sacrifice."
 msgstr ""
+"Tito válečníci třímají staré štíty svých předků. S těmito starobylými štíty "
+"jsou schopni udržet ve velkých bitvách linii, dokud nedorazí posily. Platí "
+"však za to velkou cenu. Mnoho z nich nepřežije bitvu a mnozí další zemřou v "
+"důsledků svých těžkých zranění. Pouze nejlepším válečníkům je umožněno nosit "
+"tyto starobylé štíty, které připomínají světu tyto statečné muže a oslavují "
+"jejich obět."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Silver Shield, race=aragwaith
 #: Extended_Era/units/aragwaith/Silver_Shield.cfg:5
 msgid "Silver Shield"
-msgstr ""
+msgstr "Šerý jezdec"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Slayer, race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:5
 msgid "Slayer"
-msgstr ""
+msgstr "Zabiják"
 
 #. [unit_type]: id=EE Aragwaith Slayer, race=aragwaith
 #: Extended_Era/units/aragwaith/Slayer.cfg:22
@@ -779,17 +1048,24 @@ msgid ""
 "in hand-to-hand combat. He is not as rugged as others of comparable skill, "
 "but far deadlier."
 msgstr ""
+"Ačkoli svou lukostřelbu zlepšili jen částečně, schopnosti přímého boje u "
+"sebe zabijáci dobře rozvinuli. Upouští od používání meče a raději bojují s "
+"kůsou. Nejsou tak drsní jako jiní bojovníci podobných schopností, ale mnohem "
+"smrtonosnější."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/aragwaith/Slayer.cfg:28
 msgid "glaive"
-msgstr ""
+msgstr "kůsa"
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Sorcerer, race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:5
 msgid "Aragwaith^Sorcerer"
-msgstr ""
+msgstr "Aragwaitský kouzelník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Sorcerer, race=aragwaith
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:19
 msgid ""
@@ -798,19 +1074,25 @@ msgid ""
 "aragwaithi throw a carefull eye on them mostly from a prefered distance of a "
 "hundred feets."
 msgstr ""
+"Kouzelníci dovedou být jako vítr, v jednu chvíli stojí ještě před někým a o "
+"chvilku později již za ním. Na bojišti platí za obávané nepřátele. I sami "
+"Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky stop."
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:37
 #: Extended_Era/units/aragwaith/Warlock.cfg:37
 #: Extended_Era/units/aragwaith/Wizard.cfg:36
 msgid "mage-bolt"
-msgstr ""
+msgstr "magický úder"
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:98
 msgid "Aragwaith^Sorceress"
-msgstr ""
+msgstr "Aragwaitská kouzelnice"
 
+# Popis jednotky
 #. [female]
 #: Extended_Era/units/aragwaith/Sorcerer.cfg:101
 msgid ""
@@ -819,12 +1101,17 @@ msgid ""
 "aragwaithi throw a carefull eye on them mostly from a prefered distance of a "
 "hundred feets."
 msgstr ""
+"Kouzelnice dovedou být jako vítr, v jednu chvíli stojí ještě před někým a o "
+"chvilku později již za ním. Na bojišti platí za obávané nepřátele. I sami "
+"Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky stop."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Spearman, race=aragwaith
 #: Extended_Era/units/aragwaith/Spearman.cfg:5
 msgid "Spearman"
-msgstr ""
+msgstr "Kopiník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Spearman, race=aragwaith
 #: Extended_Era/units/aragwaith/Spearman.cfg:18
 msgid ""
@@ -833,12 +1120,17 @@ msgid ""
 "knights have found themselves or their mounts impaled on the point of an "
 "Aragwaithi spear."
 msgstr ""
+"Méně obratní, zároveň však silnější Aragwaiti si volí za svou zbraň oštěp. "
+"Je to zbraň využitelná pro lov, ale i pro smrtící boj. Mnoho zbrklých rytířů "
+"nebo jejich koní už skončilo napíchnuto na jejich hrotech."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Strongbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:5
 msgid "Strongbow"
-msgstr ""
+msgstr "Lukostřelec"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Strongbow, race=aragwaith
 #: Extended_Era/units/aragwaith/Strongbow.cfg:35
 msgid ""
@@ -847,14 +1139,20 @@ msgid ""
 "longer than the daggers used by the typical archer, and they wield them far "
 "more effectively."
 msgstr ""
+"Vlastnictvím silnějšího luku a díky pravidelnému tréninku jsou lukostřelci "
+"smrtonosnějšími jednotkami než běžní lučištníci. Také jejich dirky jsou "
+"delší než nože lučištníků a lukostřelci je umí daleko lépe ovládat."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Swordmaster, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:5
 msgid "Swordmaster"
-msgstr ""
+msgstr "Mistr meče"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Swordmaster, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:20
+#, fuzzy
 msgid ""
 "Swordmasters do not come into their title lightly. They have endured years "
 "of rigorous Aragwaithi military training, and survived many ferocious "
@@ -864,26 +1162,41 @@ msgid ""
 "young, passing on the proud Aragwaithi martial traditions. Even the Royal "
 "Guards of Wesnoth respect the Swordmasters."
 msgstr ""
+"Mistři meče nepřichází k svému titulu snadno. Snášeli roky tvrdého bojového "
+"tréninku a přežili mnoho zuřivých bitev. Jejich umění ovládání sečných "
+"zbraní je popisováno s úctou těmi, kdo měli možnost ho zažít ... a přežít.\n"
+"Po získání svého titulu jsou mistři meče odpovědní za výcvik mladších, "
+"pokračujíce v hrdých vojenských tradicích Aragvaitů. Dokonce příslušníci "
+"Královské stráže Wesnothu respektují tyto mistry meče."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Swordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:43
 msgid "Swordsman"
-msgstr ""
+msgstr "Bojovník s mečem"
 
 #. [unit_type]: id=EE Aragwaith Swordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:57
+#, fuzzy
 msgid ""
 "While the Aragwaithi are slight of body, they are also fast and nimble. "
 "These abilities, coupled with the intensive training given to the Agarwaithi "
 "military, make for superb swordsmen. Swordsmen are clad in light chain mail "
 "- the better to resist the blades of their enemies."
 msgstr ""
+"Přestože Aragwaité nejsou mohutní vzrůstem, jsou naproti tomu rychlí a "
+"mrštní. Tyto jejich schopnosti ve spojení s intenzivním tréninkem, který je "
+"vlastní vojskům Aragwaitů, z nich dělají skvělé šermíře. Bojovníci s mečem "
+"jsou jako kroužky v kroužkové zbroji - jsou to nejlepší, co odolá čepelím "
+"nepřátel."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Warlock, race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:5
 msgid "Aragwaith^Warlock"
-msgstr ""
+msgstr "Aragwaitský černokněžník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Aragwaith Warlock, race=aragwaith
 #: Extended_Era/units/aragwaith/Warlock.cfg:21
 msgid ""
@@ -892,12 +1205,18 @@ msgid ""
 "and of course in magic. Wielding powerful fire, competent with their staves, "
 "possessing a healing touch, Warlocks are the noblest of a noble people."
 msgstr ""
+"K magii inklinující Aragwaité neprocházejí pouze bojovým výcvikem jako "
+"ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. "
+"Černokněžníci, třímající své ohnivé hole a ovládající doteky uzdravení, jsou "
+"ti nejvznešenější ze vznešených Aragwaitů."
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:112
 msgid "female^Warlock"
-msgstr ""
+msgstr "Aragwaitská černokněžka"
 
+# Popis jednotky
 #. [female]
 #: Extended_Era/units/aragwaith/Warlock.cfg:115
 msgid ""
@@ -907,22 +1226,30 @@ msgid ""
 "their staves, possessing a healing touch, Warlocks are the noblest of a "
 "noble people."
 msgstr ""
+"K magii inklinující Aragwaitky neprocházejí pouze bojovým výcvikem jako "
+"ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. "
+"Černokněžnice, třímající své ohnivé hole a ovládající doteky uzdravení, jsou "
+"ty nejvznešenější ze vznešených Aragwaitek."
 
+# Název jednotky
 #. [unit_type]: id=EE Aragwaith Wizard, race=aragwaith
 #: Extended_Era/units/aragwaith/Wizard.cfg:5
 msgid "Aragwaith^Wizard"
-msgstr ""
+msgstr "Aragwaitský mág"
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/aragwaith/Wizard.cfg:106
 msgid "female^Wizard"
-msgstr ""
+msgstr "Aragwaitská magyně"
 
+# Název jednotky
 #. [unit_type]: id=EE Bear, race=bear
 #: Extended_Era/units/bears/Bear.cfg:5
 msgid "Bear"
-msgstr ""
+msgstr "Medvěd"
 
+# Popis jednotky
 #. [unit_type]: id=EE Bear, race=bear
 #: Extended_Era/units/bears/Bear.cfg:18
 msgid ""
@@ -933,17 +1260,26 @@ msgid ""
 "proportions: even the most skilled of warriors will not look lightly on the "
 "bulk of an angry, advancing bear."
 msgstr ""
+"O dospělých medvědech je známo, že si hledí svého prospěchu. Než by "
+"riskovali, raději utečou z boje. Přesto někteří z nich z různých důvodu boj "
+"vyhledávají. Tito medvědi pak jsou hrozivým zjevem. Dospělý medvěd je masa "
+"svalů, pařátů a srsti, poháněná zuřivostí jíž téměř nelze čelit. Dokonce i "
+"zkušení válečníci blednou při pohledu na takový vzteklý kolos, jako je "
+"postupující medvěd."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/bears/Young.cfg:22 Extended_Era/units/bears/Bear.cfg:23
 msgid "bearhug"
-msgstr ""
+msgstr "medvědí tlapa"
 
+# Název jednotky
 #. [unit_type]: id=EE Young Bear, race=bear
 #: Extended_Era/units/bears/Young.cfg:5
 msgid "Young Bear"
-msgstr ""
+msgstr "Mladý medvěd"
 
+# Popis jednotky
 #. [unit_type]: id=EE Young Bear, race=bear
 #: Extended_Era/units/bears/Young.cfg:17
 msgid ""
@@ -955,11 +1291,19 @@ msgid ""
 "powerful limbs and sheer mass. Its heavy fur, thick skin, and already "
 "impressive bulk defy its surprising agility in the forest."
 msgstr ""
+"Je vzácné vidět, že by medvěd byl ochoten bojovat ve významějším měřítku. "
+"Přesto má občas některý z nich dostatečnou motivaci. Například když je hodně "
+"vyhladovělý, je ohroženo jeho teritorium nebo kvůli svému spojenci. Dokonce "
+"i nedospělý mědvěd vzbuzuje na bitevním poli strach, trhajíce a drtíce svými "
+"drápy a tlapami i drtíce celou masou svého těla. I když má těžký kožich, "
+"pevnou kůži a přes mladý věk už imponující velikost, jeho pohyblivost v lese "
+"je překvapující."
 
+# Název jednotky
 #. [unit_type]: id=EE Abomination, race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:5
 msgid "Abomination"
-msgstr ""
+msgstr "Ohavnost"
 
 #. [unit_type]: id=EE Abomination, race=demon
 #: Extended_Era/units/chaos/Abomination.cfg:22
@@ -972,12 +1316,20 @@ msgid ""
 "incredible raw strength, has turned abominations into veritable killing "
 "machines, something their chaos masters delight in."
 msgstr ""
+"Ohavnosti, promáčené krví svých nepřátel nesou už malou podobnost s mutanty, "
+"z kterých vznikly. I pouhá přítomnost takových monster na obzoru nutí "
+"nepřátelské generály nařídit rychlý nekontrolovaný ústup. Obrovská "
+"\"obtěžkaná\" masa těl ohavností dokáže snést závratné množství poškození a "
+"je tak skoro nemožné je zabít. To spolu s jejich neuvěřitelnou hrubou silou "
+"z nich dělá opravdové stroje na zabíjení a tak i miláčky vládců Chaosu."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Blood Knight, race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:5
 msgid "Blood Knight"
-msgstr ""
+msgstr "Krvavý rytíř"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Blood Knight, race=human
 #: Extended_Era/units/chaos/Blood_Knight.cfg:21
 msgid ""
@@ -986,12 +1338,17 @@ msgid ""
 "Lords, they promote them to the rank of Blood Knights, supreme warriors of "
 "Chaos."
 msgstr ""
+"Nejvyšší mistrovství přichází s největší obětí. Temní rytíři si otevřeli "
+"žíly a nechali se vykrvácet, neboť když chuť jejich krve uspokojí Pány "
+"Chaosu, budou povýšeni na krvavé rytíře, vrcholné válečníky Chaosu."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Daemon, race=demon
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:5
 msgid "Chaos Daemon"
-msgstr ""
+msgstr "Démon chaosu"
 
+# Popis jednotky
 #. [unit_type]: id=EE Lesser Daemon, race=demon
 #. [unit_type]: id=EE Chaos Daemon, race=demon
 #. [unit_type]: id=EE Greater Daemon, race=demon
@@ -1004,17 +1361,24 @@ msgid ""
 "tougher than the average human the lesser demons can easily turn the tide of "
 "a battle due to the combination of their nible movement and tough fighting..."
 msgstr ""
+"Bohové chaosu darují nižší démony všem, kteří se ukázali hodní získat z "
+"jejich strany takovou pomoc. Ačkoli nejsou tito démoni o moc odolnější "
+"bojovníci než běžný humanoid, mohou přesto snadno zvrátit průběh bitvy díky "
+"kombinaci své dobré pohyblivosti a bojeschopnosti..."
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/chaos/Chaos_Daemon.cfg:113
 msgid "female^Chaos Demon"
-msgstr ""
+msgstr "Démonka chaosu"
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Demonologist, race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:5
 msgid "Demonologist"
-msgstr ""
+msgstr "Démonolog"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Demonologist, race=human
 #: Extended_Era/units/chaos/Demonologist.cfg:26
 msgid ""
@@ -1023,29 +1387,37 @@ msgid ""
 "human in these creatures are only bodies and memories of invokers and magi, "
 "who finally achieved the true power of their lords."
 msgstr ""
+"Démonickým mistrovstvím je přeměnit se v podstatě v démona. Démonologové "
+"jsou démonické inteligence uvezněné v lidských tělech. Vše, co zbylo z "
+"lidské podstaty je pouze tělo a vzpomínky toho, kdo konečně dosáhl pravé "
+"síly svých pánů."
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/chaos/Magus.cfg:51
 #: Extended_Era/units/chaos/Invoker.cfg:36
 #: Extended_Era/units/chaos/Demonologist.cfg:40
 msgid "chaos blast"
-msgstr ""
+msgstr "výron chaosu"
 
 #. [attack]: type=fire
 #: Extended_Era/units/chaos/Demonologist.cfg:52
 msgid "infernal storm"
-msgstr ""
+msgstr "pekelná bouře"
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/chaos/Demonologist.cfg:162
 msgid "female^Demonologist"
-msgstr ""
+msgstr "Démonoložka"
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Armorer, race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:5
 msgid "Doom Guard"
-msgstr ""
+msgstr "Stráž zatracení"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Armorer, race=human
 #: Extended_Era/units/chaos/Doom_Guard.cfg:21
 msgid ""
@@ -1055,7 +1427,13 @@ msgid ""
 "not the ones to fight, they are the ones to stand against every possible "
 "enemy."
 msgstr ""
+"Démoni dobře vědí, že jediná věc, která zadrží zničující vlnu je silná zeď. "
+"Stráž zatracení představuje takovou zeď, zeď z masa a oceli. Agresivita je u "
+"příslušníku Stráže přetavena do fanatické oddanosti a tak postrádají "
+"krvežíznivost. Úkolem Stráží zatracení není přímo útočit, jejich úkolem je "
+"čelit jakémukoli možnému nepříteli."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/dark_elves/Lord.cfg:34
 #: Extended_Era/units/dark_elves/High_Lord.cfg:35
@@ -1063,12 +1441,13 @@ msgstr ""
 #: Extended_Era/units/chaos/Doom_Guard.cfg:35
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:36
 msgid "shield"
-msgstr ""
+msgstr "štít"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Lesser Crab, race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:5
 msgid "Evil Crab"
-msgstr ""
+msgstr "Ďábelský krab"
 
 #. [unit_type]: id=EE Lesser Crab, race=demon
 #: Extended_Era/units/chaos/Evil_Crab.cfg:22
@@ -1078,33 +1457,42 @@ msgid ""
 "ordinary nature. Evil crab's are one all too unfortunate result of this "
 "process, as the merfolk and naga can attest to."
 msgstr ""
+"Zhoubnost chaosu je proces záludný a pomalý. Dokonce i zvířata tak neškodná "
+"jako jsou krabi mohou být nevědomky zvrácena a deformována do podoby velmi "
+"vzdálené od své přirozenosti. Ďábelští krabi jsou právě takovým nešťastným "
+"výsledkem tohoto procesu, což leckterý vodní člověk či naga může potvrdit."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/chaos/Evil_Crab.cfg:27
 #: Extended_Era/units/chaos/Hell_Crab.cfg:28
 msgid "pincers"
-msgstr ""
+msgstr "klepeta"
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/chaos/Evil_Crab.cfg:35
 #: Extended_Era/units/chaos/Hell_Crab.cfg:36
 msgid "evil eye"
-msgstr ""
+msgstr "uhranutí"
 
+# Název jednotky
 #. [unit_type]: id=EE Greater Daemon, race=demon
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:5
 msgid "Greater Daemon"
-msgstr ""
+msgstr "Vyšší démon"
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/chaos/Greater_Daemon.cfg:114
 msgid "female^Greater Demon"
-msgstr ""
+msgstr "Vyšší démonka"
 
+# Název jednotky
 #. [unit_type]: id=EE Greater Mutation, race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:5
 msgid "Greater Mutation"
-msgstr ""
+msgstr "Vyšší mutant"
 
 #. [unit_type]: id=EE Greater Mutation, race=demon
 #: Extended_Era/units/chaos/Greater_Mutation.cfg:21
@@ -1115,12 +1503,19 @@ msgid ""
 "soldier's brave or indeed foolish enough to face off against such a "
 "creature, especially when night falls."
 msgstr ""
+"Pro Maguse, který je vytvořil, může být velkým překvapením, že mutanti časem "
+"sami nabývají na vzrůstu i síle. Vypadá to, že zabíjení je přirozeným "
+"stimulem pro růst těchto krvežíznivých potvor. Jen málo vojáků je dost "
+"statečných nebo bláznivých, aby čelili takové stvůře, obzvláště když padne "
+"noc."
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Headhunter, race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:5
 msgid "Headhunter"
-msgstr ""
+msgstr "Lovec hlav"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Headhunter, race=human
 #: Extended_Era/units/chaos/Headhunter.cfg:20
 msgid ""
@@ -1128,11 +1523,15 @@ msgid ""
 "that will be infested with the daemonic plague. They are the ones to spread "
 "fear and message of daemonic invasions."
 msgstr ""
+"Tito neživí zvědové, jenž zasvětili svou duši démonům, se objevují jako "
+"předvoj v místech, která jsou brzy poté zamořeny démonickou nákazou. Tito "
+"tvorové jsou těmi, kdo zvěstují a šíří strach z invaze démonických stvůr."
 
+# Název jednotky
 #. [unit_type]: id=EE Greater Crab, race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:5
 msgid "Hell Crab"
-msgstr ""
+msgstr "Pekelný krab"
 
 #. [unit_type]: id=EE Greater Crab, race=demon
 #: Extended_Era/units/chaos/Hell_Crab.cfg:23
@@ -1143,12 +1542,19 @@ msgid ""
 "brought out. The Hell Crab is a powerful example of the potential all Evil "
 "Crabs carry inside them."
 msgstr ""
+"V každém druhu se často objevují odchylky, tvořené mimořádně odolnými a "
+"silnými jedinci, kteří se rodí jen se zdánlivě minimální šancí na přežití. "
+"Osvědčení služebníci chaosu mohou shledat, že jejich tělesné proporce se "
+"posouvají a rostou tak, jako by jim byly dány takové latentní rysy. Pekelný "
+"krab je jasným příkladem toho, v co se mohou všichni ďábelští kraby proměnit."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Elite Armorer, race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:5
 msgid "Hell Guardian"
-msgstr ""
+msgstr "Pekelný obránce"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Elite Armorer, race=human
 #: Extended_Era/units/chaos/Hell_Guardian.cfg:22
 msgid ""
@@ -1157,24 +1563,33 @@ msgid ""
 "commanded to, they could easily withstand the avalanche without stepping "
 "back."
 msgstr ""
+"Pouze ti nejtužší z obrněnců jsou hodni masivního brnění, vykovaného ve "
+"žhavých jamách pravlasti démonů. O těchto bojovnících se říká, že kdyby měli "
+"rozkaz postavit se proti lavině, odolali by její síle bez zakolísání."
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Hound, race=monster
 #: Extended_Era/units/chaos/Hound.cfg:5
 msgid "Hound"
-msgstr ""
+msgstr "Lovecký pes"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Hound, race=monster
 #: Extended_Era/units/chaos/Hound.cfg:18
 msgid ""
 "Trained hunting dog are ferocious animals, eager to attack in an "
 "uncontrolled frenzy."
 msgstr ""
+"Cvičení lovečtí psi jsou zuřivá zvířata, dychtící s nekontrolovatelnou "
+"posedlostí po boji."
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Flesh Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:5
 msgid "Flesh Hound"
-msgstr ""
+msgstr "Lidožravý pes"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Flesh Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Flesh.cfg:22
 msgid ""
@@ -1183,24 +1598,34 @@ msgid ""
 "daemons cunning and a dog's senses, these muscled berserkers follow the "
 "stench of blood."
 msgstr ""
+"Lovecký pes, který se stal hostitelem nižšího démona se mění na lidožravého "
+"psa. Tato nepřirozená transformace z něj dělá napůl psa, napůl humanoida. S "
+"démonickou chytrostí a psími instinkty pasou tito svalnatí zběsilci po pachu "
+"a chuti krve."
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Rabid Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:5
 msgid "Rabid Hound"
-msgstr ""
+msgstr "Vzteklý pes"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Rabid Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Rabid.cfg:18
 msgid ""
 "Dog infused with chaotic magic turn rabid. The magic degrades their mind and "
 "turns them into slavering beasts that hunger for bloodshed."
 msgstr ""
+"Psi „naočkovaní“ magií chaosu se stávájí vzteklými. Tato magie spoutá jejich "
+"mysl a promění je v otrocky poslušné zrůdy, žíznící po krveprolití."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Warp Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:5
 msgid "Warp Hound"
-msgstr ""
+msgstr "Padlý pes"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Warp Hound, race=monster
 #: Extended_Era/units/chaos/Hound_Warp.cfg:19
 msgid ""
@@ -1209,25 +1634,38 @@ msgid ""
 "becoming Warp Hounds. Their only desire is to rend their enemies with teeth "
 "and claw."
 msgstr ""
+"Vzteklí psi postupně mutují vlivem zákeřné magie chaosu, která koluje jejich "
+"těly. Narostou jim rohy a získají i další rysy, typické pro démony. Stanou "
+"se z nich padlí psi. Jejich jedinou touhou je roztrhat a rozpárat své "
+"nepřátele."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Invader, race=human
 #: Extended_Era/units/chaos/Invader.cfg:5
 msgid "Invader"
-msgstr ""
+msgstr "Útočník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Invader, race=human
 #: Extended_Era/units/chaos/Invader.cfg:20
+#, fuzzy
 msgid ""
 "Chaos warriors share the common believe that any government and any god is "
 "corrupt by default, by this thought they fulfill the bidding of chaos lords "
 "who do not sugar coat their reign and let their men face the harsh truth."
 msgstr ""
+"Válečníci chaosu jsou obecně přesvědčeni, že jakákoli vláda či jakékoli "
+"božstvo je ze své podstaty zvrácené. S tímto přesvědčením pak snadno "
+"přijímají nabídku vládců chaosu, kteří se nezatěžují snahou vylepšovat obraz "
+"své vlády a staví před oči svých poddaných nepříjemnou pravdu, tak jak je."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Invoker, race=human
 #: Extended_Era/units/chaos/Invoker.cfg:5
 msgid "Invoker"
-msgstr ""
+msgstr "Vyvolávač"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Invoker, race=human
 #: Extended_Era/units/chaos/Invoker.cfg:22
 msgid ""
@@ -1238,17 +1676,25 @@ msgid ""
 "mortal. The only difference is they have no soul, for they sold theirs to "
 "their daemonic Gods."
 msgstr ""
+"Bývají viděni v prvních liniích vpádů Chaosu. Obklopeni malými skupinami "
+"válečníků velí tito adepti ohnivých umění Chaosu předvojům chaotických hord, "
+"snažíce se tak najít nejlepší příležitost k vlastnímu postupu a povýšení. V "
+"této podobě je jejich mysl stále srovnatelná s myslí běžných smrtelníků. "
+"Liší se „jenom“ v tom, že nemají duše, neboť je zaprodali Bohům Chaosu."
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/chaos/Invoker.cfg:117
 msgid "female^Invoker"
-msgstr ""
+msgstr "Vyvolávačka"
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Knight, race=human
 #: Extended_Era/units/chaos/Knight.cfg:5
 msgid "Dark Knight"
-msgstr ""
+msgstr "Temný rytíř"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Knight, race=human
 #: Extended_Era/units/chaos/Knight.cfg:17
 msgid ""
@@ -1257,21 +1703,27 @@ msgid ""
 "on combat alter depending on the situation which makes him a tough warrior "
 "to fight."
 msgstr ""
+"Temný rytíř je zdatnější bojovník než běžný stoupenec chaosu. Svého oponenta "
+"se pokouší zmást tím, že každou rukou ovládá jinou zbraň a svůj způsob boje "
+"obměňuje podle situace. To z něj dělá nebezpečného protivníka."
 
+# Název jednotky
 #. [unit_type]: id=EE Lesser Daemon, race=demon
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:5
 msgid "Lesser Daemon"
-msgstr ""
+msgstr "Nižší démon"
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/chaos/Lesser_Daemon.cfg:106
 msgid "female^Lesser Demon"
-msgstr ""
+msgstr "Nižší démonka"
 
+# Název jednotky
 #. [unit_type]: id=EE Lesser Mutation, race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:5
 msgid "Lesser Mutation"
-msgstr ""
+msgstr "Nižší mutant"
 
 #. [unit_type]: id=EE Lesser Mutation, race=demon
 #: Extended_Era/units/chaos/Lesser_Mutation.cfg:21
@@ -1281,12 +1733,19 @@ msgid ""
 "Mutations were created. These warped monstrosities were gifted with a self "
 "healing body whose very touch other races find poisonous."
 msgstr ""
+"Nesčetné a neustále se proměňující armády chaosu rozpoznaly potřebu udržet "
+"dostatečnou sílu uvnitř svých řad. Proto byli v temných a vzdechuplných "
+"laboratořích vytvořeni mutanti. Tato deformovaná monstra jsou obdarována "
+"regenerujícím se tělem, které však příslušníky jiných ras při kontaktu "
+"otravuje jedem."
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Magus, race=human
 #: Extended_Era/units/chaos/Magus.cfg:5
 msgid "Magus"
-msgstr ""
+msgstr "Magus"
 
+# Popis jednotky
 #. [unit_type]: id=EE Chaos Magus, race=human
 #: Extended_Era/units/chaos/Magus.cfg:25
 msgid ""
@@ -1297,21 +1756,30 @@ msgid ""
 "turning back, but aspire to lose their humanity and succumb to the very core "
 "of Chaos."
 msgstr ""
+"Toto jsou ti, kteří shromažďují kolem sebe větší skupiny bojovníků a "
+"podporují je svou magií. Poté, co tito mágové chaosu prožili doteky "
+"démonické esence, je bystrost jejich mysli a způsob uvažování podobnější "
+"více démonu než člověku. Uvězněni mezi životní formou humanoida a démona, "
+"nesnaží se vydat zpět ke svému původu, ale usilují zbavit se zbytků humanity "
+"a podlehnout vlastní esenci Chaosu."
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/chaos/Magus.cfg:138
 msgid "female^Magus"
-msgstr ""
+msgstr "Maga"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Marauder, race=human
 #: Extended_Era/units/chaos/Marauder.cfg:5
 msgid "Marauder"
-msgstr ""
+msgstr "Nájezdník"
 
+# Název jednotky
 #. [unit_type]: id=EE Chaos Overlord, race=human
 #: Extended_Era/units/chaos/Overlord.cfg:5
 msgid "Overlord"
-msgstr ""
+msgstr "Vladař"
 
 #. [unit_type]: id=EE Chaos Overlord, race=human
 #: Extended_Era/units/chaos/Overlord.cfg:29
@@ -1325,17 +1793,28 @@ msgid ""
 "resilience and a demonic mount, these are blood knights no longer but "
 "Overlords of Chaos."
 msgstr ""
+"Titul vladaře se získává, neuděluje. Aby se mohli stát někým takovým, musí "
+"krvaví rytíři projít nejdrsnějšími a nejbrutálnějšími zkouškami, aby ukojili "
+"své temné bohy. Spáleniny a zlomené kosti dokládají obtížnost těchto "
+"zkoušek, nicméně každý rok se je (možná bláhově) pokusí splnit nejméně jeden "
+"válečník. V historii je zaznamenáno, že jen několika vybraným se kdy vůbec "
+"podařilo vrátit se ze zkoušek naživu. Je jim udělena nesvatá síla, nadlidská "
+"odolnost a démonický kůň a již to nejsou krvaví rytíři, ale skuteční vládci "
+"Chaosu."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Chaos Soulhunter, race=human
 #: Extended_Era/units/chaos/Soulhunter.cfg:5
 msgid "Soulhunter"
-msgstr ""
+msgstr "Lovec duší"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Winged Daemon, race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:5
 msgid "Winged Daemon"
-msgstr ""
+msgstr "Okřídlený démon"
 
+# Popis jednotky
 #. [unit_type]: id=EE Winged Daemon, race=demon
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:28
 msgid ""
@@ -1344,12 +1823,17 @@ msgid ""
 "pleasure at sudden strikes and appearing in the place, that no one could "
 "expect them."
 msgstr ""
+"Někteří démoni jsou obdarováni silou, jiní rychlostí. Okřídlení démoni jsou "
+"poslové a zvědi Chaosu. Vyžívají se v náhlých útocích a objevování se na "
+"nečekaných místech."
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/chaos/Winged_Daemon.cfg:116
 msgid "female^Winged Demon"
-msgstr ""
+msgstr "Okřídlená démonka"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Captain, race=dark elf
 #: Extended_Era/units/dark_elves/Captain.cfg:21
 msgid ""
@@ -1358,12 +1842,17 @@ msgid ""
 "to do their best to defend the Matron Mother with their swords and short "
 "spears."
 msgstr ""
+"Tito elfové šli příkladem ostatním vojákům a dosáhli hodnosti kapitána. "
+"Ačkoli se nikdy nestanou lordy, stále usilují co nejlépe vládnout svými meči "
+"a oštěpy k obraně Matky matek."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Cleric, race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:5
 msgid "female^Cleric"
-msgstr ""
+msgstr "Kněžka"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Cleric, race=dark elf
 #: Extended_Era/units/dark_elves/Cleric.cfg:22
 msgid ""
@@ -1372,19 +1861,26 @@ msgid ""
 "they use for their sadistic pleasure. Terribly seductive, they are both "
 "feared and admired for their beauty and cruelty."
 msgstr ""
+"Kněžky jsou schopny vládnout svými magickými schopnostmi stejně jako svými "
+"palcáty, což i trpaslíci už zjistili. Ovládájí schopnost uzdravování, věc "
+"kterou využívají pro svá sadistická potěšení. Nebezpečně svůdné, jsou "
+"zároveň obávané i obdivované pro svou krásu i krutost."
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/dark_elves/Enchantress.cfg:31
 #: Extended_Era/units/dark_elves/Sorceress.cfg:34
 #: Extended_Era/units/dark_elves/Cleric.cfg:35
 msgid "magic torture"
-msgstr ""
+msgstr "magická tortura"
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Corsair, race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:5
 msgid "Corsair"
-msgstr ""
+msgstr "Korzár"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Corsair, race=dark elf
 #: Extended_Era/units/dark_elves/Corsair.cfg:18
 msgid ""
@@ -1392,12 +1888,17 @@ msgid ""
 "run. With they're razor sharp swords, they can splice and dice a dwarves "
 "beard."
 msgstr ""
+"Nikdo nemůže obstát sám proti Korzárovi. Pokud se někdo dostane do takové "
+"situace, měl by uprchnout. Jejich meče, ostré jako břitvy, by oholily vousy "
+"trpaslíka i podélně jako nic."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Enchantress, race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:5
 msgid "female^Enchantress"
-msgstr ""
+msgstr "Čarodějka"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Enchantress, race=dark elf
 #: Extended_Era/units/dark_elves/Enchantress.cfg:18
 msgid ""
@@ -1407,12 +1908,18 @@ msgid ""
 "Through the guiding of the Clerics, someday they will become a mighty "
 "Sorceress."
 msgstr ""
+"Temné elfky často vstupují ve velmi mladém věku do Řádu Kněžek. Začínají "
+"jako čarodějky s omezenými fyzickými i magickými schopnostmi. Jsou na "
+"počátku praktikování mučících technik. Pod vedením Kněžek se z nich stanou "
+"mocné kouzelnice."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Fighter, race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:5
 msgid "Fighter"
-msgstr ""
+msgstr "Bojovník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Fighter, race=dark elf
 #: Extended_Era/units/dark_elves/Fighter.cfg:24
 msgid ""
@@ -1420,12 +1927,17 @@ msgid ""
 "training. Dark Elves believe that only the best should have the honor of "
 "fighting for the Matron Mother."
 msgstr ""
+"Mnoho bojovníků, nováčků Domovské armády, zemře kvůli nedostatku zkušeností "
+"již zpočátku. Temní elfové však věří, že jejich nejčestnějším úkolem je "
+"právě bojovat za Matku matek."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf High Lord, race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:5
 msgid "High Lord"
-msgstr ""
+msgstr "Velký lord"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf High Lord, race=dark elf
 #: Extended_Era/units/dark_elves/High_Lord.cfg:21
 msgid ""
@@ -1436,24 +1948,36 @@ msgid ""
 "follow them fearlessly, confident that through their Lords guidance, none "
 "can stand before them."
 msgstr ""
+"Když pobývají ve svých hradech, věnují se velkolordové běžným povinnostem, "
+"jako je dohled nad otroky nebo krmení ještěrů. Nosí jednoduchá fialová "
+"roucha a jsou vždy učesaní. Nicméně, na bitevním poli jsou odvážní a smělí "
+"jako málokdo. Po letech zkušeností znají každý použitelný trik. Jejich muži "
+"je nebojácně následují, s přesvědčením, že pod vedením velkého lorda jim "
+"nikdo nemůže odolat."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Hunter, race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:5
 msgid "Hunter"
-msgstr ""
+msgstr "Lovec"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Hunter, race=dark elf
 #: Extended_Era/units/dark_elves/Hunter.cfg:21
 msgid ""
 "Lurking in the ever dark depths of the caves, the Hunters move around with "
 "out a sound, except for the twang of their crossbows."
 msgstr ""
+"Číhajíce v těch nejtemnějších zákoutích jeskyní, pohybují se lovci bez hluku "
+"a jen drnčení tětiv kuší oznamuje jejich přítomnost."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Lizard Master, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:5
 msgid "Lizard Master"
-msgstr ""
+msgstr "Pán ještěrů"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Lizard Master, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:19
 msgid ""
@@ -1461,18 +1985,24 @@ msgid ""
 "Many an Dwarf has been cut in two by it's strong jaws. It would be well to "
 "recruit several of these powerful units."
 msgstr ""
+"Ačkoli nejsou ještěři tak rychlý jako koně, jsou daleko silnější. Mnoho "
+"trpaslíků bylo překousnuto ve dví silnými čelistmi ještěrů. Vyplatí se "
+"naverbovat několik těchto silných jednotek."
 
+# zbraň
 #. [attack]: type=pierce
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:23
 #: Extended_Era/units/dark_elves/Lizard_Master.cfg:24
 msgid "deathlance"
-msgstr ""
+msgstr "útočný dřevec"
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Lizard Rider, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:5
 msgid "Lizard Rider"
-msgstr ""
+msgstr "Jezdec na ještěru"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Lizard Rider, race=dark elf
 #: Extended_Era/units/dark_elves/Lizard_Rider.cfg:18
 msgid ""
@@ -1481,11 +2011,15 @@ msgid ""
 "unknown, to go where no Dark Elf has gone before. Some day, they will become "
 "Master of the Lizard."
 msgstr ""
+"Již od dětství absolvují se svým zvířetem výcvik, krmí ho, ošetřují a také u "
+"něj spí. Právě jejich poviností je vyrážet na zvědy do neznáma, jít tam, kde "
+"žádný temný elf ještě nebyl. A jednoho dne se z nich stanou Páni ještěrů."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Lord, race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:5
 msgid "Lord"
-msgstr ""
+msgstr "Lord"
 
 #. [unit_type]: id=EE Dark Elf Lord, race=dark elf
 #: Extended_Era/units/dark_elves/Lord.cfg:20
@@ -1495,12 +2029,18 @@ msgid ""
 "lead their men in battle, and hold the law with an iron grip. They lead as "
 "an example to the life of a warrior in the realm of the Dark Elves."
 msgstr ""
+"Ti elfové, kteří získali titul lorda pro svou mazanost, statečnost, odvahu a "
+"sílu, pak užívají nádherně dekorované vybavení. Řídí své provincie, vedou "
+"své muže do bitev a vládnou svými zákony jako železnou rukou. Představují v "
+"říši temných elfů příklady pro život válečníka."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Marshal, race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:5
 msgid "Marshal"
-msgstr ""
+msgstr "Maršál"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Marshal, race=dark elf
 #: Extended_Era/units/dark_elves/Marshal.cfg:22
 msgid ""
@@ -1509,12 +2049,17 @@ msgid ""
 "Although they can never become Lords, they still strive to do their best to "
 "defend the Matron Mother with their swords and short spears."
 msgstr ""
+"Tito elfové se osvědčili v boji i mimo něj svým charakterem a způsoby. "
+"Vydobyli si pozici maršála. Ačkoli se nikdy nestanou lordy, stále usilují co "
+"nejlépe vládnout svými meči a oštěpy k obraně Matky matek."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Noble, race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:5
 msgid "Noble"
-msgstr ""
+msgstr "Urozený elf"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Noble, race=dark elf
 #: Extended_Era/units/dark_elves/Noble.cfg:20
 msgid ""
@@ -1523,12 +2068,18 @@ msgid ""
 "battlefield tactics. They have highly decorative shields that they use in "
 "battle to attack and encourage their troops."
 msgstr ""
+"Mladí urození elfové jsou stateční a zbrklí. Celé své dětství trénovali s "
+"mečem a učili se bitevní taktiku od nejlepších maršálů. Nosí vysoce zdobené "
+"štíty, které využívají na bitevním poli k útoku a k posilování odvahy svých "
+"jednotek."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Shadow, race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:5
 msgid "Shadow"
-msgstr ""
+msgstr "Stín"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Shadow, race=dark elf
 #: Extended_Era/units/dark_elves/Shadow.cfg:21
 msgid ""
@@ -1537,18 +2088,23 @@ msgid ""
 "by thrusting their daggers in the back of their target or by shooting fast a "
 "lot of bolts from their crossbow."
 msgstr ""
+"Skryti bezpečně ve stínech jeskynní, zaútočí, když je to nejméně očekáváno. "
+"Navzdory své fyzické slabosti mohou způsobit cílům svých útoků velká "
+"zranění, ať už je to zákeřné bodání dýkou nebo rychlá střelba z kuše."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/dark_elves/Stalker.cfg:27
 #: Extended_Era/units/dark_elves/Shadow.cfg:26
 #: Extended_Era/units/dwarves/Flamethower.cfg:32
 msgid "dagger"
-msgstr ""
+msgstr "dýka"
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Sorcerer, race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:5
 msgid "Dark Elf^Sorcerer"
-msgstr ""
+msgstr "Elfský kouzelník"
 
 #. [unit_type]: id=EE Dark Elf Sorcerer, race=dark elf
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:19
@@ -1558,19 +2114,26 @@ msgid ""
 "down a path toward the dark arts practiced by the Necromancers and Lichs. "
 "Their mighty cold blast can freeze any foe that dares to cross their path."
 msgstr ""
+"Kouzelníci jsou mágové, kteří se hlouběji ponořili do studia mystických "
+"umění. Jejich bádání je pohltilo do pátrání po větší moci, což je vedlo k "
+"temným praktikám nekromancerů a lichů. Jejich mocný oblak chladu může "
+"zmrazit kohokoli, kdo by se odvážil jim zkřížit cestu."
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/dark_elves/Sorcerer.cfg:24
 #: Extended_Era/units/dark_elves/Warlock.cfg:36
 #: Extended_Era/units/dark_elves/Wizard.cfg:24
 msgid "dark wave"
-msgstr ""
+msgstr "temná vlna"
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Sorceress, race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:5
 msgid "Dark Elf^Sorceress"
-msgstr ""
+msgstr "Kouzelnice"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Sorceress, race=dark elf
 #: Extended_Era/units/dark_elves/Sorceress.cfg:21
 msgid ""
@@ -1580,12 +2143,18 @@ msgid ""
 "Very soon, they will become Clerics, the terribly seductive sadistic "
 "torturers."
 msgstr ""
+"Temné elfky často vstupují ve velmi mladém věku do Řádu Kněžek. Tyto již "
+"dosáhly hodnosti kouzelnic a ovládají takřka mistrně techniku neustálého a "
+"opakovaného ošetřování a mučení svých obětí. Velmi brzy se z nich stanou "
+"kněžky, zrůdně svůdné sadistické mučitelky."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Dark Elf Stalker, race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:5
 msgid "Stalker"
-msgstr ""
+msgstr "Pronásledovatel"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Stalker, race=dark elf
 #: Extended_Era/units/dark_elves/Stalker.cfg:22
 msgid ""
@@ -1593,11 +2162,14 @@ msgid ""
 "daggers and crossbows. They are completely hidden in the caves, only the "
 "thud of a dead body tells you they are near."
 msgstr ""
+"Pronásledovatelé jsou mazaní a hbití bojovníci. Umí velmi dobře ovládat jak "
+"dýky, tak kuše. V jeskyních se pohybují naprosto nepozorovaně a jen pád "
+"mrtvého těla prozradí, že jsou nablízku."
 
 #. [unit_type]: id=EE Dark Elf Warlock, race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:5
 msgid "Dark Elf^Warlock"
-msgstr ""
+msgstr "Elfský černokněžník"
 
 #. [unit_type]: id=EE Dark Elf Warlock, race=dark elf
 #: Extended_Era/units/dark_elves/Warlock.cfg:19
@@ -1607,14 +2179,20 @@ msgid ""
 "and have the power to drain life from their opponents with a single touch, "
 "and add it to their own."
 msgstr ""
+"Nejlepší svého druhu, disponují tito černokněžníci obrovskou silou, s kterou "
+"mohou soupeřit dokonce i s arcimágy. Objevili tajemství temných umění a "
+"mohou vysávat ze svých oponentů životní sílu pouhým dotykem a tak se sami "
+"posilovat."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Warrior, race=dark elf
 #. [unit_type]: id=EE Sidhe Warrior, race=sidhe
 #: Extended_Era/units/dark_elves/Warrior.cfg:5
 #: Extended_Era/units/sidhe/Warrior.cfg:5
 msgid "Warrior"
-msgstr ""
+msgstr "Válečník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Warrior, race=dark elf
 #: Extended_Era/units/dark_elves/Warrior.cfg:17
 msgid ""
@@ -1622,12 +2200,17 @@ msgid ""
 "weapons. With their balanced blades, they can shave a Dwarf. Only few become "
 "Corsairs."
 msgstr ""
+"Tito válečníci se cele zasvětili zdokonalování v mistrovství ovládání dvou "
+"zbraní. Svými vyváženými čepelemi by mohli oholit kdejakého trpaslíka. Jen z "
+"několika z nich se stanou Korzáři."
 
+# Název jednotky
 #. [unit_type]: id=EE Dark Elf Wizard, race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:5
 msgid "Dark Elf^Wizard"
-msgstr ""
+msgstr "Elfský mág"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dark Elf Wizard, race=dark elf
 #: Extended_Era/units/dark_elves/Wizard.cfg:19
 msgid ""
@@ -1636,11 +2219,16 @@ msgid ""
 "the slaves, and other such things. However, in time of conflict, they can do "
 "great damage, even though they lack any training in close-combat."
 msgstr ""
+"Někteří z temných elfů se věnují raději studiu tajuplných umění než bojovému "
+"výcviku. Obvykle jsou jim v komunitě dávány méně důležité úkoly jako údržba, "
+"dozor nad otroky a podobně. Přestože jim chybí bojový trénink, dokáží "
+"rozdávat v dobách konfliktu velmi účinné zásahy."
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarvish Arcanister, race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:5
 msgid "Dwarvish Arcanister"
-msgstr ""
+msgstr "Trpasličí strážce tajemna"
 
 #. [unit_type]: id=EE Dwarvish Arcanister, race=dwarf
 #: Extended_Era/units/dwarves/Arcanister.cfg:24
@@ -1650,58 +2238,84 @@ msgid ""
 "that is his intent. His skill in runecrafting is unrivaled, and the glyphs "
 "he carves into his weapons and armor deflect the blows of his enemies."
 msgstr ""
+"Nejmocnější z runových řemeslníků, tajemní trpaslíci zabíjejí své nepřátele "
+"téměř okamžitě a jen vzácně selžou při ráně, když ji chtějí zasadit. Jejich "
+"schopnost runorytectví je nedostižitelná a znaky, které vyrývají do svých "
+"zbraní a zbroje, zneškodní údery jejich nepřátel."
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarvish Axemaster, race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:5
 msgid "Dwarvish Axemaster"
-msgstr ""
+msgstr "Trpasličí mistr seker"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarvish Axemaster, race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:25
+#, fuzzy
 msgid ""
 "The axemaster is something of a dwarvish oddity - fast, nimble, armored, and "
 "deadly with lightning-fast blades. They are not the strongest fighters in "
 "the dwarvish kingdom, but are well-respected nonetheless."
 msgstr ""
+"Mistři seker představují takové podivnosti mezi trpaslíky. Jsou rychlí, "
+"mrštní, obrnění a nebezpečně dobře a přitom rychle jako blesk ovládají své "
+"sekery. Nepatří mezi nejsilnější trpasličí bojovníky, přesto jsou ostatními "
+"dosti respektováni."
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarvish Axethrower, race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:5
 msgid "Dwarvish Axethrower"
-msgstr ""
+msgstr "Trpaslicí vrhač seker"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarvish Axethrower, race=dwarf
 #: Extended_Era/units/dwarves/Axethrower.cfg:24
 msgid ""
 "Axethrowers have improved their skill hurling their bladed weapons while "
 "retaining their natural speed - a dangerous combination."
 msgstr ""
+"Vrhači seker vylepšili dovednost vrhání svých seker a přitom si zachovali "
+"svou přirozeně velkou pohyblivost. Pro jejich protivníky je to nebezpečná "
+"kombinace."
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarvish Flamethrower, race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:5
 msgid "Dwarvish Flamethrower"
-msgstr ""
+msgstr "Trpasličí vrhač plamene"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarvish Flamethrower, race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:27
+#, fuzzy
 msgid ""
 "It is said that the Dwarven Flamethrowers have strange staves of wood and "
 "iron, similar to those of the Thunderguards. But instead of making a "
 "thunderous noise shooting a projectile, their weapon generates a continuous "
 "tongue of flame."
 msgstr ""
+"Říká se, že trpasličí vrhači plamene mají podivné hole ze dřeva a železa, "
+"podobné jaké mají příslušníci hromové stráže. Ale místo jednoho hlučného "
+"hromového výstřelu vyletují z těchto zbraní opakovaně ohnivé jazyky."
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/dwarves/Flamethower.cfg:41
 msgid "firestick"
-msgstr ""
+msgstr "ohnivá hůl"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Dwarven Gyrocopter, race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:5
 msgid "Gyrocopter"
-msgstr ""
+msgstr "Gyrokoptéra"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarven Gyrocopter, race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:19
+#, fuzzy
 msgid ""
 "Some dwarves have crafted strange machines they call 'Gyrocopters'. Capable "
 "of flight, they need space to maneuver, thus they cannot be used "
@@ -1710,17 +2324,25 @@ msgid ""
 "explode with the sound of thunder. None know what strange beast lays such "
 "eggs."
 msgstr ""
+"Někteří trpaslíci si sestrojili podivné stroje nazývané „Gyrokoptéry“. Jsou "
+"schopné letu, potřebují však manévrovací prostor a proto nemohou být "
+"používány v podzemí. Gyrokoptéry mají složité řízení a nejsou určeny pro boj "
+"zblízka. Místo toho mohou jejich řidiči shazovat podivná vejce zvaná "
+"„bomby“, které po dopadu explodují s ránou jak hrom. Nikdo neví, jaká divná "
+"potvora tyto vejce klade."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:35
 #: Extended_Era/units/dwarves/Steamcopter.cfg:36
 msgid "bomb"
-msgstr ""
+msgstr "bomba"
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarvish Runemaster, race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:5
 msgid "Dwarvish Runemaster"
-msgstr ""
+msgstr "Trpasličí mistr run"
 
 #. [unit_type]: id=EE Dwarvish Runemaster, race=dwarf
 #: Extended_Era/units/dwarves/Runemaster.cfg:23
@@ -1732,11 +2354,16 @@ msgid ""
 "their runes cause the physical blows of their enemies to deal less damage "
 "than would be expected."
 msgstr ""
+"S výjimkou těch s téměř nadpřirozenou schopností, nejvyšší hodnost, kterou "
+"může runový kovář dosáhnout je trpasličí runový mistr. Údery mají skoro tak "
+"silné, jak ti nejlepší z válečníků. Hrůzu by naháněli i bez svého runového "
+"umění, ale s ním jsou téměř neporazitelní. Jejich runy dokáží, že nepřátelé "
+"způsobují menší zranění než by kdokoliv očekával."
 
 #. [unit_type]: id=EE Dwarvish Runesmith, race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:5
 msgid "Dwarvish Runesmith"
-msgstr ""
+msgstr "Trpasličí runový kovář"
 
 #. [unit_type]: id=EE Dwarvish Runesmith, race=dwarf
 #: Extended_Era/units/dwarves/Runesmith.cfg:23
@@ -1746,24 +2373,34 @@ msgid ""
 "and accuracy, and disrupt the blows of their enemies, causing them to strike "
 "softly, weakly and on the armor of the defender."
 msgstr ""
+"Trpasličí runoví kováři, zběhlí ve svém umění, ryjí tajemné runy do svých "
+"zbraní a brnění. Tyto runy zesilují a zpřesňují jejich údery, a naopak "
+"naruší útoky nepřátel tak, že oslabí a znepřesní výpady na obránce."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Dwarvish Runner, race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:5
 msgid "Dwarvish Runner"
-msgstr ""
+msgstr "Trpasličí běžec"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarvish Runner, race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:24
+#, fuzzy
 msgid ""
 "Those dwarves capable of moving quickly are made lightly-armored scouts. "
 "Dwarves' natural endurance serves the runners well, who are trained to throw "
 "their axes to protect themselves on patrol."
 msgstr ""
+"Ti z trpaslíků, kteří se umí rychle pohybovat, se stávají lehce obrněnými "
+"zvědy. Přirozená trpasličí odolnost dobře slouží těmto běžcům. Jsou "
+"vycvičeni ve vrhání seker, což využívají při obraně během svých patrol."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Dwarven Steamcopter, race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:5
 msgid "Steamcopter"
-msgstr ""
+msgstr "Parokoptéra"
 
 #. [unit_type]: id=EE Dwarven Steamcopter, race=dwarf
 #: Extended_Era/units/dwarves/Steamcopter.cfg:20
@@ -1771,12 +2408,16 @@ msgid ""
 "With the aid of steam genies, Steamcopters are able to move faster and carry "
 "more bombs than Gyrocopters."
 msgstr ""
+"S pomocí parních džinů jsou parokoptéry schopny pohybovat se rychleji a "
+"unést více bomb než gyrokoptéry."
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarven Steamwheel, race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:5
 msgid "Steamwheel"
-msgstr ""
+msgstr "Parní koleso"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarven Steamwheel, race=dwarf
 #: Extended_Era/units/dwarves/Steamwheel.cfg:20
 msgid ""
@@ -1784,42 +2425,55 @@ msgid ""
 "said that these great wheeled vehicles are powered by invisible steam "
 "genies, thus they are called 'Steamwheels'."
 msgstr ""
+"Někteří trpaslíci užívají zvláštní vozidla, která se pohybují bez tažení "
+"koněm. Říká se, že tyto velké kolové vehikly jsou poháněny neviditelnými "
+"parními džiny. Proto se tyto vozidla nazývají „Parní kolesa“."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/dwarves/Warwheel.cfg:34
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:33
 #: Extended_Era/units/dwarves/Steamwheel.cfg:33
 msgid "slam"
-msgstr ""
+msgstr "úder"
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarven Thunderwheel, race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:5
 msgid "Thunderwheel"
-msgstr ""
+msgstr "Hřmoucí koleso"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarven Thunderwheel, race=dwarf
 #: Extended_Era/units/dwarves/Thunderwheel.cfg:20
 msgid ""
 "With the help of one more steam genie, those noisy vehicles are able to move "
 "faster than horses."
 msgstr ""
+"S pomocí dalšího parního džina jsou tyto hlučná vozidla schopna pohybovat se "
+"rychleji než koně."
 
+# Název jednotky
 #. [unit_type]: id=EE Dwarven Warwheel, race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:5
 msgid "Warwheel"
-msgstr ""
+msgstr "Válečné koleso"
 
+# Popis jednotky
 #. [unit_type]: id=EE Dwarven Warwheel, race=dwarf
 #: Extended_Era/units/dwarves/Warwheel.cfg:21
 msgid ""
 "Warwheels are faster and more heavily armored than Steamwheels, and can "
 "breach enemy lines with their fearsome charge."
 msgstr ""
+"Válečná kolesa jsou rychlejší a více obrněná než Parní kolesa, a tak jsou "
+"schopna prolamovat nepřátelské linie děsivým výpadem."
 
+# Název jednotky
 #. [unit_type]: id=EE Boreal Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:5
 msgid "Boreal Wyrm"
-msgstr ""
+msgstr "Severský červák"
 
 #. [unit_type]: id=EE Boreal Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:20
@@ -1830,7 +2484,13 @@ msgid ""
 "rarer by the fact that Boreal Wyrms attack on sight. Only the most powerful "
 "of champions can face these creatures and survive."
 msgstr ""
+"Severští červáci jsou tak vzácným zjevem, že o nich mnozí smýšlejí jen jako "
+"o tvorech z legend. Vyvinuly se z těch mistrálových červáků, kteří žili "
+"nějaké to století. Jsou nebezpečně silní a neuvěřitelně rychlý. Málokdo o "
+"jejich existenci mohl svědčit, neboť severští červáci útočí již od pohledu. "
+"Pouze nejzdatnější šampióni mohli čelit těmto tvorům a přežít."
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/ice_wyrms/Rime.cfg:34
 #: Extended_Era/units/ice_wyrms/Boreal.cfg:34
@@ -1838,12 +2498,13 @@ msgstr ""
 #: Extended_Era/units/ice_wyrms/Frost.cfg:33
 #: Extended_Era/units/ice_wyrms/Ice.cfg:33
 msgid "cold breath"
-msgstr ""
+msgstr "ledový dech"
 
+# Název jednotky
 #. [unit_type]: id=EE Frost Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:5
 msgid "Frost Wyrm"
-msgstr ""
+msgstr "Mrazivý červák"
 
 #. [unit_type]: id=EE Frost Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Frost.cfg:19
@@ -1853,11 +2514,16 @@ msgid ""
 "freeze their enemies from afar. When cornered, they use their powerful tails "
 "to pummel their enemies."
 msgstr ""
+"Ledový červáci, kteří žijí v moři, získávají více hadovité proporce a mění "
+"se na mrazivé červáky. Jejich jméno jim bylo dáno podle mrazivých oblaků, "
+"které vypouštějí. Mrazivý červáci raději zmrazují své nepřátele zdálky. Když "
+"jsou zahnáni do úzkých, tlučou do svých nepřátel silnými ocasy."
 
+# Název jednotky
 #. [unit_type]: id=EE Ice Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:5
 msgid "Ice Wyrm"
-msgstr ""
+msgstr "Ledový červák"
 
 #. [unit_type]: id=EE Ice Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Ice.cfg:19
@@ -1870,12 +2536,21 @@ msgid ""
 "natural protection against a warrior's blade. It is fortunate that their "
 "natural environment has made them ill-suited to face fire."
 msgstr ""
+"Ledoví červáci, studenokrevní plazy severu, jsou mláděcími formami stvoření, "
+"která mohou žít po celá staletí. Navzdory relativnímu mládí jsou již dvakrát "
+"tak velcí než běžný člověk. Obávaní protivníci, kteří jsou schopni své "
+"nepřátele mrazit svým dechem či šlehat svým ocasem. A co horšího, jejich "
+"šupinatá kůže jim poskytuje přirozenou ochranu před protivníkovo čepelí. "
+"Jaké štěstí, že jejich přirozené prostředí z nich dělá tvory, kteří velmi "
+"špatně čelí ohni."
 
+# Název jednotky
 #. [unit_type]: id=EE Mistral Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:5
 msgid "Mistral Wyrm"
-msgstr ""
+msgstr "Mistrálový červák"
 
+# Popis jednotky
 #. [unit_type]: id=EE Mistral Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Mistral.cfg:19
 msgid ""
@@ -1883,12 +2558,17 @@ msgid ""
 "capable of flight. Called Mistral Wyrms, they are far stronger and more "
 "capable than Ice Wyrms. One would do well to avoid these creatures."
 msgstr ""
+"Ledovým červákům, kteří pobývají vysoko v horách, mohou případně narůst "
+"křídla. Jsou pak schopni letu a jsou nazýváni mistrálovými červáky. Jsou "
+"daleko silnější a schopnější než ledoví červáci. Je lépe se jim vyhnout."
 
+# Název jednotky
 #. [unit_type]: id=EE Rime Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:5
 msgid "Rime Wyrm"
-msgstr ""
+msgstr "Zmrazující červák"
 
+# Popis jednotky
 #. [unit_type]: id=EE Rime Wyrm, race=wyrm
 #: Extended_Era/units/ice_wyrms/Rime.cfg:20
 msgid ""
@@ -1896,19 +2576,28 @@ msgid ""
 "wyrms are elder frost wyrms: stronger and capable of a more savage breath "
 "attack."
 msgstr ""
+"Na rozdíl od humanoidů, červáci při svém vývoji a stárnutí pouze sílí. "
+"Zmrazující červák je jen starší mrazivý červák. Je silnější a schopný útočit "
+"svým dechem brutálněji."
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Ahadath, race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:5
 msgid "Ahadath"
-msgstr ""
+msgstr "Ahadát"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ahadath, race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:18
+#, fuzzy
 msgid ""
 "The Kalifa uses these Hillmen as their foot force. The are versatile and "
 "excel in hilly terrain."
 msgstr ""
+"Kalifové využívají tyto horaly jako pěší vojska. Jsou to všestraní vojáci, "
+"kteří dobře bojují v horském terénu."
 
+# zbraň
 #. [attack]: type=pierce
 #: Extended_Era/units/kalifa/Rami.cfg:41
 #: Extended_Era/units/kalifa/Karadis.cfg:33
@@ -1920,21 +2609,29 @@ msgstr ""
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:42
 #: Extended_Era/units/kalifa/Ahadath.cfg:31
 msgid "composite bow"
-msgstr ""
+msgstr "kompozitní luk"
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Amir, race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:5
 msgid "Amir"
-msgstr ""
+msgstr "Amir"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Amir, race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:18
+#, fuzzy
 msgid ""
 "The Amir form the backbone of any Kalifa foot advance. They are often sent "
 "against fortified enemy positions where their valor and skill with a sword "
 "allows them to assault seemingly inpenetrable defenses."
 msgstr ""
+"Amirové tvoří páteř pěších sil Kalifů. Často jsou posíláni do boje proti "
+"opevněným pozicím nepřítele. Díky své statečnosti a dovednému ovládání meče "
+"jsou schopni v těchto bojích prorazit do linií, které vypadaly "
+"neproniknutelně."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/kalifa/Rami.cfg:23
 #: Extended_Era/units/kalifa/Mubarizan.cfg:35
@@ -1942,20 +2639,26 @@ msgstr ""
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:24
 #: Extended_Era/units/kalifa/Immortal.cfg:40
 msgid "long sword"
-msgstr ""
+msgstr "dlouhý meč"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Kalifa Arif, race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:5
 msgid "Arif"
-msgstr ""
+msgstr "Arif"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Arif, race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:18
+#, fuzzy
 msgid ""
 "The Arif are made up of the more defensive minded Amir veterans. They have "
 "become very skilled in using their shield to tire and stun their enemies."
 msgstr ""
+"Jednotky Arifů jsou tvořeny defenzivně založenými veterány. Učí se velmi "
+"dobře ovládat svůj štít a jsou proto schopni unavit a zpomalit své nepřátele."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:30
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:31
@@ -1963,98 +2666,132 @@ msgstr ""
 #: Extended_Era/units/kalifa/Arif.cfg:51
 #: Extended_Era/units/kalifa/Immortal.cfg:52
 msgid "shield bash"
-msgstr ""
+msgstr "úder štítem"
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Ekim, race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:5
 msgid "Ekim"
-msgstr ""
+msgstr "Ekim"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ekim, race=kalifa
 #: Extended_Era/units/kalifa/Ekim.cfg:24
 msgid ""
 "Ekim use their knowledge of ancient medicine and herbal concoctions to "
 "quickly bring the Kalifa soldiers back to the front lines."
 msgstr ""
+"Ekimové využívají své starodávné vědomosti o medicíně a manipulace s "
+"rostlinami k rychlému obnovení bojeschopnosti vojáků kalifských vojsk."
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Ekim Haram, race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:5
 msgid "Ekim Haram"
-msgstr ""
+msgstr "Ekim Haram"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ekim Haram, race=kalifa
 #: Extended_Era/units/kalifa/Ekim_Haram.cfg:26
 msgid ""
 "These sages have reached the absolute epitome medical knowledge and freely "
 "use their herbal concoctions on themselves without fear of side-effects."
 msgstr ""
+"Tito mudrci dosáhli naprosto dokonalých zhuštěných lékařských vědomostí. "
+"Jsou také schopni využívat manipulace s rostlinami i pro své vlastní léčení "
+"bez toho, že by se museli obávat nepříznivých vedlejších účinků."
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Elder Falcon, race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:5
 msgid "Elder Falcon"
-msgstr ""
+msgstr "Starý sokol"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Elder Falcon, race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:21
+#, fuzzy
 msgid ""
 "These falcons have been through many perils and somehow managed to surivive "
 "them. Their dives can be so fast that stories abound of them taking a foe's "
 "head clean off."
 msgstr ""
+"Tito sokoli prošli mnoha nebezpečími a nějak se jim podařilo přežít. Jejich "
+"střemhlavý útok může být tak prudký, že se vypráví historky o tom, jak oběti "
+"svého útoku urazili hlavu."
 
+# zbraň
 #. [attack]: type=pierce
 #: Extended_Era/units/kalifa/Falcon.cfg:33
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:35
 msgid "beak"
-msgstr ""
+msgstr "zobák"
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Elite Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:5
 msgid "Elite Ghazi"
-msgstr ""
+msgstr "Elitní Ghazi"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Elite Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:18
+#, fuzzy
 msgid ""
 "The Elite Ghazi are simply heroes among their people. Winner of countless "
 "combats and harbingers of victory."
 msgstr ""
+"Elitní Ghazi jsou jednoduše řečeno hrdinové, vítězové nespočetných bojů a "
+"poslové vítězství."
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Falcon, race=falcon
 #: Extended_Era/units/kalifa/Falcon.cfg:5
 msgid "Falcon"
-msgstr ""
+msgstr "Sokol"
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:5
 msgid "Ghazi"
-msgstr ""
+msgstr "Ghazi"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Ghazi.cfg:18
 msgid ""
 "The Ghazi rise from only the most talented and fiercest fighters among the "
 "Ahadath."
 msgstr ""
+"Ghazi jsou vybíráni z těch nejvíce talentovaných a nejzuřivějších bojovníků "
+"mezi Ahadáty."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Kalifa Ghaznid, race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:5
 msgid "Ghaznid"
-msgstr ""
+msgstr "Ghaznid"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ghaznid, race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:18
+#, fuzzy
 msgid ""
 "A Ghaznid charge is a fearsome thing to behold. A huge weight of man, metal, "
 "and horse barring down upon one with lance at level has caused many a many "
 "to flee in terror."
 msgstr ""
+"Pohled na útočícího Ghazdnida je hrůzostrašný. Obrovská masa bojovníka, kovu "
+"a koně, která se hrne na nepřátele s napřaženým kopím již obrátila mnohé na "
+"ustrašený útěk."
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ghulam, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:5
 msgid "Ghulam"
-msgstr ""
+msgstr "Ghulam"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ghulam, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam.cfg:19
 msgid ""
@@ -2062,149 +2799,202 @@ msgid ""
 "lance charge in order to save their poor horses' stamina before switching "
 "over to their trusty maces."
 msgstr ""
+"Ghulamové nosí opravdu těžké brnění. Využívají energie svého koně k silnému "
+"výpadu kopím, po kterém sahají po palcátu, který jistě a spolehlivě ovládají."
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Ghulam al Rami, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:5
 msgid "Ghulam al Rami"
-msgstr ""
+msgstr "Ghulam al Rami"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Ghulam al Rami, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:20
+#, fuzzy
 msgid ""
 "Ghulam al Rami combine the some fo the best features of the karadis and the "
 "Ghulam. They also specially modify their heavy armor to protect them from "
 "enemy arrows so they can use their bows with relative impunity. Ghulam al "
 "Rami also aquit themselves well during melee with a heavy mace."
 msgstr ""
+"Ghulam al Rami kombinují nejlepší dovednosti Karadisů a Ghulamů. Také jejich "
+"těžké brnění má speciální úpravy, které je více chrání před nepřátelskými "
+"šípy, takže mohou vstupovat do střeleckých soubojů relativně bez rizika. "
+"Také během boje s těžkým palcátem nejsou vystaveni tak zraňujícím úderům."
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Immortal, race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:5
 msgid "Immortal"
-msgstr ""
+msgstr "Imortál"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Immortal, race=kalifa
 #: Extended_Era/units/kalifa/Immortal.cfg:19
 msgid ""
 "These Arif have become so skilled that thier foes wonder whether they can "
 "die at all."
 msgstr ""
+"Tito Arifové jsou tak schopnými bojovníky, že si jejich nepřátele kladou "
+"otázku, zda je možné je vůbec zabít."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Kalifa Karadis, race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:5
 msgid "Karadis"
-msgstr ""
+msgstr "Karadis"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Karadis, race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:19
+#, fuzzy
 msgid ""
 "Karadis are excellent horsemen and few can shoot as well from horseback as "
 "they. They love to circle and harass enemies from afar while using their "
 "superior speed to avoid heavy counter attack.."
 msgstr ""
+"Karadisové jsou vynikající jezdci, kteří umí střílet ze sedla koně jako "
+"málokdo. Vyžívají se v rychlém objíždění a obtěžování nepřátel, kdy "
+"využívají svou skvělou rychlost k úniku před většími protiútoky nepřátel."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/kalifa/Karadis.cfg:24
 #: Extended_Era/units/kalifa/Mamluk.cfg:25
 msgid "cavalry sword"
-msgstr ""
+msgstr "jezdecký meč"
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Life Guard, race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:5
 msgid "Life Guard"
-msgstr ""
+msgstr "Osobní stráž"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Life Guard, race=kalifa
 #: Extended_Era/units/kalifa/Life_Guard.cfg:19
 msgid ""
 "Only the greatest mounter warriors in the land are taken into the Life Guard."
-msgstr ""
+msgstr "Do osobní stráže jsou přijímáni pouze ti nejlepší váleční jezdci."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Kalifa Mamluk, race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:5
 msgid "Mamluk"
-msgstr ""
+msgstr "Mameluk"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Mamluk, race=kalifa
 #: Extended_Era/units/kalifa/Mamluk.cfg:20
 msgid ""
 "Mamluks are the absolute best shots from among the Karadis and are allotted "
 "the best horses so this skill does not go to waste."
 msgstr ""
+"Nejlepší střelci z Karadisů jsou vybíráni do jednotek Mameluků, kterým jsou "
+"přidělováni ti nejlepší koně, tak aby se jejich dovednosti mohly ještě více "
+"rozvinout."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Kalifa Mubarizan, race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:5
 msgid "Mubarizan"
-msgstr ""
+msgstr "Mubarizán"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Mubarizan, race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:19
+#, fuzzy
 msgid ""
 "Mubarizan take pride in always manning the front lines of an offensive. They "
 "regularly take down heavily fortified castles and seldom fail to inflict "
 "grievous losses on their foemen."
 msgstr ""
+"Mubarizáni se pyšní tím, že obsazují čelo útočných linií. Pravidelně "
+"dobývají těžce opevněné pevnosti a jen zřídkakdy nezpůsobí svým nepřátelům "
+"obrovské ztráty."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Kalifa Naffatun, race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:5
 msgid "Naffatun"
-msgstr ""
+msgstr "Naftun"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Naffatun, race=kalifa
 #: Extended_Era/units/kalifa/Naffatun.cfg:23
 msgid "Naffutun use naptha to show their enemies true fear."
-msgstr ""
+msgstr "Naftuni vzbuzují u nepřátel skutečný strach užitím hořící nafty. "
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/kalifa/Naffatun.cfg:28
 msgid "naptha throw"
-msgstr ""
+msgstr "hořící nafta"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Kalifa Rami, race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:5
 msgid "Rami"
-msgstr ""
+msgstr "Rami"
 
+# Popis nepřátel
 #. [unit_type]: id=EE Kalifa Rami, race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:18
+#, fuzzy
 msgid ""
 "Rami frequently use burning arrows to set fire to enemy fortifications and "
 "generally sow terror amongst the enemy. Such tactics may also have other "
 "uses in a land of many strange wonders..."
 msgstr ""
+"Střílejíce zápalné šípy do nepřátelských opevnění, rozsévají Ramirové zkázu "
+"v řadách nepřátel. Tato taktika má také další uplatnění v zemi mnoha "
+"zvláštních divů ..."
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/kalifa/Rami.cfg:32
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:33
 msgid "fire arrow"
-msgstr ""
+msgstr "ohnivý šíp"
 
+# Název jednotky
 #. [unit_type]: id=EE Kalifa Rami al Nuri, race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:5
 msgid "Rami al Nuri"
-msgstr ""
+msgstr "Rami al Nuri"
 
+# Popis jednotky
 #. [unit_type]: id=EE Kalifa Rami al Nuri, race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:19
+#, fuzzy
 msgid ""
 "The maelstrom created by even a few Rami al Nuri can turn the tide of many a "
 "battle. Use them wisely."
 msgstr ""
+"Smršť šípů, kterou je schopno vytvořit i jen několik jednotek Rami al Nuri, "
+"dokáže zastavit celé postupující voje. Je proto třeba využívat je v boji "
+"moudře."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Naga Abomination, race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:5
 msgid "Naga Abomination"
-msgstr ""
+msgstr "Děsivá nága"
 
+# Popis jednotky
 #. [unit_type]: id=EE Naga Abomination, race=naga
 #: Extended_Era/units/nagas/Abomination.cfg:24
 msgid "These heavy fighters are elite forces of the nagas."
-msgstr ""
+msgstr "Tito těžce vyzbrojení bojovníci jsou elitními silami nág."
 
+# Název jednotky
 #. [unit_type]: id=EE Naga Assassin, race=naga
 #: Extended_Era/units/nagas/Assassin.cfg:5
 msgid "Naga Assassin"
-msgstr ""
+msgstr "Nága vrah"
 
+# Popis jednotky
 #. [unit_type]: id=EE Naga Hunter, race=naga
 #. [unit_type]: id=EE Naga Assassin, race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:19
@@ -2215,12 +3005,18 @@ msgid ""
 "poisoned arrows. These two foot long shafts, tipped with a potent poison, "
 "have been known to slay many kinds of prey."
 msgstr ""
+"Lovci jsou nágy, které získaly dostatečnou zručnost v lovu lukem. Protože "
+"jsou nágy přirozeně odolné proti jedu, nemají žádné výčitky při použití "
+"jedovatých šípů. Tyto dvě stopy dlouhé střely se špičkou potřenou silným "
+"jedem usmrtí mnohé druhy kořisti."
 
+# Název jednotky
 #. [unit_type]: id=EE Naga Depthprowler, race=naga
 #: Extended_Era/units/nagas/Depthprowler.cfg:5
 msgid "Naga Depthprowler"
-msgstr ""
+msgstr "Nága hlubinný slídič"
 
+# Popis jednotky
 #. [unit_type]: id=EE Naga Depthprowler, race=naga
 #. [unit_type]: id=EE Naga Depthstalker, race=naga
 #: Extended_Era/units/nagas/Depthprowler.cfg:21
@@ -2232,12 +3028,19 @@ msgid ""
 "it is just as deadly. Naga Depthstalkers are especially valued as brood "
 "guardians, where they keep watch over eggs laid in hidden caves."
 msgstr ""
+"Některé nágy si, ať už z důvodu zbabělosti nebo mazanosti, osvojily "
+"dovednost přežití v temných hlubinách vod. Po zvláštním výcviku jsou schopny "
+"toto umění rozvinout do naprosto odlišného, přesto však smrtícího způsobu "
+"boje, než je u nág obvyklé. Hlubinní slídiči jsou obzvláště oceňováni jako "
+"ochránci mláďat, neboť stráží vejce umístěná v skrytých podvodních jeskyních."
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/nagas/Depthprowler.cfg:178
 msgid "Nagini Depthprowler"
-msgstr ""
+msgstr "Nagini hlubinná slídička"
 
+# Popis jednotky
 #. [female]
 #: Extended_Era/units/nagas/Depthprowler.cfg:181
 #: Extended_Era/units/nagas/Depthstalker.cfg:181
@@ -2248,22 +3051,32 @@ msgid ""
 "it is just as deadly. Nagani Depthstalkers are especially valued as brood "
 "guardians, where they keep watch over eggs laid in hidden caves."
 msgstr ""
+"Některé naginy si, ať už z důvodu zbabělosti nebo mazanosti, osvojily "
+"dovednost přežití v temných hlubinách vod. Po zvláštním výcviku jsou schopny "
+"toto umění rozvinout do naprosto odlišného, přesto však smrtícího způsobu "
+"boje, než je u nág obvyklé. Hlubinné slídičky jsou obzvláště oceňovány jako "
+"ochránkyně mláďat, neboť stráží vejce umístěná v skrytých podvodních "
+"jeskyních."
 
+# Název jednotky
 #. [unit_type]: id=EE Naga Depthstalker, race=naga
 #: Extended_Era/units/nagas/Depthstalker.cfg:5
 msgid "Naga Depthstalker"
-msgstr ""
+msgstr "Naga hlubinný plížič"
 
+# Název jednotky
 #. [female]
 #: Extended_Era/units/nagas/Depthstalker.cfg:178
 msgid "Nagini Depthstalker"
-msgstr ""
+msgstr "Nagini hlubinná plížička"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Naga Guardian, race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:5
 msgid "Naga Guardian"
-msgstr ""
+msgstr "Nága strážce"
 
+# Popis jednotky
 #. [unit_type]: id=EE Naga Guardian, race=naga
 #: Extended_Era/units/nagas/Guardian.cfg:23
 msgid ""
@@ -2271,19 +3084,24 @@ msgid ""
 "wield huge maces which they use to crush their enemies. They mostly guard "
 "naga outposts, but occasionally participate in offensive raids."
 msgstr ""
+"Tito bojovníci jsou pomalejší a více obrnění než ostatní nágy. Vládnou "
+"velkým palcátem, kterým ubíjí své nepřátele. Většinou hlídají základny nebo "
+"příbytky, ale někdy se přidávají k útočným zátahům."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Naga Hunter, race=naga
 #: Extended_Era/units/nagas/Hunter.cfg:5
 msgid "Naga Hunter"
-msgstr ""
+msgstr "Nága lovec"
 
 #. [unit_type]: id=EE Naga Sentinel, race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:5
 msgid "Naga Sentinel"
-msgstr ""
+msgstr "Nága patrola"
 
 #. [unit_type]: id=EE Naga Sentinel, race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:24
+#, fuzzy
 msgid ""
 "These heavy fighters are elite guards of the naga, chosen by their "
 "dedication and skill, their purpose is to defend their sleeping brethren "
@@ -2291,12 +3109,20 @@ msgid ""
 "the great awake of their civilization arrive. These nagas are mostly unknown "
 "in Wesnoth since they can only be found near Naga cities."
 msgstr ""
+"Tito těžce obrnění bojovníci jsou elitními hlídkami nág. Jsou vybíráni na "
+"základě svých schopností. Jejich zasvěcení a účel je ten, že brání své spící "
+"bratry před jakýmkoli ohrožením a stráží skrytá města před cizími "
+"nájezdníky, dokud nejsou nahrazeni probudivšími se posilami. Tyto jednotky "
+"nejsou ve Wesnothu příliš známé, neboť se zdržují pouze v blízkosti sídlišť "
+"nág."
 
+# Název jednotky
 #. [unit_type]: id=EE Naga Warden, race=naga
 #: Extended_Era/units/nagas/Warden.cfg:5
 msgid "Naga Warden"
-msgstr ""
+msgstr "Nága hlídka"
 
+# Popis jednotky
 #. [unit_type]: id=EE Naga Warden, race=naga
 #: Extended_Era/units/nagas/Warden.cfg:23
 msgid ""
@@ -2305,7 +3131,12 @@ msgid ""
 "crush their enemies. They mostly guard naga outposts, but occasionally "
 "participate in offensive raids."
 msgstr ""
+"Tito obávaní bojovníci jsou elitními hlídkami nág. Jsou pomalejší a více "
+"vyzbrojené než většina nág. Vládnou velkým palcátem, kterým ubíjí své "
+"nepřátele. Většinou hlídají základny nebo příbytky, ale někdy se přidávají k "
+"útočným zátahům."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/orcs/Leader.cfg:17
 #: Extended_Era/units/sidhe/Tempest.cfg:22
@@ -2327,25 +3158,30 @@ msgstr ""
 #: Extended_Era/units/sidhe/Whirlwind.cfg:26
 #: Extended_Era/units/sidhe/Windlasher.cfg:22
 msgid "sword"
-msgstr ""
+msgstr "meč"
 
+# zbraň
 #. [attack]: type=pierce
 #: Extended_Era/units/orcs/Sovereign.cfg:24
 #: Extended_Era/units/orcs/Leader.cfg:25 Extended_Era/units/orcs/Ruler.cfg:26
 msgid "bow"
-msgstr ""
+msgstr "luk"
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/orcs/Sovereign.cfg:16
 #: Extended_Era/units/orcs/Ruler.cfg:18
+#, fuzzy
 msgid "greatsword"
-msgstr ""
+msgstr "meč"
 
+# Název jednotky
 #. [unit_type]: id=EE Orcish Shaman, race=orc
 #: Extended_Era/units/orcs/Shaman.cfg:5
 msgid "Orcish Shaman"
-msgstr ""
+msgstr "Skřetí šaman"
 
+# Popis jednotky
 #. [unit_type]: id=EE Orcish Witch Doctor, race=orc
 #. [unit_type]: id=EE Orcish Shaman, race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:21
@@ -2358,12 +3194,20 @@ msgid ""
 "Orcs), Orcish Shamans are good spell casters and can curse their enemies, "
 "draining their life."
 msgstr ""
+"Skřetí šamani jsou strážci skřetí magie. Jsou respektovaní skřetími kmeny a "
+"jsou členy skřetího koncilu. Koncil rozhoduje v důležitých záležitostech, "
+"týkajících se celé  komunity a soudí mnoho kmenových konfliktů, které lehce "
+"vznikají vzhledem k hádavé povaze této rasy. I když jsou šamani ve srovnání "
+"s ostatními skřety fyzicky slabí, jsou dobrými vrhači kouzel a mohou proklít "
+"své nepřátele a tak vysávat jejich život."
 
+# Název jednotky
 #. [unit_type]: id=EE Orcish Warlock, race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:5
 msgid "Orcish Warlock"
-msgstr ""
+msgstr "Skřetí černokněžník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Orcish Warlock, race=orc
 #: Extended_Era/units/orcs/Warlock.cfg:21
 msgid ""
@@ -2373,36 +3217,53 @@ msgid ""
 "between tribes of this argumentative race. Although physically weak (for "
 "Orcs), Orcish Shamans are good spell casters and can curse their enemies."
 msgstr ""
+"Skřetí šamani jsou strážci skřetí magie. Jsou respektovaní skřetími kmeny a "
+"jsou členy skřetího koncilu. Koncil rozhoduje v důležitých záležitostech, "
+"týkajících se celé  komunity a soudí mnoho kmenových konfliktů, které lehce "
+"vznikají vzhledem k hádavé povaze této rasy. I když jsou šamani ve srovnání "
+"s ostatními skřety fyzicky slabí, jsou dobrými vrhači kouzel a mohou proklít "
+"své nepřátele a tak vysávat jejich život."
 
+# Název jednotky
 #. [unit_type]: id=EE Orcish Witch Doctor, race=orc
 #: Extended_Era/units/orcs/Witch_Doctor.cfg:5
 msgid "Orcish Witch Doctor"
-msgstr ""
+msgstr "Skřetí mediciman"
 
+# Název jednotky
 #. [unit_type]: id=EE Brigand, race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:5
 msgid "Brigand"
-msgstr ""
+msgstr "Brigand"
 
+# Popis jednotky
 #. [unit_type]: id=EE Brigand, race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:18
+#, fuzzy
 msgid ""
 "Mounted and wielding wicked-looking sickles, brigands left behind the "
 "farming life to stalk Wesnoth's lonely backroads in small bands, robbing "
 "travelers. They also carry crude crossbows but are not very skilled with "
 "them."
 msgstr ""
+"Brigandi zanechali života zemědělců a v malých rabujících skupinách sužují "
+"osamocené cestovatele na menších stezkách Wesnothu. Jezdí na koních a "
+"používají zlověstně vypadající srpy. Někdy s sebou nosí i primitivní kuše, "
+"ale nejsou v boji s nimi moc zkušení."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Brigand.cfg:30
 msgid "sickle"
-msgstr ""
+msgstr "srp"
 
+# Název jednotky
 #. [unit_type]: id=EE Outlaw Princess, race=human
 #: Extended_Era/units/outlaws/Princess.cfg:5
 msgid "female^Outlaw Princess"
-msgstr ""
+msgstr "Zbojnická princezna"
 
+# Popis jednotky
 #. [unit_type]: id=EE Outlaw Princess, race=human
 #: Extended_Era/units/outlaws/Princess.cfg:24
 msgid ""
@@ -2411,12 +3272,18 @@ msgid ""
 "the life of an Outlaw. She dreams of founding her own Queendom with the "
 "plunder she finds on the road."
 msgstr ""
+"Zbojnická princezna, urozená svým původem, se učila šermířskému umění od "
+"nejlepších generálů, ale je produktem neúspěšné aristokracie a vybrala si "
+"raději život zbojnice. Jejím snem je založení vlastního království s pomocí "
+"lumpů, které nashromáždí."
 
+# Název jednotky
 #. [unit_type]: id=EE Outlaw Queen, race=human
 #: Extended_Era/units/outlaws/Queen.cfg:5
 msgid "female^Outlaw Queen"
-msgstr ""
+msgstr "Zbojnická královna"
 
+# Popis jednotky
 #. [unit_type]: id=EE Outlaw Queen, race=human
 #: Extended_Era/units/outlaws/Queen.cfg:27
 msgid ""
@@ -2427,14 +3294,22 @@ msgid ""
 "Queendom with the plunder she finds on the road, and she is ever so close to "
 "that goal."
 msgstr ""
+"Zbojnická královna, urozená svým původem, se učila šermířskému umění od "
+"nejlepších generálů a bojovou taktiku od těch nejmoudřejších a stala se jak "
+"dobrou bojovnicí, tak dobrým vůdcem. Jsa produktem neúspěšné aristokracie, "
+"vybrala si raději život zbojnice. Jejím snem je založení vlastního "
+"království s pomocí lumpů, které nashromáždí a je již tak blízko tomuto cíli."
 
+# Název jednotky
 #. [unit_type]: id=EE Human Raider, race=human
 #: Extended_Era/units/outlaws/Raider.cfg:5
 msgid "Raider"
-msgstr ""
+msgstr "Nájezdník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Human Raider, race=human
 #: Extended_Era/units/outlaws/Raider.cfg:33
+#, fuzzy
 msgid ""
 "After a four or five robbings any Brigands that last that long will usually "
 "find a sword of some type. Usually this is a saber because fencers are their "
@@ -2442,16 +3317,24 @@ msgid ""
 "fights most of the time. They also usually build or buy (or steal) a better "
 "crossbow and their accuracy and skill have both improved with practice."
 msgstr ""
+"Ti brigandi, kteří přežijí alespoň čtyři až pět přepadení, nakonec získají "
+"nějaký ten meč. Obvykle to bývá i šavle, neboť potulní šermíři, často "
+"křižující krajinu s touhou si zabojovat, patří mezi obvyklé oběti brigandů. "
+"Také si obvykle udělají nebo koupí (nebo ukradnou) i lepší kuš, s kterou již "
+"umí díky svým zkušenostem dovedněji zacházet a přesněji střílet."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Raider.cfg:37
+#, fuzzy
 msgid "saber"
-msgstr ""
+msgstr "šavle"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Rogue Mage, race=human
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:5
 msgid "Rogue Mage"
-msgstr ""
+msgstr "Potulný mág"
 
 #. [unit_type]: id=EE Rogue Mage, race=human
 #: Extended_Era/units/outlaws/Rogue_Mage.cfg:19
@@ -2462,14 +3345,22 @@ msgid ""
 "skilled as mages with more formal training, their magic can be quite lethal, "
 "while their banditry has resulted in moderate skill with the short sword."
 msgstr ""
+"Někteří mágové jsou vyloučeni z magických cechů kvůli pokusům provozovat "
+"zapomenutá umění. Když jsou nyní kompletně mimo zákon, tito mágové se snaží "
+"dělat vše nezbytné, aby podpořili své studium černé magie. I když nejsou tak "
+"zkušení jako mágové s klasičtějším výcvikem, jejich magie může být celkem "
+"smrtící, zatímco jejich banditství je zdokonalilo v dovednostech s kratkým "
+"mečem."
 
+# Název jednotky
 #. [unit_type]: id=EE Shadow Lord, race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:5
 msgid "Shadow Lord"
-msgstr ""
+msgstr "Lord stínů"
 
 #. [unit_type]: id=EE Shadow Lord, race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:23
+#, fuzzy
 msgid ""
 "Few humans fathom the secrets of light and dark magic and retain their "
 "sanity. Those that can master that balance become Shadow Lords, fully "
@@ -2477,26 +3368,34 @@ msgid ""
 "needing physical weapons, they are fearsome to both their enemies and those "
 "they lord over."
 msgstr ""
+"Nemnoho lidí odhalí tajemství světlé i temné magie a udrží si zdravý rozum. "
+"Mistři této rovnováhy se stanou Stínovými Lordy, plně neexistujícími ve "
+"světě světla ani ve světě temnoty. Už nepotřebuji fyzické zbraně a nahánějí "
+"strach svým nepřátelům i těm, kterým vládnou."
 
+# zbraň
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:74
 msgid "astral blade"
-msgstr ""
+msgstr "astrální čepel"
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:86
 msgid "shadow bolt"
-msgstr ""
+msgstr "stínový úder"
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:98
 msgid "shadow blast"
-msgstr ""
+msgstr "stínová střela"
 
+# Název jednotky
 #. [unit_type]: id=EE Shadow Mage, race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:5
 msgid "Shadow Mage"
-msgstr ""
+msgstr "Mág stínů"
 
 #. [unit_type]: id=EE Shadow Mage, race=human
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:22
@@ -2509,28 +3408,39 @@ msgid ""
 "attacks. Despite their offensive power, the corruption in their souls has "
 "begun to adversely affect their health."
 msgstr ""
+"Roky násilí a brutality kvůli podpoře svých studií zavrhnutých magických "
+"umění proměnilo stínové mágy v obávané bojovníky. Plně fascinováni mocí, "
+"kterou ovládli, vedou malé skupinky následovníků. Při přímé konfrontaci za "
+"použití kouzel s ostatními mágy jsou v nevýhodě, proto spíše používají "
+"ničivé magické efekty pro posílení fyzických úderů. Navzdory jejich útočné "
+"moci, zkaženost v jejich duších zanechala patřičné následky na jejich zdraví."
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/outlaws/Shadow_Mage.cfg:46
 msgid "ice blast"
-msgstr ""
+msgstr "ledová střela"
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Bladespinner, race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:5
 msgid "Bladespinner"
-msgstr ""
+msgstr "Tanečník s meči"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Bladespinner, race=sidhe
 #: Extended_Era/units/sidhe/Bladespinner.cfg:17
 msgid ""
 "The better warriors of the sidhe are known as bladespinners. They can, it is "
 "said, cut a man in three different places before he will lift his weapon."
 msgstr ""
+"Lepší ze sidhelinských válečníků jsou nazýváni Tanečníky s meči. Říká se, že "
+"mohou rozseknout protivníka natřikrát ještě dříve, než stačí vytáhnout zbraň."
 
 #. [unit_type]: id=EE Sidhe Blizzardlord, race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:5
 msgid "Blizzardlord"
-msgstr ""
+msgstr "Vánicový pán"
 
 #. [unit_type]: id=EE Sidhe Blizzardlord, race=sidhe
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:18
@@ -2541,19 +3451,27 @@ msgid ""
 "Snowdancers. The expectation is that the Blizzardlords will keep their "
 "fellows loyal and obedient to the nobility and train new recruits."
 msgstr ""
+"Sidhelinská šlechta mezi sebe nepříjímá neurozené elfy, nicméně vybírá "
+"nejtalentovanější a oddané sněhové tanečníky, povyšuje je do hodnosti "
+"vánicových pánů, a uděluje jim autoritu nad mrazovými manipulátory a "
+"sněhovými tanečníky. Očekává se, že páni budou posilovat mezi svými druhy "
+"věrnost a poslušnost šlechtě a budou trénovat nové rekruty."
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:31
 #: Extended_Era/units/sidhe/Blizzardlord.cfg:32
 #: Extended_Era/units/sidhe/Snowdancer.cfg:31
 msgid "snow wind"
-msgstr ""
+msgstr "blizard"
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Fury, race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:5
 msgid "Fury"
-msgstr ""
+msgstr "Běsnitel"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Fury, race=sidhe
 #: Extended_Era/units/sidhe/Fury.cfg:18
 msgid ""
@@ -2561,23 +3479,31 @@ msgid ""
 "of the battle, he will throw himself in an all-out attack, fighting untile "
 "either he or his ennemy is dead."
 msgstr ""
+"Běsnitel je výstřední sidhelinský bojovník, napůl mystik, napůl blázen. "
+"Uprostřed bitvy se vrhá do bezhlavého útoku, bojujíc, dokud není on nebo "
+"jeho nepřítel mrtev."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Herald, race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:5
 msgid "Herald"
-msgstr ""
+msgstr "Herald"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Herald, race=sidhe
 #: Extended_Era/units/sidhe/Herald.cfg:20
 msgid ""
 "The Heralds are sidhe who go out onto the battlefield, singing the warrior "
 "chants that drive the others onwards."
 msgstr ""
+"Heraldi zpívají na válečném poli bojové chorály, které ženou ostatní "
+"Sidheliny kupředu do boje."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Hoarfroster, race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:5
 msgid "Hoarfroster"
-msgstr ""
+msgstr "Mrazový manipulátor"
 
 #. [unit_type]: id=EE Sidhe Hoarfroster, race=sidhe
 #: Extended_Era/units/sidhe/Hoarfroster.cfg:17
@@ -2588,12 +3514,20 @@ msgid ""
 "however, they discover that there is an element they can somewhat control -- "
 "frozen water. This is their claim to greatness."
 msgstr ""
+"Někteří neurození sidheliné touží po větší prestiži, které se dostává těm, "
+"co ovládají magii. Ze všech svých sil se snažili získat mistrovství v "
+"sesílání blesků na nepřátele se smrtící přesností, ale zjistili, že je to "
+"pro ně nedostižný cíl. Až nakonec našli element, který mohli částečně "
+"ovládnout - zmrzlou vodu. A to je příležitost pro získání žádaného obdivu a "
+"velikosti."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Raindancer, race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:5
 msgid "Raindancer"
-msgstr ""
+msgstr "Dešťový tanečník "
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Raindancer, race=sidhe
 #: Extended_Era/units/sidhe/Raindancer.cfg:18
 msgid ""
@@ -2603,7 +3537,12 @@ msgid ""
 "young and brash noblemen are uninterested in study, and more likely to go "
 "practice their swordplay than their magic."
 msgstr ""
+"Sidhelinští šlechtici jsou mocní mágové. Koncentrují svou sílu na seslání "
+"blesku z jinak jasné oblohy. Jejich „tančení“ mezi blesky jim dalo jméno. "
+"Bohužel, urození přidrzlí mladíci se nehrnou do studia a raději se věnují "
+"šermu než magii."
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/sidhe/Tempest.cfg:31
 #: Extended_Era/units/sidhe/Stormlord.cfg:32
@@ -2612,13 +3551,15 @@ msgstr ""
 #: Extended_Era/units/sidhe/Raindancer.cfg:32
 #: Extended_Era/units/sidhe/Windlasher.cfg:31
 msgid "lightning"
-msgstr ""
+msgstr "blesk"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Sidhe Shadowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:5
 msgid "Shadowdancer"
-msgstr ""
+msgstr "Stínový tanečník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Shadowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Shadowdancer.cfg:21
 msgid ""
@@ -2626,11 +3567,14 @@ msgid ""
 "advised not to do so in his face, lest they wish to have their sword in "
 "their back."
 msgstr ""
+"Někdo sice může pohrdat Stínovými tanečníky, ale raději by to neměl dělat "
+"přímo před nimi, v případě že nechce skončit s mečem v zádech."
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Snowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:5
 msgid "Snowdancer"
-msgstr ""
+msgstr "Sněhový tanečník"
 
 #. [unit_type]: id=EE Sidhe Snowdancer, race=sidhe
 #: Extended_Era/units/sidhe/Snowdancer.cfg:17
@@ -2642,12 +3586,20 @@ msgid ""
 "have established the rank of Snowdancer as a reward for Hoarfrosters who "
 "excel in both skill and loyalty."
 msgstr ""
+"Sidhelinská šlechta nenese lehce, že někdo z těch obyčejných se snaží "
+"dosáhnout hodnosti mága. Přistupuje však k této skutečnosti pragmaticky s "
+"vědomím, že tato tak jako tak slabá magie ledu může být vhodným doplňkem k "
+"jejich vlastním schopnostem, pokud jsou si ti, co ji praktikují, vědomi, kde "
+"je jejich místo v hiearchii. Proto ustanovila Sněhové tanečníky jako odměnu "
+"pro ty, co se osvědčili svými schopnostmi a oddaností."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Sidhe Spirit Ancestor, race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:5
 msgid "Sidhe Ancestor"
-msgstr ""
+msgstr "Sidhelinský předek"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Spirit Ancestor, race=undead
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:21
 msgid ""
@@ -2656,25 +3608,33 @@ msgid ""
 "mortal realm, and wounds close as if they had never existed. Their voice can "
 "whisper in the wind the words that chill the hearts of their ennemies."
 msgstr ""
+"Staroslavní válečníci se potulují lesy sidhelinů. Jen svítivě stříbřité meče "
+"ukazují jejich přítomnost. Jsou pouze částečně přítomni v říši smrtelníků a "
+"jejich zranění jako by nikdy neexistovala. Jejich hlasy šeptají ve větru "
+"slova, která mrazí v srdích jejich nepřátel."
 
+# zbraň
 #. [attack]: type=arcane
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:26
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:25
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:25
 msgid "ancient blade"
-msgstr ""
+msgstr "starobylá čepel"
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:35
 #: Extended_Era/units/sidhe/Spirit_Ancestor.cfg:34
 msgid "requiem"
-msgstr ""
+msgstr "rekviem"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Sidhe Spirit Forefather, race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:5
 msgid "Sidhe Forefather"
-msgstr ""
+msgstr "Sidhelinský praotec"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Spirit Forefather, race=undead
 #: Extended_Era/units/sidhe/Spirit_Forefather.cfg:22
 msgid ""
@@ -2682,12 +3642,17 @@ msgid ""
 "death chant, echoing through the trees, know that their silver blades are "
 "also near."
 msgstr ""
+"Největší válečníci sidhelinů stále neopouští tento svět. Pokud někdo slyší "
+"jejich mrtvolný chorál, ozvěnou rozechvívající stromy, může si být jist, že "
+"jejich stříbřité čepele jsou též nedaleko."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Spirit Warrior, race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:5
 msgid "Warrior Spirit"
-msgstr ""
+msgstr "Duch válečníka"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Spirit Warrior, race=undead
 #: Extended_Era/units/sidhe/Spirit_Warrior.cfg:21
 msgid ""
@@ -2695,12 +3660,17 @@ msgid ""
 "the forests of their former homes, seeking to perform the feats of arms they "
 "did in the past, and death is no obstacle..."
 msgstr ""
+"Slavní sidhelinští bojovníci minulosti neodešli nadobro. Potulují se v "
+"lesích své bývalé domoviny, dychtiví předvést takové válečné činy jako za "
+"starých časů a smrt pro ně v tomto není překážkou ..."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Stormlord, race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:5
 msgid "Stormlord"
-msgstr ""
+msgstr "Pán bouře"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Stormlord, race=sidhe
 #: Extended_Era/units/sidhe/Stormlord.cfg:18
 msgid ""
@@ -2709,12 +3679,18 @@ msgid ""
 "distrust them because of this, but they fear them even more. And if a sidhe "
 "fears someone..."
 msgstr ""
+"Páni bouře strávili svůj život studiem magie. Vzdali se ovládání zbraní a "
+"nevěnují se rozvíjení fyzických dispozicí. Mnoho elfů se na ně díky tomu "
+"dívá nedůvěřivě. Ještě více se jich však bojí. A když už se i sidhelin "
+"někoho bojí ..."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Tempest, race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:5
 msgid "Tempest"
-msgstr ""
+msgstr "Vtělení bouře"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Tempest, race=sidhe
 #: Extended_Era/units/sidhe/Tempest.cfg:17
 msgid ""
@@ -2722,11 +3698,14 @@ msgid ""
 "They call down lightning with ease and use a magic whose raw destructive "
 "power is almost unequaled."
 msgstr ""
+"Starší mágové, mudrci sidhelinů jsou nazýváni jako Vtělení bouře. S lehkostí "
+"sesílají blesky a používají magii, jejíž hrubé destruktivní síle se takřka "
+"nic nemůže rovnat."
 
 #. [unit_type]: id=EE Sidhe Thunderblade, race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:5
 msgid "Thunderblade"
-msgstr ""
+msgstr "Hromový mečíř"
 
 #. [unit_type]: id=EE Sidhe Thunderblade, race=sidhe
 #: Extended_Era/units/sidhe/Thunderblade.cfg:18
@@ -2737,16 +3716,22 @@ msgid ""
 "be awarded a thunderblade, a special sword enchanted with a fragment of the "
 "sidhe lord's great weapon."
 msgstr ""
+"Od té doby, co první sidhelinští lordi padli v boji, jsou nejvyššími mágy "
+"divokých elfů schraňovány a uchovávány jako vzácnost úlomky jejich mocných "
+"mečů. Pokud se nějaký sidhelin ukáže být mocným válečníkem a ovládá magii "
+"vznešených, může mu být udělen titul hromového mečíře a speciální meč s "
+"vkovanými fragmenty nejlepších zbraní sidhelinských lordů. "
 
 #. [attack]: type=blade
 #: Extended_Era/units/sidhe/Thunderblade.cfg:23
 msgid "thunderblade"
-msgstr ""
+msgstr "hromová čepel"
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Tracker, race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:5
 msgid "Tracker"
-msgstr ""
+msgstr "Stopař"
 
 #. [unit_type]: id=EE Sidhe Tracker, race=sidhe
 #: Extended_Era/units/sidhe/Tracker.cfg:21
@@ -2755,7 +3740,11 @@ msgid ""
 "skilled in both hand to hand and ranged combat when using short spears. "
 "Their complete lack of armor is a liability, though."
 msgstr ""
+"Stopaři divokých elfů patří mezi nejlepší známé průzkumníky. Jsou pohotoví a "
+"přizpůsobiví, dobře ovládají jak boj zblízka, tak vrhání oštěpů na dálku. "
+"Jejich nevýhodou je, že nepoužívají naprosto žádné brnění."
 
+# zbraň
 #. [attack]: type=pierce
 #: Extended_Era/units/sidhe/Wanderer.cfg:27
 #: Extended_Era/units/sidhe/Wanderer.cfg:35
@@ -2765,13 +3754,15 @@ msgstr ""
 #: Extended_Era/units/sidhe/Tracker.cfg:34
 #: Extended_Era/units/undead/Skele_Chocobone.cfg:11
 msgid "spear"
-msgstr ""
+msgstr "oštěp"
 
+# Jméno jednotky
 #. [unit_type]: id=EE Sidhe Veiledblade, race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:5
 msgid "Veiledblade"
-msgstr ""
+msgstr "Zahalený"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Veiledblade, race=sidhe
 #: Extended_Era/units/sidhe/Veiledblade.cfg:20
 msgid ""
@@ -2779,12 +3770,17 @@ msgid ""
 "through the ennemy's defense, and stealthily hit an unexpecting foe, often "
 "mortally so."
 msgstr ""
+"Ne každý sidhelin bojuje rád tváří v tvář. Temní zahalení dokáží "
+"proklouznout nepřátelskou obranou a zákeřně a často smrtelně zaútočit na "
+"toho, kdo to nečeká."
 
+# Jméno jednotky
 #. [unit_type]: id=EE Sidhe Wanderer, race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:5
 msgid "Wanderer"
-msgstr ""
+msgstr "Potulný zvěd"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Wanderer, race=sidhe
 #: Extended_Era/units/sidhe/Wanderer.cfg:22
 msgid ""
@@ -2794,23 +3790,34 @@ msgid ""
 "usefulness is for running ahead. Their extreme swiftness comes, however, at "
 "a price as they fight almost armorless and die fast in direct combat."
 msgstr ""
+"Mezi sidheliny jsou samotáři, kteří dávají přednost stopování a průzkumu "
+"před bojem. Tito potulní zvědové jsou vyzbrojeni krátkým oštěpem, který "
+"užívají celkem ... přesvědčivě, ačkoli jejich skutečná užitečnost tkví ve "
+"výzvědné činnosti. Jejich extrémní hbitost je však vykoupena jejich "
+"neobrněností a tak za ni v přímém boji platí cenu snadné smrti."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Wardancer, race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:5
 msgid "Wardancer"
-msgstr ""
+msgstr "Válečný tanečník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Wardancer, race=sidhe
 #: Extended_Era/units/sidhe/Wardancer.cfg:18
 msgid ""
 "Wardancers are legends among the sidhe. The skill of a bladespinner may seem "
 "unbelievable, but he is an amateur compared to a mighty wardancer."
 msgstr ""
+"Váleční tanečníci jsou legendami mezi sidheliny. To, jak šermuje Tanečník s "
+"meči, se zdá neuvěřitelné, ale ve srovnání s mocným Válečným tanečníkem je "
+"to je amatér."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Warmage, race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:5
 msgid "War Mage"
-msgstr ""
+msgstr "Válečný mág"
 
 #. [unit_type]: id=EE Sidhe Warmage, race=sidhe
 #: Extended_Era/units/sidhe/Warmage.cfg:17
@@ -2820,7 +3827,13 @@ msgid ""
 "sword in hand. Their prowesses with the sword are easily those of a warrior "
 "and their magic is a welcome ally."
 msgstr ""
+"Jen málo sidhelinů je schopno zůstat po delší dobu mimo boj. Váleční mágové "
+"jsou šlechta divokých elfů, která ačkoli je trénována v ovládání magie, "
+"tráví též spoustu času s mečem v ruce. Jejich statečnost v boji s mečem je "
+"snadno srovnatelná s čistokrevnými válečníky a ovládání magie je vítanou "
+"výhodou navíc."
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Warrior, race=sidhe
 #: Extended_Era/units/sidhe/Warrior.cfg:18
 msgid ""
@@ -2828,11 +3841,14 @@ msgid ""
 "fast, strong blows and avoiding them just as easily. Their only weakness is "
 "the frailty due to their distaste for armor."
 msgstr ""
+"Mrštní a silní válečníci sidhelinů ovládají smrtonosně svůj meč. Jsou "
+"schopni rozdávat rychlé a silné rány a sami se jim vyhnout. Jejich jediná "
+"slabost je křehkost, neboť mají velký odpor k nošení brnění."
 
 #. [unit_type]: id=EE Sidhe Warsinger, race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:5
 msgid "Warsinger"
-msgstr ""
+msgstr "Hlahol"
 
 #. [unit_type]: id=EE Sidhe Warsinger, race=sidhe
 #: Extended_Era/units/sidhe/Warsinger.cfg:21
@@ -2840,12 +3856,16 @@ msgid ""
 "The Warsinger is a master of the songs of combat. A powerful warrior "
 "himself, he can drive his companions into battle frenzies."
 msgstr ""
+"Hlaholové jsou mistři bojového zpěvu. Sami patří mezi silné válečníky a "
+"navíc dokážou vybudit své druhy do bojové zuřivosti."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Whirlwind, race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:5
 msgid "Whirlwind"
-msgstr ""
+msgstr "Rozvraceč"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Whirlwind, race=sidhe
 #: Extended_Era/units/sidhe/Whirlwind.cfg:21
 msgid ""
@@ -2853,12 +3873,17 @@ msgid ""
 "own way, he is feared by all sidhe who fear his rage. When he wishes to kill "
 "nothing and no one can stop him."
 msgstr ""
+"Rozvraceč je divous, který přežil mnoho bitev. Je živoucí legendou a všichni "
+"sidheliné se obávají jeho hněvu. Když chce někoho zabít, nikdo a nic ho "
+"nemůže zastavit."
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Wildblade, race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:5
 msgid "Wildblade"
-msgstr ""
+msgstr "Divous"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Wildblade, race=sidhe
 #: Extended_Era/units/sidhe/Wildblade.cfg:18
 msgid ""
@@ -2866,11 +3891,14 @@ msgid ""
 "behold. Hitting left and right with a strength and a devotion rarely seen, "
 "he cares not for pain, or even death..."
 msgstr ""
+"Jakmile divouse ovládne bojová vášeň a vztek, stává se z něj hrozivý "
+"protivník. Rozdává údery na všechny strany se silou a nadšením, které se jen "
+"tak nevidí. Nehledí si svých zranění, dokonce ani své smrti ... "
 
 #. [unit_type]: id=EE Sidhe Windlasher, race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:5
 msgid "Windlasher"
-msgstr ""
+msgstr "Mrskač větrů"
 
 #. [unit_type]: id=EE Sidhe Windlasher, race=sidhe
 #: Extended_Era/units/sidhe/Windlasher.cfg:17
@@ -2879,12 +3907,17 @@ msgid ""
 "one. He must stop the training in arms and devote himself to the study of "
 "magic. Few choose this path, but it is a worthy one."
 msgstr ""
+"Sidhelin, kteří se rozhodne pro život mrskače větrů si vybírá těžký úděl. "
+"Musí opustit bojový výcvik a zasvětit se studiu magie. Jen málo se vydá "
+"touto cestou, ale ti kdo si ji zvolí, jsou velmi ceněni. "
 
+# Název jednotky
 #. [unit_type]: id=EE Sidhe Windrunner, race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:5
 msgid "Windrunner"
-msgstr ""
+msgstr "Nedostižný"
 
+# Popis jednotky
 #. [unit_type]: id=EE Sidhe Windrunner, race=sidhe
 #: Extended_Era/units/sidhe/Windrunner.cfg:22
 msgid ""
@@ -2892,14 +3925,20 @@ msgid ""
 "unbelievable, and their prowesses with their spears, whether thrown or in "
 "hand to hand, are amazing. They might die fast in direct combat, though."
 msgstr ""
+"Nedostižní jsou nejlepší sidhelinští zvědové. Jejich rychlost je "
+"neuvěřitelná a to, jak statečně bojují oštepem, ať už na dálku nebo zblízka, "
+"je ohromující. Přesto v přímém boji nemohou dlouho obstát."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Bladesman, race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:5
 msgid "Steppe Bladesman"
-msgstr ""
+msgstr "Stepní sekerník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Bladesman, race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:19
+#, fuzzy
 msgid ""
 "Those orcs who excel in the use of the battle axe are informally known to "
 "their brethren as Bladesmen. Disregarding all flair or style, Bladesman "
@@ -2907,11 +3946,17 @@ msgid ""
 "before them. Any skill gained through battle only builds on what nature has "
 "already granted them."
 msgstr ""
+"Skřeti, kteří vynikají v boji se sekerou, jsou svými bratry neformálně "
+"nazýváni sekerníky. Přehlížejíce veškeré umění a styl, bojují sekerníci "
+"jednoduše: brutální silou sekají přímo do toho, kdo před nimi stojí. "
+"Jakákoli dovednost získaná na bitevním poli jen posiluje tento naturel, "
+"který je jim dán."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Flanker, race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:5
 msgid "Steppe Flanker"
-msgstr ""
+msgstr "Stepní obkličovač"
 
 #. [unit_type]: id=EE Steppe Flanker, race=goblin
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:20
@@ -2921,21 +3966,29 @@ msgid ""
 "raiding parties, they are undeniably useful and so their presence is "
 "tolerated, if grudgingly."
 msgstr ""
+"Někteří goblini zjistili, že dovednosti získané při lovu najdou své "
+"uplatnění i na bitevním poli. Ačkoli nejsou goblini příliš vítanými členy "
+"nájezdních tlup, jsou pro ně nepopiratelně užiteční a tak je jejich "
+"přítomnost, ač zdráhavě, tolerována."
 
+# zbraň
 #. [attack]: type=pierce
 #: Extended_Era/units/steppe_orcs/Striker.cfg:40
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:33
 #: Extended_Era/units/steppe_orcs/Flanker.cfg:34
 msgid "harpoon"
-msgstr ""
+msgstr "harpuna"
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Hunter, race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:5
 msgid "Steppe Hunter"
-msgstr ""
+msgstr "Stepní lovec"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Hunter, race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:19
+#, fuzzy
 msgid ""
 "The cruel life on the steppes tends to weed out the weak early on and harden "
 "those that remain. For this reason goblins are nowhere near as common on the "
@@ -2944,12 +3997,20 @@ msgid ""
 "use of barbed harpoons to lame prey, allowing an easier kill for their "
 "larger orcish bretheren."
 msgstr ""
+"Krutý život ve stanech na stepi rychle vyjednocuje slabé pryč od zůstavších "
+"silných. Z toho důvodu se goblinům ve stepi daří stejně špatně, jako kdekoli "
+"jinde. Ti, kteří přežijí často nacházejí uplatnění jako zvědové nebo "
+"zpracovatelé mršin. V loveckých zátazích se specializují v použití ostnatých "
+"harpun k ochromení kořisti, čímž usnadňují svým větším skřetím bratřím její "
+"ubití."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Drover, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:5
 msgid "Icewind Drover"
-msgstr ""
+msgstr "Honák severáku"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Drover, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:20
 msgid ""
@@ -2965,21 +4026,35 @@ msgid ""
 "steppe orcs whisper that this is because their hearts pump not blood, but "
 "ice."
 msgstr ""
+"Pastýři s vhodnými schopnostmi se mohou stát těmi, koho stepní skřeti "
+"nazývají Honáky, elitou Řádu severáku. Dozrávají a získávají zkušenosti s "
+"ovládáním elementální magie. Někteří jsou prý schopni vyvolat divokou "
+"sněhovou bouři za jasného počasí, což ovšem nebylo bohužel potvrzeno dalšími "
+"svědky. Na dotazy o podstatě svých schopností odpovídají, že působí jako "
+"„řečiště“. Pro co slouží jako řečiště však neobjasňují.\n"
+"Ostatní skřeti si též všímají jejich modrého zabarvení, které prostupuje "
+"běžnou hnědou skřetí pokožkou a krystalizuje v tvrdých útvarech na jejím "
+"povrchu. Špitají si mezi sebou, že je to způsobeno tím, že honákům neproudí "
+"v těle krev, ale led."
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:41
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:43
 #: Extended_Era/units/steppe_orcs/Icewind_Drover.cfg:41
 msgid "frostbite"
-msgstr ""
+msgstr "mrazivý štípanec"
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Herder, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:5
 msgid "Icewind Herder"
-msgstr ""
+msgstr "Pastýř severáku"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Herder, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:22
+#, fuzzy
 msgid ""
 "There is an old tale about the creation of the the IceWind order: A gang of "
 "children were fishing when a very young female, hooking something bigger "
@@ -3001,12 +4076,34 @@ msgid ""
 "The child refused outright to reveal what had happened in the frozen pool "
 "and when she died many years later the secret died with her."
 msgstr ""
+"Starodávná legenda o vzniku Řádu severáku vypráví:\n"
+"Skupina skřetích dětí chytala ryby. Najednou jedné mladé dívce zabralo něco "
+"většího, co nebyla schopna vytáhnout na břeh. Byla tím vtáhnuta pod led do "
+"vody a již nevyplavala. Po dvou dnech, když už se v jejím kmenu pomalu "
+"zapomínalo na tuto ztrátu, hlídka hlásila znepokojující zjevení. Ta samá "
+"skřetí dívka, šílená vyčerpáním a bledá jak smrt, byla spatřena, jak se sama "
+"vyvlekla ven z jezírka.\n"
+"Po této události již nebyla tato mladá dívka, jejíž jméno je velmi střeženým "
+"tajemstvím, nikdy stejná jako předtím. Členové kmene si vyprávěli příběhy o "
+"jejích schopnostech, třeba o tom, jak zmrazila celého medvěda v led jen svým "
+"pohledem nebo o tom jak vycházela v noci ven rozmlouvat s neviděnými tvory, "
+"co sídlí ve vodách. Nikdo z kmene se jí neodvážil zmínit o těchto pověstech, "
+"pro případ, že by byly pravdivé.\n"
+"Tato skřetice se stala zakladatelkou Řádu severáku a každý rok měla vybírat "
+"děti z kmene jako učedníky. Vše co je naučila, jim umožnovalo mysticky "
+"ovlivňovat elementy okolní přírody. Pastýři sami popisují toto ovlivňování "
+"jako „sjednocení“. Během jejího života se stal řád plně akceptovanou "
+"součástí klanu.\n"
+"Nikdy nevyjasnila, co se událo v ledové nádrži. Toto tajemství si vzala s "
+"sebou do hrobu, když za mnoho let poté zemřela."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Master, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:5
 msgid "Icewind Master"
-msgstr ""
+msgstr "Pán severáku"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Master, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Master.cfg:20
 msgid ""
@@ -3017,14 +4114,23 @@ msgid ""
 "seperates them from the main clan. However the reasons for their "
 "estrangement also grant them great respect from their brethren."
 msgstr ""
+"Páni severáku jsou skutečně raritní zjevy, obzvláště u takové rasy, která k "
+"magii inklinuje velmi málo. Takřka nikdy jich nebývá víc než jeden v "
+"generaci a velmi často se stane někdo pánem až po desítky let trvající "
+"odmlce. Ti, kteří dosáhnou tohoto vrcholného postavení v řádu jsou často "
+"samotářští, neboť jejich umění je vyděluje od ostatních členů klanu. Leč to, "
+"co působuje jejich odcizení, jim též přináší mezi jejich bratřími obrovský "
+"respekt."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Juggernaut, race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:5
 msgid "Steppe Juggernaut"
-msgstr ""
+msgstr "Stepní moloch"
 
 #. [unit_type]: id=EE Steppe Juggernaut, race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:20
+#, fuzzy
 msgid ""
 "Some of the Steppe Orcs aspiring to power realize that they actually have a "
 "certain aptitude for the charge. Abandoning the pursuit of leadership, these "
@@ -3033,20 +4139,29 @@ msgid ""
 "telling, an entire squad of elves scattered and ran at the sight of a single "
 "Juggernaut bearing down on them."
 msgstr ""
+"Někteří ze stepních skřetů při své usilování po větší moci zjišťují, že již "
+"jsou dostatečně způsobilí pro provádění silných výpadů. Takoví molochové pak "
+"přestávájí s rozvinováním svých velitelských schopností a vrhají se do bojů "
+"s naprosto zuřivou nedbalostí. O jednom legendárním střetnutí, které s "
+"každým vyprávěním získává na heroičnosti, se vypráví, jak se celá jednotka "
+"elfů rozutekla už při pohledu na jediného molocha, který k ní směřoval."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:24
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:25
 #: Extended_Era/units/steppe_orcs/Khan.cfg:29
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:27
 msgid "flail"
-msgstr ""
+msgstr "řemdih"
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Khan, race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:5
 msgid "Steppe Khan"
-msgstr ""
+msgstr "Stepní Chán"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Khan, race=orc
 #: Extended_Era/units/steppe_orcs/Khan.cfg:24
 msgid ""
@@ -3062,25 +4177,45 @@ msgid ""
 "retaining their flail, they focus on using the axe as they are considered "
 "too valuable an asset to risk in daredevil charges."
 msgstr ""
+"Stepní náčelníci jsou titulováni jako Cháni a zastávají vůdčí funkci "
+"politickou i vojenskou. Objevili výhody vedení vojska ze zálohy, ženoucí "
+"ostatní před sebou. Před bitvou se obvykle vmísí mezi své vojáky a pobízejí "
+"je hrozbami, sliby, urážkami či pouze vlastním křikem. Čímkoli, co je vybudí "
+"do vzrůstající zuřivosti. Téměř každý, kdo bojoval proti stepním skřetům, "
+"vypráví o nervy drásajícím řevu skřetích vůdců.\n"
+"Navzdory tomu, Cháni jsou připraveni okamžitě vstoupit do přímého zápasu "
+"proti takovému obzvláště smělému nepříteli, který by je k tomu vyzýval. I "
+"když stále ovládají svůj řemdih, často se zaměřují na boj se sekerou, neboť "
+"se považují za tak cenné, že nechtějí riskovat v tak pošetile odvážném "
+"způsobu boje."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Massif, race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:5
 msgid "Steppe Massif"
-msgstr ""
+msgstr "Stepní kolos"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Massif, race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:20
+#, fuzzy
 msgid ""
 "Clad in crude armor with full-face helms and swinging weapons too heavy for "
 "many humans to lift, the hulking Massifs are a terrifying spectacle. They "
 "invariably continue their use of the battleaxe, with fearful results."
 msgstr ""
+"Mohutní kolosové, oblečení v surovém brnění s celoobličejovými helmami a "
+"pohazující si se zbraněmi, které by mnoho lidí ani neuneslo, představují "
+"děsuplná zjevení. Neustále pokračují ve výcviku boje se sekerou, jehož "
+"výsledků se lze opravdu obávat."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Outcast, race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:5
 msgid "Steppe Outcast"
-msgstr ""
+msgstr "Stepní odpadlík"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Outcast, race=orc
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:20
 msgid ""
@@ -3097,20 +4232,35 @@ msgid ""
 "use. However they are denied the mystical union with their icy home, that is "
 "a right reserved for the Herders."
 msgstr ""
+"Ne všichni učedníci Řádu severáku jsou úspěšnými studenty. Někteří nemají "
+"dost potřebné trpělivosti, u jiných je shledána nedostačující mentální "
+"odolnost. Ačkoli jsou tito vyloučeni z řádu, nezapomněli, co se stihli "
+"naučit.\n"
+"Když poprvé začali odpadlíci praktikovat jejich zakázanou magii, Řád "
+"severáku spustil povyk na kmenové radě. Pod hrozbou vyhoštění museli "
+"odpadlíci ustat ve svých aktivitách. Ale jejich společenstvo stále trvalo, i "
+"když v jiné formě. Přestali napodobovat své protějšky a vyvinuli paralelní "
+"sektu na okraji kmenové společnosti.\n"
+"Magie odpadlíků má nepopiratelně jen hrubou formu, dokáže být však velmi "
+"účinná. Nicméně odstoupili od mystického sjednocování se se svou ledovou "
+"identitou, která zůstala doménou pastýřů."
 
+# zbraň
 #. [attack]: type=cold
 #: Extended_Era/units/steppe_orcs/Outcast.cfg:25
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:24
 msgid "frigid touch"
-msgstr ""
+msgstr "umrtvující dotek"
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Pariah, race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:4
 msgid "Steppe Pariah"
-msgstr ""
+msgstr "Stepní vyvrhel"
 
 #. [unit_type]: id=EE Steppe Pariah, race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:19
+#, fuzzy
 msgid ""
 "Those rejects of the IceWind order who achieve veteran status in their art "
 "are looked upon as akin to minor criminals. However not even the Herders can "
@@ -3118,12 +4268,20 @@ msgid ""
 "the clan and rarely fight except for an incentive. When they do, they "
 "specialize in flushing foes from fortified positions or difficult terrain."
 msgstr ""
+"Na ty, kteří opustili Řád severáku a dosáhli na této své cestě mistovství, "
+"je nahlíženo pomalu jak na zločince. Přesto ani pastýři nemohou popřít, že "
+"tito vyvrhelové mohou být dost užiteční. Vyvrhelové netrpí přehnanou "
+"loajalitou ke klanu a pokud nemají nějaký stimul, jen zřídkakdy bojují. "
+"Pokud se boje učastní, specializují se na odstraňování nepřátel z opevněných "
+"pozic nebo výhodného terénu."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Rigid, race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:5
 msgid "Steppe Rigid"
-msgstr ""
+msgstr "Stepní pavéz"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Rigid, race=orc
 #: Extended_Era/units/steppe_orcs/Rigid.cfg:19
 msgid ""
@@ -3134,14 +4292,22 @@ msgid ""
 "glorious one and usually comes to an end jammed into a choke point against "
 "hopeless odds."
 msgstr ""
+"Dle svého jména, Pavézi jsou témeř neproniknutelní protivníci. Často vytváří "
+"záložní ústupovou pozici za bitevní linií. Častokrát byli Pavézi obětováni, "
+"zdržujíce nepřítele, zatímco se hlavní síly zotavovaly a přeskupovaly za "
+"neoblomnou stěnou svalů, kostí a železa. Jejich úloha jen těžko přináší "
+"slávu a obvykle nastupují na ty beznadějné pozice, které je třeba ucpat a "
+"přiškrtit postup."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Savage, race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:5
 msgid "Steppe Savage"
-msgstr ""
+msgstr "Stepní divoch"
 
 #. [unit_type]: id=EE Steppe Savage, race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:20
+#, fuzzy
 msgid ""
 "Unlike humans or elves, most orcs find a barbaric thrill in the chaos and "
 "blood of battle. Some so much so that the experience pushes their psyche, "
@@ -3153,17 +4319,29 @@ msgid ""
 "and ease of movement but sacrificing the protection it gives. Few have been "
 "known to survive beyond early adulthood."
 msgstr ""
+"Na rozdíl od lidí či elfů, většina skřetů nalézá v chaosu a krvi bitev "
+"barbarské vzrušení. U některých tyto zážitky narušily jejich již natolik "
+"neklidnou a násilnou mysl, že se jejich myšlení nebezpečně přiblížilo k "
+"okraji zlomu. Balancujíce na tenké hranici mezi příčetností a spalujícími "
+"instinkty, představují skoro stejnou hrozbu pro své skřetí druhy jako pro "
+"své nepřátele. Vrhají se do rvaček a útočí na protivníky toliko svými pěstmi "
+"a zuby. Divoši vůbec nepoužívají brnění, protože by je brzdilo a protože na "
+"svou ochranu beztak nehledí. Jen o málo z nich je známo, že by se dožili "
+"vyššího věku."
 
+# zbraň
 #. [attack]: type=impact
 #: Extended_Era/units/steppe_orcs/Savage.cfg:43
 msgid "frenzy"
-msgstr ""
+msgstr "záchvat zuřivosti"
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Shieldbearer, race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:5
 msgid "Steppe Shieldbearer"
-msgstr ""
+msgstr "Stepní štítonoš"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Shieldbearer, race=orc
 #: Extended_Era/units/steppe_orcs/Shieldbearer.cfg:19
 msgid ""
@@ -3174,14 +4352,23 @@ msgid ""
 "often been said by the Steppe Orcs that while the Shieldbearers have never "
 "secured victory, they have numerous times prevented utter defeat."
 msgstr ""
+"Někteří vojáci dostávají speciální úkoly, odlišné od těch, které plní jejich "
+"spolubojovníci. Štítonoši nemají v podstatě žádnou zbraň. Jejich jedinečným "
+"úkolem je chránit zraněné, obsazovat mezery v liniích a v případě, že hrozí "
+"porážka, udržet nepřítele dostatečně dlouho na to, aby kryli ústup. Jak se "
+"již mnohokrát mezi skřety tradovalo, štítonoši sice nikdy nezajistili "
+"vítězství, ale mnohokrát zabránili hořké porážce."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Skewer, race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:5
 msgid "Steppe Skewer"
-msgstr ""
+msgstr "Stepní napichovač"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Skewer, race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:20
+#, fuzzy
 msgid ""
 "While orcs may not be renowned for their intellectual capacity, it is well "
 "within their powers of thinking to realize that a longer spear will allow "
@@ -3189,12 +4376,18 @@ msgid ""
 "in crafting barbed heads for their spears, further increasing their grisly "
 "effectiveness."
 msgstr ""
+"Skřeti sice nejsou proslulí svou intelektuální kapacitou, ale na poznání, že "
+"delší oštěp jim umožní napichovat své nepřátele z větší vzdálenosti, jim "
+"stačí. Navíc napichovači s rozkoší využívají na svých oštěpech ostnaté "
+"hlavice, což ještě více zvyšuje jejich strašlivou účinnost."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Spearhead, race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:5
 msgid "Steppe Spearhead"
-msgstr ""
+msgstr "Stepní úderník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Spearhead, race=orc
 #: Extended_Era/units/steppe_orcs/Spearhead.cfg:19
 msgid ""
@@ -3206,26 +4399,42 @@ msgid ""
 "effective weapons. A weight attached to a chain makes a perfectly servicable "
 "flail."
 msgstr ""
+"Jakýkoli stepní skřet, který by se chtěl stát vůdcem, musí nejprve ukázat "
+"svou hodnotu v boji. Úderníci útočí v čelních náporech na nepřítele a snaží "
+"se tak vytvořit díru v jeho obraně. Jejich pozice mohou být nazývany "
+"přinejmenším jako nebezpečné. Jejich nedočkavost po průlomu je pravidelně "
+"příčinou krvavého konce. Jejich krutou, ale často efektivní taktiku doplňuje "
+"odpovídající krutá, ale efektivní výzbroj. Těžká koule na řetěze vytváří "
+"dokonale fungující řemdih."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Spearman, race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:5
 msgid "Steppe Spearman"
-msgstr ""
+msgstr "Stepní kopiník"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Spearman, race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
+#, fuzzy
 msgid ""
 "The orcs of the steppe learned early on that their axes were simply not "
 "suitable against all foes. In accordance with this, some warriors forgo "
 "further usage of the axe and take up short spears. While necessary, the "
 "change is often somewhat awkward."
 msgstr ""
+"Stepní skřeti se brzy poučili o tom, že jejich sekery nejsou vhodnými "
+"zbraněmi proti všem druhům nepřátel. Proto někteří z nich odložili své "
+"sekery a daný způsob boje a chopili se oštěpů. Byla to nutná změna i za cenu "
+"toho, že jsou často s touto zbraní poněkud neobratní."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Stoic, race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:5
 msgid "Steppe Stoic"
-msgstr ""
+msgstr "Stepní taras"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Stoic, race=orc
 #: Extended_Era/units/steppe_orcs/Stoic.cfg:20
 msgid ""
@@ -3235,12 +4444,20 @@ msgid ""
 "him dead, only to see the hardy orc lift himself from among the corpses of "
 "the dead, raise his shield and reasume his position."
 msgstr ""
+"Tarasové jsou prostě a jednoduše řečeno ztělesněním výdrže. Jsou "
+"charakterističtí čirou nepoddajností a neochotou ustoupit i před těmi "
+"nejtěžšími údery. Čas od času některý nepřítel srazí tarasa a myslí si o "
+"něm, že je mrtvý, aby o chvíli později zíral na to, jak tento odolný skřet "
+"vstává ze země pokryté mrtvolami, zvedá svůj štít a znovu zaujímá svou "
+"pozici."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Striker, race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:5
 msgid "Steppe Striker"
-msgstr ""
+msgstr "Stepní napadač"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Striker, race=goblin
 #: Extended_Era/units/steppe_orcs/Striker.cfg:23
 msgid ""
@@ -3249,14 +4466,21 @@ msgid ""
 "a straight fight. Instead they dart around the main fracas, seeking to "
 "surprise distracted enemies."
 msgstr ""
+"Namísto toho, aby oslabovali své oběti a nechávali je ostatním dobíjet, "
+"chtějí napadači být těmi, kdo zasadí smrtící úder. Nicméně nevládnou "
+"dostatečnou fyzickou silou, aby mohli déle přežít v přímém boji a tak krouží "
+"kolem centra bitky, pokoušejíce se překvapit nepozorné nepřátele.  "
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Vanguard, race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:5
 msgid "Steppe Vanguard"
-msgstr ""
+msgstr "Stepní vůdce voje"
 
+# Popis jednotky
 #. [unit_type]: id=EE Steppe Vanguard, race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:22
+#, fuzzy
 msgid ""
 "Having proven themselves in battle, Vanguards start to assert their "
 "authority others. Their experience is put to use on the battlefield, where "
@@ -3266,14 +4490,23 @@ msgid ""
 "their flails with a standard battleaxe similar to that used by steppe "
 "warriors."
 msgstr ""
+"Poté, co se osvědčili v boji, začínají vojevůdci uplatňovat na ostatní svou "
+"autoritu. Jejich zkušenosti nacházejí uplatnění na bitevním poli, kde řídí "
+"akce svých druhů. Leč uprostřed bitevní vřavy nedbají na tyto nepatrnosti a "
+"jako bojovníci hodni svého jména strhávají ostatní svým příkladem. Přesto se "
+"naučili se určitým způsobem při boji kontrolovat. Proto doplnili svou "
+"výzbroj, tvořenou řemdihem, i o standardní bitevní sekeru, takovou, jakou "
+"užívají stepní válečníci."
 
+# Název jednotky
 #. [unit_type]: id=EE Steppe Warrior, race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:5
 msgid "Steppe Warrior"
-msgstr ""
+msgstr "Stepní válečník"
 
 #. [unit_type]: id=EE Steppe Warrior, race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:19
+#, fuzzy
 msgid ""
 "The rank and file Steppe Orc soldier epitomizes the qualities of his clan. "
 "Hardened, resilient and, when necessary, desperately savage. However, while "
@@ -3282,12 +4515,20 @@ msgid ""
 "conflict take the place of formal training. Not known for their finesse, "
 "Steppe Orcs fight with heavy two-handed battle axes."
 msgstr ""
+"Každý voják stepních skřetů svým postavením a hodnotou ztělesňuje kvality "
+"svého klanu. Vytvrzelý, odolný a když je třeba i intenzivně krutý. Ačkoli "
+"jsou loajální svému klanu, jsou tito bojovníci omezení a těžko "
+"kontrolovatelní. Vrozená síla jejich rasy a nevlídný život v nikdy "
+"nekončících konfliktech u nich zastupuje vojenský výcvik. Jsou poměrně "
+"neobratní a bojují těžkou obouruční bitevní sekerou."
 
+# Název jednotky
 #. [unit_type]: id=EE Faerie Dryad, race=fairy
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:4
 msgid "Dryad"
-msgstr ""
+msgstr "Dryáda"
 
+# Popis jednotky
 #. [unit_type]: id=EE Faerie Spirit, race=fairy
 #. [unit_type]: id=EE Fire Faerie, race=fairy
 #. [unit_type]: id=EE Faerie Sprite, race=fairy
@@ -3296,6 +4537,7 @@ msgstr ""
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:19
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:19
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:20
+#, fuzzy
 msgid ""
 "Mischievous in nature, these fiery fairies are pranksters at heart, with a "
 "sense of humor that is often called nymph-like. While their command of the "
@@ -3303,43 +4545,55 @@ msgid ""
 "cousins to the imp. However, their protective attitude of nature and "
 "whimsical personality make them fast friends to the elves."
 msgstr ""
+"Od přirozenosti rozpustilé ohnivé víly jsou ve svém nitru šprýmařky se "
+"smyslem pro nymfí způsob humoru. Protože jejich ovládání elementu ohně je "
+"pozůstatek tajemné minulosti, bývají často považovány za příbuzné rarášků. "
+"Přesto, jejich pečovatelský postoj k přírodě a rozmarná osobitost je snadno "
+"sbližuje s elfy."
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:41
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:26
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:26
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:27
 msgid "fire touch"
-msgstr ""
+msgstr "ohnivý dotek"
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:54
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:36
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:36
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:37
 msgid "mystic fire"
-msgstr ""
+msgstr "mystický oheň"
 
+# Název jednotky
 #. [unit_type]: id=EE Fire Faerie, race=fairy
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:4
 msgid "Fire Faerie"
-msgstr ""
+msgstr "Ohnivá víla"
 
+# Název jednotky
 #. [unit_type]: id=EE Faerie Spirit, race=fairy
 #: Extended_Era/units/sylvan_fairies/Spirit.cfg:4
 msgid "Faerie Spirit"
-msgstr ""
+msgstr "Rusalka"
 
+# Název jednotky
 #. [unit_type]: id=EE Faerie Sprite, race=fairy
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:4
 msgid "Sprite"
-msgstr ""
+msgstr "Skřítka"
 
+# Název jednotky
 #. [unit_type]: id=EE Troll Shaman, race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:5
 msgid "Troll Shaman"
-msgstr ""
+msgstr "Trollí šaman"
 
+# Popis jednotky
 #. [unit_type]: id=EE Troll Shaman, race=troll
 #: Extended_Era/units/trolls/Shaman.cfg:26
 msgid ""
@@ -3347,20 +4601,357 @@ msgid ""
 "or tough as other trolls, their true power lies in their fire magic, which "
 "they use to blast enemies with gouts of fire."
 msgstr ""
+"Trollí šamani jsou duchovní a mystičtí vůdcové trollů. I když nejsou tak "
+"silní jako ostatní trollové, jejich skutečná síla spočívá v ohnivé magii, "
+"kterou používají ke smetení nepřátel vlnami ohně."
 
+# zbraň
 #. [attack]: type=fire
 #: Extended_Era/units/trolls/Shaman.cfg:43
 msgid "flame blast"
-msgstr ""
+msgstr "ohnivá střela"
 
+# Název jednotky
 #. [unit_type]: id=EE Wose Shaman, race=wose
 #: Extended_Era/units/woses/Shaman.cfg:6
 msgid "Wose Shaman"
-msgstr ""
+msgstr "Stromový šaman"
 
+# Popis jednotky
 #. [unit_type]: id=EE Wose Shaman, race=wose
 #: Extended_Era/units/woses/Shaman.cfg:26
 msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
 "hinder their enemies."
 msgstr ""
+"Stromoví šamani dovedou ovládat popínavé a plazivé rostliny, které svými "
+"šlahouny zamotávají jejich nepřátele.\n"
+"\n"
+"Zvláštní rysy:"
+
+# zbraň
+#~ msgid "knife"
+#~ msgstr "nůž"
+
+# zbraň
+#~ msgid "claws"
+#~ msgstr "pařáty"
+
+# zbraň
+#~ msgid "staff"
+#~ msgstr "hůl"
+
+# zbraň
+#~ msgid "crush"
+#~ msgstr "rozdrcení"
+
+# zbraň
+#~ msgid "axe"
+#~ msgstr "sekera"
+
+# zbraň
+#~ msgid "fireball"
+#~ msgstr "ohnivá koule"
+
+# zbraň
+#~ msgid "club"
+#~ msgstr "kyj"
+
+# zbraň
+#~ msgid "fangs"
+#~ msgstr "tesáky"
+
+# zbraň
+#~ msgid "fist"
+#~ msgstr "pěst"
+
+# zbraň
+#~ msgid "mace"
+#~ msgstr "palcát"
+
+# zbraň
+#~ msgid "crossbow"
+#~ msgstr "kuše"
+
+# zbraň
+#~ msgid "bite"
+#~ msgstr "kousnutí"
+
+# zbraň
+#~ msgid "touch"
+#~ msgstr "dotek"
+
+# zbraň
+#~ msgid "hammer"
+#~ msgstr "kladivo"
+
+# zbraň
+#~ msgid "tail"
+#~ msgstr "ocas"
+
+# zbraň
+#~ msgid "lance"
+#~ msgstr "dřevec"
+
+# zbraň
+#~ msgid "curse"
+#~ msgstr "prokletí"
+
+# zbraň
+#~ msgid "sling"
+#~ msgstr "prak"
+
+# zbraň
+#~ msgid "short sword"
+#~ msgstr "krátký meč"
+
+# zbraň
+#~ msgid "missile"
+#~ msgstr "střela"
+
+# zbraň
+#~ msgid "battle axe"
+#~ msgstr "bitevní sekera"
+
+#~ msgid "Dread Bat"
+#~ msgstr "Děsivý netopýr"
+
+#~ msgid ""
+#~ "Dread Bats are fast and can drain the blood of those they attack, thereby "
+#~ "healing themselves, even to the point where they become stronger than "
+#~ "they began the battle. Bloated with blood they have grown to a huge size "
+#~ "and can feast on bigger and bigger victims."
+#~ msgstr ""
+#~ "Děsiví netopýři jsou velmi rychlí a mohou vysávat z nepřátel krev, čímž "
+#~ "se sami uzdravují. Není výjimkou, že vyjdou z boje silnější, než do něj "
+#~ "vstupovali. Jedinci vypasení spolykanou krví rostou do obřích velikostí a "
+#~ "tak mohou hodovat na stále větších obětech."
+
+# zbraň
+#~ msgid "entangle"
+#~ msgstr "zamotání"
+
+# Popis jednotky
+#~ msgid ""
+#~ "Sorceresses are like the wind they can stand in front of you and one "
+#~ "second later behind you. On the battlefield they are fearful enemies and "
+#~ "even the aragwaithi throw a carefull eye on them mostly from a prefered "
+#~ "distance of a hundred feets.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Kouzelnice dovedou být jako vítr, v jednu chvíli stojí ještě před někým a "
+#~ "o chvilku později již za ním. Na bojišti platí za obávané nepřátele. I "
+#~ "sami Aragwaiti je bedlivě sledují radši dokonce už ze vzdálenosti stovky "
+#~ "stop.\n"
+#~ "\n"
+#~ "Zvláštní rysy:"
+
+# Popis jednotky
+#~ msgid ""
+#~ "female^The magically inclined among the Aragwaith recieve not only the "
+#~ "martial training so common in Aragwaithi society, but also in the art of "
+#~ "healing, and of course in magic. Wielding powerful fire, competent with "
+#~ "their staves, possessing a healing touch, Warlocks are the noblest of a "
+#~ "noble people.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "K magii inklinující Aragwaitky neprocházejí pouze bojovým výcvikem jako "
+#~ "ostatní, ale také výcvikem v umění léčení a samozřejmě v magii. "
+#~ "Černokněžky, třímající své ohnivé hole a ovládající doteky uzdravení, "
+#~ "jsou ty nejvznešenější ze vznešených Aragwaitek.\n"
+#~ "\n"
+#~ "Zvláštní rysy:"
+
+# Popis jednotky
+#~ msgid ""
+#~ "female^Some nagas, whether through cowardice or cunning, develop a knack "
+#~ "for surviving in darker depths of the water. After special training, this "
+#~ "knowledge can develop into an entirely different branch of combat, "
+#~ "although it is just as deadly. Naga Depthstalkers are especially valued "
+#~ "as brood guardians, where they keep watch over eggs laid in hidden "
+#~ "caves.\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Některé nágy si, ať už z důvodu zbabělosti nebo mazanosti, osvojily "
+#~ "dovednost přežití v temných hloubinách vod. Po zvláštním výcviku jsou "
+#~ "schopny toto umění rozvinout do naprosto odlišného, přesto smrtícího "
+#~ "způsobu boje, než je u nág obvyklé. Hlubinné slídičky jsou obzvláště "
+#~ "oceňovány jako ochránkyně mláďat, neboť stráží vejce umístěná v skrytých "
+#~ "podvodních jeskyních.\n"
+#~ "\n"
+#~ "Zvláštní rysy:"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Zvláštní rysy: "
+
+# Popis jednotky
+#~ msgid ""
+#~ "Mischievous in nature, these fiery fairies are pranksters at heart, with "
+#~ "a sense of humor that is often called nymph-like. While their command of "
+#~ "the fire element remains a mystery, it has been rumored that these "
+#~ "fairies are cousins to the imp.  However, their protective attitude of "
+#~ "nature and whimsical personality make them fast friends to the elves.\n"
+#~ "Special Notes:"
+#~ msgstr ""
+#~ "Od přirozenosti rozpustilé ohnivé víly jsou ve svém nitru šprýmařky se "
+#~ "smyslem pro nymfí způsob humoru. Protože jejich ovládání elementu ohně je "
+#~ "pozůstatek nejasné minulosti, bývají často považovány za příbuzné "
+#~ "rarášků. Přesto, jejich pečovatelský postoj k přírodě a rozmarná "
+#~ "osobitost je snadno sbližuje s elfy.\n"
+#~ "\n"
+#~ "Zvláštní rysy:"
+
+# zbraň
+#~ msgid "fire aura"
+#~ msgstr "ohnivá aura"
+
+#, fuzzy
+#~ msgid "cipher"
+#~ msgstr "Bojovník"
+
+#, fuzzy
+#~ msgid "purge"
+#~ msgstr "prokletí"
+
+#, fuzzy
+#~ msgid "polearm"
+#~ msgstr "oštěp"
+
+#, fuzzy
+#~ msgid "death"
+#~ msgstr "Nemrtví"
+
+#, fuzzy
+#~ msgid "pierce"
+#~ msgstr "bodnutí"
+
+#, fuzzy
+#~ msgid "blade"
+#~ msgstr "čepel"
+
+#, fuzzy
+#~ msgid "impact"
+#~ msgstr "úder"
+
+#, fuzzy
+#~ msgid "cold"
+#~ msgstr "chlad"
+
+#, fuzzy
+#~ msgid "Fugitive"
+#~ msgstr "Uprchlík"
+
+#, fuzzy
+#~ msgid "Highwayman"
+#~ msgstr "Dálničář"
+
+#, fuzzy
+#~ msgid ""
+#~ "Armed with heavy mace, Highwaymen are the last people you want to meet on "
+#~ "a deserted road late at night."
+#~ msgstr ""
+#~ "Ozbrojeni těžkým palcátem, Dálničáři jsou ti poslední, které byste chtěli "
+#~ "potkat pozdě v noci na opuštěné cestě."
+
+#, fuzzy
+#~ msgid "Huntsman"
+#~ msgstr "Lovčí"
+
+#, fuzzy
+#~ msgid ""
+#~ "Huntsmen have spent their lives in the backwoods and swamps of their "
+#~ "wilderness homes.  They track anything that moves in their territory, "
+#~ "including people.  Bandit gangs hire them for their ability to bring down "
+#~ "any prey."
+#~ msgstr ""
+#~ "Lovčí strávili celý svůj život v pralesích a na blatech v domovské "
+#~ "divočině. Vystopovali vše, co se pohybovalo na jejich území, a to včetně "
+#~ "lidí. Bandité si je najímali pro jejich schopnost skolit jakoukoli kořist."
+
+#, fuzzy
+#~ msgid "Ranger"
+#~ msgstr "Hraničář"
+
+#, fuzzy
+#~ msgid ""
+#~ "Rangers are wild men and masters of forest and hills.  They are excellent "
+#~ "trackers, scouts, and archers, moving freely through the countryside "
+#~ "under the cover of night.  Most rulers are afraid of rangers and would "
+#~ "rather put them in the dungeon than put their abilities to use."
+#~ msgstr ""
+#~ "Hraničáři jsou lidé přírody a pány lesů a hor. Jsou excelentní stopaři, "
+#~ "průzkumníci a lučištníci, volně se pohybující po krajině pod pláštěm "
+#~ "noci. Většině tyranů nahánějí hrůzu. Nejraději by je zavřeli do děr dřív, "
+#~ "než se obrátí proti nim."
+
+#~ msgid "Henchman"
+#~ msgstr "Pěšák"
+
+#~ msgid ""
+#~ "Henchmen are good for one thing: following orders.  They are not very "
+#~ "smart or creative, neither of which is required to swing a club at an "
+#~ "enemy.  Never far from their leader, they tend to work in groups "
+#~ "(attacking one at a time).  With enough experience they can learn to "
+#~ "swing a bigger club or throw things, but not both."
+#~ msgstr ""
+#~ "Pěšáci jsou dobří v jedné věci: poslouchat rozkazy. Nejsou ani příliš "
+#~ "chytří ani příliš vynalézaví, ale na majznutí nepřítele kyjem po kebuli "
+#~ "to stačí. Nikdy daleko od svých pánů, vždycky pracují ve skupinách (útočí "
+#~ "současně). Mohou se naučit mlátit větším kyjem nebo házet na dálku, ale "
+#~ "nikdy ne obojí."
+
+#~ msgid "magic"
+#~ msgstr "magie"
+
+#~ msgid "Novice Orcish Shaman"
+#~ msgstr "Skřetí šaman začátečník"
+
+#~ msgid ""
+#~ "Orcish Shamans are the guardians of orcish magic. Respected among orcish "
+#~ "tribes, they form the Orcish Council, which makes important decisions for "
+#~ "the whole Orcish community and arbitrates the many conflicts that arise "
+#~ "between tribes of this argumentative race. Although physically weak (for "
+#~ "Orcs), Orcish Shamans are good spell casters and can curse their enemies, "
+#~ "draining their life. Novice Shamans are still young and vigorous, but "
+#~ "their spell-casting ability still needs improvement."
+#~ msgstr ""
+#~ "Skřetí šamani jsou strážci skřetí magie. Jsou respektovaní skřetími kmeny "
+#~ "a jsou členy skřetího koncilu, který rozhoduje v důležitých "
+#~ "záležitostech, týkajících se celé  komunity a soudí mnoho kmenových "
+#~ "konfliktů, které lehce vznikají vzhledem k hádavé povaze této rasy. I "
+#~ "když jsou skřeti obecně fyzicky dost slabí, jejich šamani jsou dobrými "
+#~ "vrhači kouzel a mohou proklít své nepřátele a vysávat jejich život. "
+#~ "Šamani začátečníci jsou mladí a energičtí, jejich schopnost vrhat kouzla "
+#~ "však potřebuje zlepšit."
+
+#~ msgid "Old Orcish Shaman"
+#~ msgstr "Starý skřetí šaman"
+
+#~ msgid ""
+#~ "Orcish Shamans are the guardians of orcish magic. Respected among orcish "
+#~ "tribes, they form the Orcish Council, which makes important decisions for "
+#~ "the whole Orcish community and arbitrates the many conflicts that arise "
+#~ "between tribes of this argumentative race. Although physically weak (for "
+#~ "Orcs), Orcish Shamans are good spell casters and can curse their enemies, "
+#~ "draining their life. Old Orcish Shamans are shamans that have mastered "
+#~ "magic, although their physical strength has declined with age."
+#~ msgstr ""
+#~ "Skřetí šamani jsou strážci skřetí magie. Jsou respektovaní skřetími kmeny "
+#~ "a jsou členy skřetího koncilu, který rozhoduje v důležitých "
+#~ "záležitostech, týkajících se celé  komunity a soudí mnoho kmenových "
+#~ "konfliktů, které lehce vznikají vzhledem k hádavé povaze této rasy. I "
+#~ "když jsou skřeti obecně fyzicky dost slabí, jejich šamani jsou dobrými "
+#~ "vrhači kouzel a mohou proklít své nepřátele a vysávat jejich život.Staří "
+#~ "šamani jsou odborníci v magii, i když jejich fyzická síla již upadá."
+
+#~ msgid "leadership"
+#~ msgstr "velení"
