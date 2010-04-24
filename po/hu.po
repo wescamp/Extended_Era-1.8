@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: hu-ee_1.4\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2010-03-07 15:46+0100\n"
-"PO-Revision-Date: 2009-03-08 12:57+0100\n"
-"Last-Translator: kele <kelemen_zoltan@freemail.hu>\n"
+"PO-Revision-Date: 2010-04-22 10:36+0100\n"
+"Last-Translator: Kelemen Zoltán <kelemen_zoltan@freemail.hu>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -884,7 +884,6 @@ msgstr "Őr"
 
 #. [unit_type]: id=EE Aragwaith Guard, race=aragwaith
 #: Extended_Era/units/aragwaith/Guard.cfg:24
-#, fuzzy
 msgid ""
 "Chosen from the toughest Swordsmen, Guards willingly forgo some of their "
 "mobility for the advantages of armor. Whether in ceremonial posts during "
@@ -1077,7 +1076,6 @@ msgstr "Kardmester"
 
 #. [unit_type]: id=EE Aragwaith Swordmaster, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordmaster.cfg:20
-#, fuzzy
 msgid ""
 "Swordmasters do not come into their title lightly. They have endured years "
 "of rigorous Aragwaithi military training, and survived many ferocious "
@@ -1102,7 +1100,6 @@ msgstr "Kardforgató"
 
 #. [unit_type]: id=EE Aragwaith Swordsman, race=aragwaith
 #: Extended_Era/units/aragwaith/Swordsman.cfg:57
-#, fuzzy
 msgid ""
 "While the Aragwaithi are slight of body, they are also fast and nimble. "
 "These abilities, coupled with the intensive training given to the Agarwaithi "
@@ -1530,14 +1527,13 @@ msgstr "Megszálló"
 
 #. [unit_type]: id=EE Chaos Invader, race=human
 #: Extended_Era/units/chaos/Invader.cfg:20
-#, fuzzy
 msgid ""
 "Chaos warriors share the common believe that any government and any god is "
 "corrupt by default, by this thought they fulfill the bidding of chaos lords "
 "who do not sugar coat their reign and let their men face the harsh truth."
 msgstr ""
-"A kaotikus harcosok osztoznak azon a közös hiten, hogy minden kormány és "
-"isten természeténél fogva korrupt, ezzel a tudattal teljesítik káosz uraik "
+"A káosz harcosai osztoznak azon a közös hiten, hogy minden kormány és isten "
+"természeténél fogva korrupt, ezzel a tudattal teljesítik káosz uraik "
 "ajánlatait, akik nem rejtik véka alá uralkodásukat, és embereiket "
 "szembesítik a kegyetlen igazsággal."
 
@@ -2086,14 +2082,13 @@ msgstr "Törp bárdmester"
 
 #. [unit_type]: id=EE Dwarvish Axemaster, race=dwarf
 #: Extended_Era/units/dwarves/Axemaster.cfg:25
-#, fuzzy
 msgid ""
 "The axemaster is something of a dwarvish oddity - fast, nimble, armored, and "
 "deadly with lightning-fast blades. They are not the strongest fighters in "
 "the dwarvish kingdom, but are well-respected nonetheless."
 msgstr ""
-"A bárdmester ritka a törpök között - gyorsak, hajlékonyak, páncélozottak és "
-"halálosak villámgyors pengéikkel. Nem a legerősebb harcosai a törp "
+"A bárdmesterek ritkák a törpök között - gyorsak, hajlékonyak, páncélozottak "
+"és halálosak villámgyors pengéikkel. Nem a legerősebb harcosai a törp "
 "királyságoknak, de vitathatatlanul tiszteletre méltóak."
 
 #. [unit_type]: id=EE Dwarvish Axethrower, race=dwarf
@@ -2118,7 +2113,6 @@ msgstr "Törp lángszórós"
 
 #. [unit_type]: id=EE Dwarvish Flamethrower, race=dwarf
 #: Extended_Era/units/dwarves/Flamethower.cfg:27
-#, fuzzy
 msgid ""
 "It is said that the Dwarven Flamethrowers have strange staves of wood and "
 "iron, similar to those of the Thunderguards. But instead of making a "
@@ -2141,7 +2135,6 @@ msgstr "Forgókopter"
 
 #. [unit_type]: id=EE Dwarven Gyrocopter, race=dwarf
 #: Extended_Era/units/dwarves/Gyrocopter.cfg:19
-#, fuzzy
 msgid ""
 "Some dwarves have crafted strange machines they call 'Gyrocopters'. Capable "
 "of flight, they need space to maneuver, thus they cannot be used "
@@ -2210,7 +2203,6 @@ msgstr "Törp futár"
 
 #. [unit_type]: id=EE Dwarvish Runner, race=dwarf
 #: Extended_Era/units/dwarves/Runner.cfg:24
-#, fuzzy
 msgid ""
 "Those dwarves capable of moving quickly are made lightly-armored scouts. "
 "Dwarves' natural endurance serves the runners well, who are trained to throw "
@@ -2398,7 +2390,6 @@ msgstr "Ahadath"
 
 #. [unit_type]: id=EE Kalifa Ahadath, race=kalifa
 #: Extended_Era/units/kalifa/Ahadath.cfg:18
-#, fuzzy
 msgid ""
 "The Kalifa uses these Hillmen as their foot force. The are versatile and "
 "excel in hilly terrain."
@@ -2426,7 +2417,6 @@ msgstr "Amir"
 
 #. [unit_type]: id=EE Kalifa Amir, race=kalifa
 #: Extended_Era/units/kalifa/Amir.cfg:18
-#, fuzzy
 msgid ""
 "The Amir form the backbone of any Kalifa foot advance. They are often sent "
 "against fortified enemy positions where their valor and skill with a sword "
@@ -2434,8 +2424,8 @@ msgid ""
 msgstr ""
 "Az amirok alkotják a gerincét bármilyen kalifa gyalogrohamnak. Gyakran "
 "küldik őket megerősített ellenséges állások ellen, ahol vitézségük és "
-"vívótudásuk lehetővé teszik számukra, hogy látszólag áthatolhatatlan "
-"védelmet törjenek át."
+"vívótudásuk lehetővé teszik számukra, hogy a látszólag áthatolhatatlan "
+"védelmen is áttörjenek."
 
 #. [attack]: type=blade
 #: Extended_Era/units/kalifa/Rami.cfg:23
@@ -2453,7 +2443,6 @@ msgstr "Arif"
 
 #. [unit_type]: id=EE Kalifa Arif, race=kalifa
 #: Extended_Era/units/kalifa/Arif.cfg:18
-#, fuzzy
 msgid ""
 "The Arif are made up of the more defensive minded Amir veterans. They have "
 "become very skilled in using their shield to tire and stun their enemies."
@@ -2507,7 +2496,6 @@ msgstr "Idős sólyom"
 
 #. [unit_type]: id=EE Kalifa Elder Falcon, race=falcon
 #: Extended_Era/units/kalifa/Elder_Falcon.cfg:21
-#, fuzzy
 msgid ""
 "These falcons have been through many perils and somehow managed to surivive "
 "them. Their dives can be so fast that stories abound of them taking a foe's "
@@ -2530,7 +2518,6 @@ msgstr "Elit ghazi"
 
 #. [unit_type]: id=EE Kalifa Elite Ghazi, race=kalifa
 #: Extended_Era/units/kalifa/Elite_Ghazi.cfg:18
-#, fuzzy
 msgid ""
 "The Elite Ghazi are simply heroes among their people. Winner of countless "
 "combats and harbingers of victory."
@@ -2564,7 +2551,6 @@ msgstr "Ghaznid"
 
 #. [unit_type]: id=EE Kalifa Ghaznid, race=kalifa
 #: Extended_Era/units/kalifa/Ghaznid.cfg:18
-#, fuzzy
 msgid ""
 "A Ghaznid charge is a fearsome thing to behold. A huge weight of man, metal, "
 "and horse barring down upon one with lance at level has caused many a many "
@@ -2597,7 +2583,6 @@ msgstr "Ghulam al rami"
 
 #. [unit_type]: id=EE Kalifa Ghulam al Rami, race=kalifa
 #: Extended_Era/units/kalifa/Ghulam_al_Rami.cfg:20
-#, fuzzy
 msgid ""
 "Ghulam al Rami combine the some fo the best features of the karadis and the "
 "Ghulam. They also specially modify their heavy armor to protect them from "
@@ -2630,7 +2615,6 @@ msgstr "Karadis"
 
 #. [unit_type]: id=EE Kalifa Karadis, race=kalifa
 #: Extended_Era/units/kalifa/Karadis.cfg:19
-#, fuzzy
 msgid ""
 "Karadis are excellent horsemen and few can shoot as well from horseback as "
 "they. They love to circle and harass enemies from afar while using their "
@@ -2680,7 +2664,6 @@ msgstr "Mubarizan"
 
 #. [unit_type]: id=EE Kalifa Mubarizan, race=kalifa
 #: Extended_Era/units/kalifa/Mubarizan.cfg:19
-#, fuzzy
 msgid ""
 "Mubarizan take pride in always manning the front lines of an offensive. They "
 "regularly take down heavily fortified castles and seldom fail to inflict "
@@ -2713,7 +2696,6 @@ msgstr "Rami"
 
 #. [unit_type]: id=EE Kalifa Rami, race=kalifa
 #: Extended_Era/units/kalifa/Rami.cfg:18
-#, fuzzy
 msgid ""
 "Rami frequently use burning arrows to set fire to enemy fortifications and "
 "generally sow terror amongst the enemy. Such tactics may also have other "
@@ -2737,7 +2719,6 @@ msgstr "Rami al nuri"
 
 #. [unit_type]: id=EE Kalifa Rami al Nuri, race=kalifa
 #: Extended_Era/units/kalifa/Rami_al_Nuri.cfg:19
-#, fuzzy
 msgid ""
 "The maelstrom created by even a few Rami al Nuri can turn the tide of many a "
 "battle. Use them wisely."
@@ -2857,7 +2838,6 @@ msgstr "Naga őrszem"
 
 #. [unit_type]: id=EE Naga Sentinel, race=naga
 #: Extended_Era/units/nagas/Sentinel.cfg:24
-#, fuzzy
 msgid ""
 "These heavy fighters are elite guards of the naga, chosen by their "
 "dedication and skill, their purpose is to defend their sleeping brethren "
@@ -2920,9 +2900,8 @@ msgstr "íj"
 #. [attack]: type=blade
 #: Extended_Era/units/orcs/Sovereign.cfg:16
 #: Extended_Era/units/orcs/Ruler.cfg:18
-#, fuzzy
 msgid "greatsword"
-msgstr "kard"
+msgstr "pallos"
 
 #. [unit_type]: id=EE Orcish Shaman, race=orc
 #: Extended_Era/units/orcs/Shaman.cfg:5
@@ -2981,7 +2960,6 @@ msgstr "Briganti"
 
 #. [unit_type]: id=EE Brigand, race=human
 #: Extended_Era/units/outlaws/Brigand.cfg:18
-#, fuzzy
 msgid ""
 "Mounted and wielding wicked-looking sickles, brigands left behind the "
 "farming life to stalk Wesnoth's lonely backroads in small bands, robbing "
@@ -3045,7 +3023,6 @@ msgstr "Prédáló"
 
 #. [unit_type]: id=EE Human Raider, race=human
 #: Extended_Era/units/outlaws/Raider.cfg:33
-#, fuzzy
 msgid ""
 "After a four or five robbings any Brigands that last that long will usually "
 "find a sword of some type. Usually this is a saber because fencers are their "
@@ -3057,12 +3034,11 @@ msgstr ""
 "talál valamiféle kardot. Általában ez egy szablya, mivel a vívók a "
 "leggyakoribb áldozataik, akik az elhagyatott utakon vándorolnak küzdelem "
 "után kutatva. Emellett még szoktak kovácsolni vagy venni (vagy lopni) egy "
-"jobb számszeríjat, és pontosságuk valamint képzettségük a gyakorlatozás "
+"jobb számszeríjat, és pontosságuk, valamint képzettségük a gyakorlatozás "
 "során fejlődnek."
 
 #. [attack]: type=blade
 #: Extended_Era/units/outlaws/Raider.cfg:37
-#, fuzzy
 msgid "saber"
 msgstr "szablya"
 
@@ -3094,7 +3070,6 @@ msgstr "Árny úr"
 
 #. [unit_type]: id=EE Shadow Lord, race=human
 #: Extended_Era/units/outlaws/Shadow_Lord.cfg:23
-#, fuzzy
 msgid ""
 "Few humans fathom the secrets of light and dark magic and retain their "
 "sanity. Those that can master that balance become Shadow Lords, fully "
@@ -3626,7 +3601,6 @@ msgstr "Sztyeppi pengeforgató"
 
 #. [unit_type]: id=EE Steppe Bladesman, race=orc
 #: Extended_Era/units/steppe_orcs/Bladesman.cfg:19
-#, fuzzy
 msgid ""
 "Those orcs who excel in the use of the battle axe are informally known to "
 "their brethren as Bladesmen. Disregarding all flair or style, Bladesman "
@@ -3672,7 +3646,6 @@ msgstr "Sztyeppi vadász"
 
 #. [unit_type]: id=EE Steppe Hunter, race=goblin
 #: Extended_Era/units/steppe_orcs/Hunter.cfg:19
-#, fuzzy
 msgid ""
 "The cruel life on the steppes tends to weed out the weak early on and harden "
 "those that remain. For this reason goblins are nowhere near as common on the "
@@ -3734,7 +3707,6 @@ msgstr "Jegesszél pásztor"
 
 #. [unit_type]: id=EE Steppe Herder, race=orc
 #: Extended_Era/units/steppe_orcs/Icewind_Herder.cfg:22
-#, fuzzy
 msgid ""
 "There is an old tale about the creation of the the IceWind order: A gang of "
 "children were fishing when a very young female, hooking something bigger "
@@ -3769,9 +3741,9 @@ msgstr ""
 "ezekről a pletykákról, még kevésbe bebizonyítani ezeket.\n"
 "Ő lett az alapítója a Jegesszél Rendnek, minden évben gyerekeket vett "
 "magához a törzsből, hogy képezze őket. Bármit is tanított nekik, az "
-"megajándékozta őket lakóhelyük természetét befolyásolni. A pásztorok maguk "
-"ezt a befolyást \"egyesülésnek\" nevezik. Még életében elismert része lett a "
-"rend a klánnak.\n"
+"megajándékozta őket lakóhelyük természetét befolyásolni képes tudással. A "
+"pásztorok maguk ezt a befolyást \"egyesülésnek\" nevezik. Még életében "
+"elismert része lett a rend a klánnak.\n"
 "A gyermek nyíltan megtagadta elárulni, hogy mi történt vele a fagyott tóban, "
 "és mikor sok év múlva meghalt, titkát is magával vitte."
 
@@ -3804,7 +3776,6 @@ msgstr "Sztyeppi eltipró"
 
 #. [unit_type]: id=EE Steppe Juggernaut, race=orc
 #: Extended_Era/units/steppe_orcs/Juggernaut.cfg:20
-#, fuzzy
 msgid ""
 "Some of the Steppe Orcs aspiring to power realize that they actually have a "
 "certain aptitude for the charge. Abandoning the pursuit of leadership, these "
@@ -3867,7 +3838,6 @@ msgstr "Sztyeppi masszívum"
 
 #. [unit_type]: id=EE Steppe Massif, race=orc
 #: Extended_Era/units/steppe_orcs/Massif.cfg:20
-#, fuzzy
 msgid ""
 "Clad in crude armor with full-face helms and swinging weapons too heavy for "
 "many humans to lift, the hulking Massifs are a terrifying spectacle. They "
@@ -3924,7 +3894,6 @@ msgstr "Sztyeppi kiközösített"
 
 #. [unit_type]: id=EE Steppe Pariah, race=orc
 #: Extended_Era/units/steppe_orcs/Pariah.cfg:19
-#, fuzzy
 msgid ""
 "Those rejects of the IceWind order who achieve veteran status in their art "
 "are looked upon as akin to minor criminals. However not even the Herders can "
@@ -3969,7 +3938,6 @@ msgstr "Sztyeppi szilaj"
 
 #. [unit_type]: id=EE Steppe Savage, race=orc
 #: Extended_Era/units/steppe_orcs/Savage.cfg:20
-#, fuzzy
 msgid ""
 "Unlike humans or elves, most orcs find a barbaric thrill in the chaos and "
 "blood of battle. Some so much so that the experience pushes their psyche, "
@@ -4027,7 +3995,6 @@ msgstr "Sztyeppi nyársaló"
 
 #. [unit_type]: id=EE Steppe Skewer, race=orc
 #: Extended_Era/units/steppe_orcs/Skewer.cfg:20
-#, fuzzy
 msgid ""
 "While orcs may not be renowned for their intellectual capacity, it is well "
 "within their powers of thinking to realize that a longer spear will allow "
@@ -4072,7 +4039,6 @@ msgstr "Sztyeppi dárdás"
 
 #. [unit_type]: id=EE Steppe Spearman, race=orc
 #: Extended_Era/units/steppe_orcs/Spearman.cfg:19
-#, fuzzy
 msgid ""
 "The orcs of the steppe learned early on that their axes were simply not "
 "suitable against all foes. In accordance with this, some warriors forgo "
@@ -4130,7 +4096,6 @@ msgstr "Sztyeppi gárdista"
 
 #. [unit_type]: id=EE Steppe Vanguard, race=orc
 #: Extended_Era/units/steppe_orcs/Vanguard.cfg:22
-#, fuzzy
 msgid ""
 "Having proven themselves in battle, Vanguards start to assert their "
 "authority others. Their experience is put to use on the battlefield, where "
@@ -4154,7 +4119,6 @@ msgstr "Sztyeppi harcos"
 
 #. [unit_type]: id=EE Steppe Warrior, race=orc
 #: Extended_Era/units/steppe_orcs/Warrior.cfg:19
-#, fuzzy
 msgid ""
 "The rank and file Steppe Orc soldier epitomizes the qualities of his clan. "
 "Hardened, resilient and, when necessary, desperately savage. However, while "
@@ -4183,7 +4147,6 @@ msgstr "Driád"
 #: Extended_Era/units/sylvan_fairies/Faerie.cfg:19
 #: Extended_Era/units/sylvan_fairies/Sprite.cfg:19
 #: Extended_Era/units/sylvan_fairies/Dryad.cfg:20
-#, fuzzy
 msgid ""
 "Mischievous in nature, these fiery fairies are pranksters at heart, with a "
 "sense of humor that is often called nymph-like. While their command of the "
